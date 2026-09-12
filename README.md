@@ -41,7 +41,7 @@ hebrew-rap-slang-benchmark/
 ## 🛠️ Environment & Hardware
 
 - **OS:** Windows 11
-- **Python Version:** 3.12
+- **Python Version:** 3.13
 - **Hardware (Local Testing):** NVIDIA GeForce RTX 4050 Laptop GPU (6GB VRAM)
 - **Local LLM Runtime:** [Ollama](https://ollama.com/) (running quantized 7B/8B models for offline debugging)
 
