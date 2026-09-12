@@ -1,6 +1,9 @@
-# `hebrew-rap-slang-benchmark`
-
-An NLP evaluation benchmark for assessing cultural metaphors, figurative language, and slang comprehension in Hebrew rap lyrics across Large Language Models (LLMs).
+<div style="text-align: center;">
+  <img src="assets/logo.png" alt="Hebrew Rap Slang Benchmark Logo" width="200" height="200"/>
+  <h1 style="margin-top: 0; margin-bottom: 4px;">Hebrew Rap Slang Benchmark</h1>
+  <p style="font-size: 1.1em; margin-top: 0; margin-bottom: 4px;"><b>מדד הבנת סלנג בראפ עברי למודלי שפה</b></p>
+  <p style="margin-top: 0;">An NLP evaluation benchmark for assessing cultural metaphors, figurative language, and slang comprehension in Hebrew rap lyrics across Large Language Models (LLMs).</p>
+</div>
 
 ---
 
