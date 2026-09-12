@@ -75,6 +75,28 @@ GROK_API_KEY="your_grok_api_key_here"
 GENIUS_ACCESS_TOKEN="your_genius_token_here"
 ```
 
+### 3. (Optional) Set Up Ollama for Local Testing
+
+If you want to run benchmark tests locally without paid API keys:
+
+1. Download and install [Ollama](https://ollama.com/).
+2. Pull your preferred local model via terminal:
+   ```bash
+   # Option A: Lightweight testing (3B)
+   ollama pull llama3.2
+
+   # Option B: Recommended for Hebrew NLP (7B)
+   ollama pull qwen2.5:7b
+   ```
+3. Ensure the local Ollama service is running on port `11434`.
+
+---
+
+### **Summary of the Architecture**
+
+* **For free / local runs:** Users follow Step 3 to install Ollama and run `python src/pipeline.py --model qwen2.5:7b`.
+* **For full SOTA benchmark runs:** Users set up `.env` with API keys and run `python src/pipeline.py --provider gemini --model gemini-1.5-pro`.
+
 ---
 
 ## 🧪 Running the Pipeline
