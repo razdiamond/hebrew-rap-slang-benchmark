@@ -43,6 +43,12 @@ MODELS_CONFIG = [
         "clean_name": "Qwen_3_8B",
         "base_url": "http://localhost:11434/v1",
         "api_key": "ollama"
+    },
+    {
+        "real_name": "llama3.2:latest",
+        "clean_name": "Llama_3_2",
+        "base_url": "http://localhost:11434/v1",
+        "api_key": "ollama"
     }
 ]
 
@@ -269,14 +275,12 @@ def run_open_inference_pipeline(
             print(f"\n[!] Model API Crashed on {item.get('id')}. Logging as Exception.")
 
         # Capture the ground truth correct explanation so we have it for Notebook 2
-        options = item.get("options", {})
-        correct_label = item.get("correct_label", "")
-        ground_truth_explanation = options.get(correct_label, "")
+        raw_genius_explanation = item.get("raw_genius_explanation", "")
 
         record = {
             "id": item.get("id"),
             "fragment": item.get("fragment"),
-            "ground_truth": ground_truth_explanation,
+            "ground_truth": raw_genius_explanation,
             "raw_model_response": raw_output
         }
 

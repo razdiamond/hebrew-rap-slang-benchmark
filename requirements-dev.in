@@ -2,3 +2,4 @@
 
 jupyter
 pip-tools
+sentence-transformers

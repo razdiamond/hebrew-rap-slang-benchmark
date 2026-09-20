@@ -7,3 +7,4 @@ openai
 python-dotenv
 tqdm
 scikit-learn
+google-genai
