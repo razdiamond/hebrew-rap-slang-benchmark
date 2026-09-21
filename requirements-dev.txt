@@ -108,8 +108,9 @@ httpx==0.28.1
     #   -c requirements.txt
     #   huggingface-hub
     #   jupyterlab
-huggingface-hub==1.32.0
+huggingface-hub[cli]==1.32.0
     # via
+    #   -r requirements-dev.in
     #   sentence-transformers
     #   tokenizers
     #   transformers

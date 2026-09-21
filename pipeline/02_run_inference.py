@@ -1,3 +1,4 @@
+import os
 import json
 import time
 from pathlib import Path
@@ -6,6 +7,7 @@ from openai import OpenAI
 from dotenv import load_dotenv
 
 load_dotenv()
+GEMINI_KEY = os.environ.get("GEMINI_API_KEY")
 
 BENCHMARK_PATH = Path("../data/processed/gold_benchmark_150.json")
 RESULTS_DIR = Path("../data/results/multichoice")
@@ -49,7 +51,32 @@ MODELS_CONFIG = [
         "clean_name": "Llama_3_2",
         "base_url": "http://localhost:11434/v1",
         "api_key": "ollama"
-    }
+    },
+    # --- ADDED: The 3 new Gemini API models ---
+    {
+        "real_name": "gemini-3.8-flash",
+        "clean_name": "Gemini_3.8_Flash",
+        "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+        "api_key": GEMINI_KEY
+    },
+    {
+        "real_name": "gemini-3.1-pro-preview",
+        "clean_name": "Gemini_3.1_Pro",
+        "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+        "api_key": GEMINI_KEY
+    },
+    {
+        "real_name": "gemma-4-31b-it",
+        "clean_name": "Gemma_4_31B",
+        "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+        "api_key": GEMINI_KEY
+    },
+    # {
+    #     "real_name": "hebatron:30b-q4",
+    #     "clean_name": "Hebatron_30B",
+    #     "base_url": "http://localhost:11434/v1",
+    #     "api_key": "ollama"
+    # },
 ]
 
 local_client = OpenAI(
@@ -163,6 +190,8 @@ def run_inference_pipeline(
         # Save atomically
         with output_file.open("w", encoding="utf-8") as f:
             json.dump(evaluated_records, f, ensure_ascii=False, indent=2)
+        if "googleapis" in config["base_url"]:
+            time.sleep(4.0)
 
     total_target = len(benchmark_data)
     total_valid = len([r for r in evaluated_records if not r.get("raw_model_response", "").startswith("Exception:")])
@@ -227,6 +256,14 @@ def run_open_inference_pipeline(
     clean_name = config["clean_name"]
     output_file = results_dir / f"{clean_name}.json"
 
+    # --- ADDED: Dynamic client instantiation exactly like run_inference_pipeline ---
+    client = OpenAI(
+        base_url=config["base_url"],
+        api_key=config.get("api_key", "dummy-key"),
+        max_retries=0,
+        timeout=500.0
+    )
+
     evaluated_records = []
 
     # Load existing records, filtering out crashes so they get retried
@@ -257,7 +294,8 @@ def run_open_inference_pipeline(
         # Attempt the API call (Notice: response_format is NOT constrained to json_object)
         for attempt in range(2):
             try:
-                response = local_client.chat.completions.create(
+                # --- CHANGED: Now using 'client' instead of 'local_client' ---
+                response = client.chat.completions.create(
                     model=model_name,
                     messages=[
                         {"role": "system", "content": OPEN_EVAL_SYSTEM_PROMPT},
@@ -288,6 +326,8 @@ def run_open_inference_pipeline(
 
         with output_file.open("w", encoding="utf-8") as f:
             json.dump(evaluated_records, f, ensure_ascii=False, indent=2)
+        if "googleapis" in config["base_url"]:
+            time.sleep(4.0)
 
     total_target = len(benchmark_data)
     total_valid = len([r for r in evaluated_records if not r.get("raw_model_response", "").startswith("Exception:")])
