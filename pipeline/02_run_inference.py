@@ -3,6 +3,7 @@ import time
 from pathlib import Path
 
 from openai import OpenAI
+from openai.types.chat import ChatCompletionMessageParam
 from tqdm.auto import tqdm
 
 from models_config import MODELS_CONFIG
@@ -22,6 +23,7 @@ MC_EVAL_SYSTEM_PROMPT = """אתה מומחה לניתוח טקסט, תרבות �
   "selected_option": "אות התשובה הנבחרת בלבד (A, B, C או D)"
 }"""
 
+
 def format_eval_user_prompt(item: dict) -> str:
     options_text = "\n".join([f"{k}. {v}" for k, v in item["options"].items()])
     return f"""אמן: {item['artist']}
@@ -38,10 +40,11 @@ def format_eval_user_prompt(item: dict) -> str:
 
 איזו אפשרות היא הנכונה ביותר? השב ב-JSON בלבד."""
 
+
 def run_inference_pipeline(
-    config: dict,
-    benchmark_data: list[dict],
-    results_dir: Path
+        config: dict,
+        benchmark_data: list[dict],
+        results_dir: Path
 ):
     model_name = config["real_name"]
     clean_name = config["clean_name"]
@@ -58,7 +61,7 @@ def run_inference_pipeline(
 
     # Load existing records, but filter out timeouts and API crashes
     if output_file.exists():
-        with output_file.open("r", encoding="utf-8") as f:
+        with output_file.open(mode="r", encoding="utf-8") as f:
             raw_records = json.load(f)
             for r in raw_records:
                 response = r.get("raw_model_response", "")
@@ -71,10 +74,11 @@ def run_inference_pipeline(
     completed_ids = {r["id"] for r in evaluated_records}
     pending_items = [item for item in benchmark_data if item["id"] not in completed_ids]
 
-    print(f"\n{'='*55}")
+    print(f"\n{'=' * 55}")
     print(f"Inference: {clean_name} ({model_name})")
-    print(f"Total: {len(benchmark_data)} | Done: {len(completed_ids)} | Pending: {len(pending_items)}")
-    print(f"{'='*55}")
+    print(
+        f"Total: {len(benchmark_data)} | Done: {len(completed_ids)} | Pending: {len(pending_items)}")
+    print(f"{'=' * 55}")
 
     for item in tqdm(pending_items, desc=f"Infer: {clean_name}", mininterval=2.0):
         user_prompt = format_eval_user_prompt(item)
@@ -84,12 +88,13 @@ def run_inference_pipeline(
         # Attempt the API call (retrying once if it drops connection)
         for attempt in range(2):
             try:
+                messages: list[ChatCompletionMessageParam] = [
+                    {"role": "system", "content": MC_EVAL_SYSTEM_PROMPT},
+                    {"role": "user", "content": user_prompt}
+                ]
                 response = client.chat.completions.create(
                     model=model_name,
-                    messages=[
-                        {"role": "system", "content": MC_EVAL_SYSTEM_PROMPT},
-                        {"role": "user", "content": user_prompt}
-                    ],
+                    messages=messages,
                     response_format={"type": "json_object"},
                     max_tokens=4000,
                     temperature=0.0
@@ -116,22 +121,24 @@ def run_inference_pipeline(
         evaluated_records.append(record)
 
         # Save atomically
-        with output_file.open("w", encoding="utf-8") as f:
+        with output_file.open(mode="w", encoding="utf-8") as f:
             json.dump(evaluated_records, f, ensure_ascii=False, indent=2)
         if "googleapis" in config["base_url"] or "openrouter" in config["base_url"]:
             time.sleep(4.0)
 
     total_target = len(benchmark_data)
-    total_valid = len([r for r in evaluated_records if not r.get("raw_model_response", "").startswith("Exception:")])
+    total_valid = len([r for r in evaluated_records if
+                       not r.get("raw_model_response", "").startswith("Exception:")])
 
     print(f"\n[✓] Finished {clean_name}!")
     print(f"    Valid Inferences: {total_valid}/{total_target}")
     return f"{total_valid}/{total_target} Done"
 
+
 if not BENCHMARK_PATH.exists():
     raise FileNotFoundError(f"Cannot find benchmark file at: {BENCHMARK_PATH}")
 
-with BENCHMARK_PATH.open("r", encoding="utf-8") as f:
+with BENCHMARK_PATH.open(mode="r", encoding="utf-8") as f:
     benchmark_items = json.load(f)
 
 summary_results = {}
@@ -139,19 +146,22 @@ summary_results = {}
 # for config in MODELS_CONFIG:
 
 
-print("\n" + "="*45)
+print("\n" + "=" * 45)
 print("INFERENCE PIPELINE STATUS")
-print("="*45)
+print("=" * 45)
 for clean_name, status in summary_results.items():
     print(f"{clean_name:<30} | {status}")
-print("="*45)
+print("=" * 45)
 
 OPEN_EVAL_SYSTEM_PROMPT = """אתה עוזר וירטואלי מומחה למוזיקה, היפ-הופ וסלנג ישראלי.
 עליך להסביר בצורה מדויקת, תמציתית וברורה את המשמעות של השורה המבוקשת מתוך השיר.
 ענה בעברית בלבד ובלי הקדמות מיותרות."""
 
+
 def format_open_eval_user_prompt(item: dict) -> str:
-    context_stanza = item.get("stanzas", item.get("stanza", item.get("lyrics", item.get("context", ""))))
+    context_stanza = item.get("stanzas", item.get("stanza", item.get("lyrics",
+                                                                     item.get("context",
+                                                                              ""))))
     if isinstance(context_stanza, list):
         context_stanza = "\n".join(context_stanza)
 
@@ -166,10 +176,11 @@ def format_open_eval_user_prompt(item: dict) -> str:
 
 הסבר במדויק ובתמציתיות למה התכוון האמן בשורה זו:"""
 
+
 def run_open_inference_pipeline(
-    config: dict,
-    benchmark_data: list[dict],
-    results_dir: Path
+        config: dict,
+        benchmark_data: list[dict],
+        results_dir: Path
 ):
     model_name = config["real_name"]
     clean_name = config["clean_name"]
@@ -187,7 +198,7 @@ def run_open_inference_pipeline(
 
     # Load existing records, filtering out crashes so they get retried
     if output_file.exists():
-        with output_file.open("r", encoding="utf-8") as f:
+        with output_file.open(mode="r", encoding="utf-8") as f:
             raw_records = json.load(f)
             for r in raw_records:
                 if r.get("raw_model_response", "").startswith("Exception:"):
@@ -197,10 +208,11 @@ def run_open_inference_pipeline(
     completed_ids = {r["id"] for r in evaluated_records}
     pending_items = [item for item in benchmark_data if item["id"] not in completed_ids]
 
-    print(f"\n{'='*55}")
+    print(f"\n{'=' * 55}")
     print(f"Open-Ended Inference: {clean_name} ({model_name})")
-    print(f"Total: {len(benchmark_data)} | Done: {len(completed_ids)} | Pending: {len(pending_items)}")
-    print(f"{'='*55}")
+    print(
+        f"Total: {len(benchmark_data)} | Done: {len(completed_ids)} | Pending: {len(pending_items)}")
+    print(f"{'=' * 55}")
 
     if not pending_items:
         return f"{len(benchmark_data)}/{len(benchmark_data)} Done"
@@ -214,12 +226,13 @@ def run_open_inference_pipeline(
         for attempt in range(2):
             try:
                 # --- CHANGED: Now using 'client' instead of 'local_client' ---
+                messages: list[ChatCompletionMessageParam] = [
+                    {"role": "system", "content": OPEN_EVAL_SYSTEM_PROMPT},
+                    {"role": "user", "content": user_prompt}
+                ]
                 response = client.chat.completions.create(
                     model=model_name,
-                    messages=[
-                        {"role": "system", "content": OPEN_EVAL_SYSTEM_PROMPT},
-                        {"role": "user", "content": user_prompt}
-                    ],
+                    messages=messages,
                     max_tokens=4000,
                 )
                 raw_output = response.choices[0].message.content.strip()
@@ -244,16 +257,18 @@ def run_open_inference_pipeline(
 
         evaluated_records.append(record)
 
-        with output_file.open("w", encoding="utf-8") as f:
+        with output_file.open(mode="w", encoding="utf-8") as f:
             json.dump(evaluated_records, f, ensure_ascii=False, indent=2)
         if "googleapis" in config["base_url"] or "openrouter" in config["base_url"]:
             time.sleep(4.0)
 
     total_target = len(benchmark_data)
-    total_valid = len([r for r in evaluated_records if not r.get("raw_model_response", "").startswith("Exception:")])
+    total_valid = len([r for r in evaluated_records if
+                       not r.get("raw_model_response", "").startswith("Exception:")])
 
     print(f"\n[✓] Finished Open-Ended for {clean_name}!")
     return f"{total_valid}/{total_target} Done"
+
 
 print("\nStarting Open-Ended (Free Response) Inference Phase...")
 open_summary = {}
@@ -281,9 +296,9 @@ for config in MODELS_CONFIG:
         print(f"Pipeline error for {config['clean_name']}: {e}")
         open_summary[config["clean_name"]] = "CRASHED"
 
-print("\n" + "="*45)
+print("\n" + "=" * 45)
 print("OPEN-ENDED PIPELINE STATUS")
-print("="*45)
+print("=" * 45)
 for clean_name, status in open_summary.items():
     print(f"{clean_name:<30} | {status}")
-print("="*45)
+print("=" * 45)

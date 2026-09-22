@@ -7,8 +7,8 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-GEMINI_KEY = os.environ.get("GEMINI_API_KEY", "offline_dummy_key")
-OPENROUTER_KEY = os.environ.get("OPENROUTER_KEY", "offline_dummy_key")
+GEMINI_KEY = os.environ.get(key="GEMINI_API_KEY", default="offline_dummy_key")
+OPENROUTER_KEY = os.environ.get(key="OPENROUTER_KEY", default="offline_dummy_key")
 
 MODELS_CONFIG = [
     # --- Local Ollama Models ---
