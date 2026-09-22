@@ -1,0 +1,740 @@
+[
+  {
+    "id": "heb_rap_001",
+    "fragment": "כל אחד תופס סכין פרפר כדי להרגיש חופשי",
+    "correct_label": "D",
+    "raw_model_response": "{\n  \"selected_option\": \"C\"\n}"
+  },
+  {
+    "id": "heb_rap_002",
+    "fragment": "הכל שטויות שלחי לי תחתונים וגופיות",
+    "correct_label": "C",
+    "raw_model_response": "{\n  \"selected_option\": \"C\"\n}"
+  },
+  {
+    "id": "heb_rap_003",
+    "fragment": "אי אפשר להחליף קבוצה עם חולצה ירוקה מייצג את הקלאן",
+    "correct_label": "D",
+    "raw_model_response": "{\n  \"selected_option\": \"D\"\n}"
+  },
+  {
+    "id": "heb_rap_004",
+    "fragment": "זוכר שעסק שחור, לפני בערך עשור, פתחו לי מייק",
+    "correct_label": "C",
+    "raw_model_response": "{\n  \"selected_option\": \"C\"\n}"
+  },
+  {
+    "id": "heb_rap_005",
+    "fragment": "איזה שכונה, יא כפית של זהב? אתה בכלל ממשמר השבעה",
+    "correct_label": "D",
+    "raw_model_response": "{\n  \"selected_option\": \"D\"\n}"
+  },
+  {
+    "id": "heb_rap_006",
+    "fragment": "יְבָרֶכְךָ ה’ וְיִשְׁמְרֶךָ\n יָאֵר ה’ פָּנָיו אֵלֶיךָ וִיחֻנֶּךָּ\n יִשָּׂא ה’ פָּנָיו אֵלֶיךָ וְיָשֵׂם לְךָ שָׁלוֹם",
+    "correct_label": "D",
+    "raw_model_response": "{\n  \"selected_option\": \"A\"\n}"
+  },
+  {
+    "id": "heb_rap_007",
+    "fragment": "מעושן מריפה ומתנהג כמו קריפר",
+    "correct_label": "C",
+    "raw_model_response": "{\n  \"selected_option\": \"B\"\n}"
+  },
+  {
+    "id": "heb_rap_008",
+    "fragment": "כל עכבה, כל עכבה טובה,",
+    "correct_label": "C",
+    "raw_model_response": "{\n  \"selected_option\": \"C\"\n}"
+  },
+  {
+    "id": "heb_rap_009",
+    "fragment": "ואם נהיה פה חם לאללה תן לי האללה מאן",
+    "correct_label": "A",
+    "raw_model_response": "{\n  \"selected_option\": \"A\"\n}"
+  },
+  {
+    "id": "heb_rap_010",
+    "fragment": "לא חי בצל של אף אחד, אבל תמיד מוקף באריות",
+    "correct_label": "C",
+    "raw_model_response": "{\n  \"selected_option\": \"A\"\n}"
+  },
+  {
+    "id": "heb_rap_011",
+    "fragment": "זה ההידרו",
+    "correct_label": "D",
+    "raw_model_response": "{\n  \"selected_option\": \"D\"\n}"
+  },
+  {
+    "id": "heb_rap_012",
+    "fragment": "אתה מואשם כאן בגלל אצבע רק תדע זאת אצבע מאשימה",
+    "correct_label": "D",
+    "raw_model_response": "{\n  \"selected_option\": \"D\"\n}"
+  },
+  {
+    "id": "heb_rap_013",
+    "fragment": "בין אם ועדת שמגר, ובין אם אגרנט",
+    "correct_label": "C",
+    "raw_model_response": "{\n  \"selected_option\": \"C\"\n}"
+  },
+  {
+    "id": "heb_rap_014",
+    "fragment": "איזי על המלל, כמו דוד על הנבל",
+    "correct_label": "D",
+    "raw_model_response": "{\n  \"selected_option\": \"D\"\n}"
+  },
+  {
+    "id": "heb_rap_015",
+    "fragment": "מעניין לי את הטופאק אם הוא חי או לא חי",
+    "correct_label": "A",
+    "raw_model_response": "{\n  \"selected_option\": \"D\"\n}"
+  },
+  {
+    "id": "heb_rap_016",
+    "fragment": "המציאות הזאת ריאליטי, הגאולה בלוטו",
+    "correct_label": "B",
+    "raw_model_response": "{\n  \"selected_option\": \"B\"\n}"
+  },
+  {
+    "id": "heb_rap_017",
+    "fragment": "גזירת גורל של עבדות עד כדי התקוממת\n שתשתנה המציאות ואז אולי תהיה חירות\n תמחק כאן הטעות ונקום מהמרות",
+    "correct_label": "D",
+    "raw_model_response": "{\n  \"selected_option\": \"D\"\n}"
+  },
+  {
+    "id": "heb_rap_018",
+    "fragment": "סיימתי תיכון ועדיין אני פרשמן\n פאפראצי מתנפלים עליי כי אני פרשמן",
+    "correct_label": "C",
+    "raw_model_response": "{\n  \"selected_option\": \"C\"\n}"
+  },
+  {
+    "id": "heb_rap_019",
+    "fragment": "מוציא את הגלוק מהאסלה",
+    "correct_label": "D",
+    "raw_model_response": "{\n  \"selected_option\": \"B\"\n}"
+  },
+  {
+    "id": "heb_rap_020",
+    "fragment": "אתם עדיין קולומבוס בשבילנו\n זאת רק אמריקה שנהייתה פחות תגלית",
+    "correct_label": "A",
+    "raw_model_response": "{\n  \"selected_option\": \"A\"\n}"
+  },
+  {
+    "id": "heb_rap_021",
+    "fragment": "ניסמן, נראה לי איזה ילד שינה את הערך של האסי בויקיפדיה",
+    "correct_label": "A",
+    "raw_model_response": "{\n  \"selected_option\": \"A\"\n}"
+  },
+  {
+    "id": "heb_rap_022",
+    "fragment": "לבקש קאש, לייצר הייפ עם הגאנג",
+    "correct_label": "A",
+    "raw_model_response": "{\n  \"selected_option\": \"D\"\n}"
+  },
+  {
+    "id": "heb_rap_023",
+    "fragment": "אגדה כמו תמוז שנולד באחד באייר, על הנייר",
+    "correct_label": "D",
+    "raw_model_response": "{\n  \"selected_option\": \"D\"\n}"
+  },
+  {
+    "id": "heb_rap_024",
+    "fragment": "מה אני  נראה לך אגד? אין לי חברים",
+    "correct_label": "C",
+    "raw_model_response": "{\n  \"selected_option\": \"C\"\n}"
+  },
+  {
+    "id": "heb_rap_025",
+    "fragment": "”אל תשכח מאיפה באת, פתח להם דלת",
+    "correct_label": "B",
+    "raw_model_response": "{\n  \"selected_option\": \"B\"\n}"
+  },
+  {
+    "id": "heb_rap_026",
+    "fragment": "כמו דבורים תמיד מחפשים באזז\n מספרים סיפורים וכלום פה לא זז",
+    "correct_label": "C",
+    "raw_model_response": "{\n  \"selected_option\": \"C\"\n}"
+  },
+  {
+    "id": "heb_rap_027",
+    "fragment": "אז מה אם השכן שלי דני יתום",
+    "correct_label": "D",
+    "raw_model_response": "{\n  \"selected_option\": \"B\"\n}"
+  },
+  {
+    "id": "heb_rap_028",
+    "fragment": "לפני שהוא יתן לך ארמון\n הוא יזרוק אותך לבור",
+    "correct_label": "C",
+    "raw_model_response": "{\n  \"selected_option\": \"C\"\n}"
+  },
+  {
+    "id": "heb_rap_029",
+    "fragment": "שומע אותנו אתה מתפלפ",
+    "correct_label": "C",
+    "raw_model_response": "{\n  \"selected_option\": \"C\"\n}"
+  },
+  {
+    "id": "heb_rap_030",
+    "fragment": "אבל רק ראיתי את זאתי, לקחנו סיבוב בג׳ילופי",
+    "correct_label": "A",
+    "raw_model_response": "{\n  \"selected_option\": \"A\"\n}"
+  },
+  {
+    "id": "heb_rap_031",
+    "fragment": "אני שם ת’חמש",
+    "correct_label": "B",
+    "raw_model_response": "{\n  \"selected_option\": \"B\"\n}"
+  },
+  {
+    "id": "heb_rap_032",
+    "fragment": "”חצי מהעיר הזאת האסקיז, אם תקח להם ת׳שלג הם בסבל",
+    "correct_label": "A",
+    "raw_model_response": "{\n  \"selected_option\": \"A\"\n}"
+  },
+  {
+    "id": "heb_rap_033",
+    "fragment": "תסתכלו על עצמכם",
+    "correct_label": "A",
+    "raw_model_response": "{\n  \"selected_option\": \"D\"\n}"
+  },
+  {
+    "id": "heb_rap_034",
+    "fragment": "אולי נשאר צדיק אחד בסדום, תשאל את נצ’י",
+    "correct_label": "C",
+    "raw_model_response": "{\n  \"selected_option\": \"C\"\n}"
+  },
+  {
+    "id": "heb_rap_035",
+    "fragment": "אני מעלים אותך הופך אותך לגיל ססובר",
+    "correct_label": "C",
+    "raw_model_response": "{\n  \"selected_option\": \"C\"\n}"
+  },
+  {
+    "id": "heb_rap_036",
+    "fragment": "יש מצב שתלמד\n כמו שידור בערוץ אחד, אתה לא חד",
+    "correct_label": "D",
+    "raw_model_response": "{\n  \"selected_option\": \"D\"\n}"
+  },
+  {
+    "id": "heb_rap_037",
+    "fragment": "המיסים שלי קונים נשק, ואני רואה דרכו",
+    "correct_label": "B",
+    "raw_model_response": "{\n  \"selected_option\": \"B\"\n}"
+  },
+  {
+    "id": "heb_rap_038",
+    "fragment": "והורדתי ראש כמו רוצח",
+    "correct_label": "A",
+    "raw_model_response": "{\n  \"selected_option\": \"A\"\n}"
+  },
+  {
+    "id": "heb_rap_039",
+    "fragment": "אמא שלך לא חוזרת לקריית שמונה, אשכרה איבדנו ת׳צפון",
+    "correct_label": "B",
+    "raw_model_response": "{\n  \"selected_option\": \"B\"\n}"
+  },
+  {
+    "id": "heb_rap_040",
+    "fragment": "ואני רחוק מלהיות סושרד אבל יכול להרגיש\n מתי את חושבת על מה שקורה בצד השני של הכביש",
+    "correct_label": "D",
+    "raw_model_response": "{\n  \"selected_option\": \"D\"\n}"
+  },
+  {
+    "id": "heb_rap_041",
+    "fragment": "לא משתפ כמו ואנונו",
+    "correct_label": "C",
+    "raw_model_response": "{\n  \"selected_option\": \"C\"\n}"
+  },
+  {
+    "id": "heb_rap_042",
+    "fragment": "זה שמדבר לא יודע\n זה שיודע לא מדבר",
+    "correct_label": "C",
+    "raw_model_response": "{\n  \"selected_option\": \"C\"\n}"
+  },
+  {
+    "id": "heb_rap_043",
+    "fragment": "אמרתי תכיני לי טישפישטי",
+    "correct_label": "D",
+    "raw_model_response": "{\n  \"selected_option\": \"D\"\n}"
+  },
+  {
+    "id": "heb_rap_044",
+    "fragment": "(מתוקה כמו פלפל שיפקה (שיפקה",
+    "correct_label": "B",
+    "raw_model_response": "{\n  \"selected_option\": \"B\"\n}"
+  },
+  {
+    "id": "heb_rap_045",
+    "fragment": "איך שבא כסף כל אחד מניאק כמו טנצר",
+    "correct_label": "B",
+    "raw_model_response": "{\n  \"selected_option\": \"B\"\n}"
+  },
+  {
+    "id": "heb_rap_046",
+    "fragment": "בכל זאת הגענו למרות הכל",
+    "correct_label": "B",
+    "raw_model_response": "{\n  \"selected_option\": \"C\"\n}"
+  },
+  {
+    "id": "heb_rap_047",
+    "fragment": "מוזג תלין שלי לפנטה מורגנה בשמש",
+    "correct_label": "D",
+    "raw_model_response": "{\n  \"selected_option\": \"D\"\n}"
+  },
+  {
+    "id": "heb_rap_048",
+    "fragment": "שומרת מבט",
+    "correct_label": "C",
+    "raw_model_response": "{\n  \"selected_option\": \"C\"\n}"
+  },
+  {
+    "id": "heb_rap_049",
+    "fragment": "מילה לעטר, אני רק עולה, רק עולה",
+    "correct_label": "B",
+    "raw_model_response": "{\n  \"selected_option\": \"C\"\n}"
+  },
+  {
+    "id": "heb_rap_050",
+    "fragment": "כמו ברי ורמי, גם לנו יש ניצוצות",
+    "correct_label": "D",
+    "raw_model_response": "{\n  \"selected_option\": \"D\"\n}"
+  },
+  {
+    "id": "heb_rap_051",
+    "fragment": "כשאתה בעננים\n אל תתפלא שיש כחול בתמונה",
+    "correct_label": "D",
+    "raw_model_response": "{\"selected_option\":\"D\"}"
+  },
+  {
+    "id": "heb_rap_052",
+    "fragment": "שוב בלעתי פוקדור,",
+    "correct_label": "D",
+    "raw_model_response": "{\n  \"selected_option\": \"C\"\n}"
+  },
+  {
+    "id": "heb_rap_053",
+    "fragment": "הצבע הבהיר הפך כהה ואז עמום\n אם תדבר ישיר אתה תקבל מבט המום",
+    "correct_label": "A",
+    "raw_model_response": "{\n  \"selected_option\": \"A\"\n}"
+  },
+  {
+    "id": "heb_rap_054",
+    "fragment": "אני בחור נעים, עם חלומות נחמדים",
+    "correct_label": "A",
+    "raw_model_response": "{\n  \"selected_option\": \"A\"\n}"
+  },
+  {
+    "id": "heb_rap_055",
+    "fragment": "מתפוצץ בום קאסם מכאן עד מומבסה",
+    "correct_label": "B",
+    "raw_model_response": "{\n  \"selected_option\": \"D\"\n}"
+  },
+  {
+    "id": "heb_rap_056",
+    "fragment": "בימים ההם אין מלך, אין נביא",
+    "correct_label": "A",
+    "raw_model_response": "{\n  \"selected_option\": \"A\"\n}"
+  },
+  {
+    "id": "heb_rap_057",
+    "fragment": "תכניס מפתח אל הסוויץ’ ובוא נשמע תשאגה\n כנס אל הדלורי-וואן, אפשר להירגע",
+    "correct_label": "A",
+    "raw_model_response": "{\n  \"selected_option\": \"A\"\n}"
+  },
+  {
+    "id": "heb_rap_058",
+    "fragment": "ביצ’ז אוהבות אותי כמו צ’יף קיף",
+    "correct_label": "D",
+    "raw_model_response": "{\n  \"selected_option\": \"D\"\n}"
+  },
+  {
+    "id": "heb_rap_059",
+    "fragment": "[סגיר: הרב שלמה קרליבך]\n דע לך אני כבר בת”א אני ממש לבד, אין לי אף בן אדם אחד. אתה יודע כבר כמה פעמים כבר ניסיתי לאבד עצמי לדעת? בתוך הים, אני כבר בתוך הים ואני כמעט טובע פתאום אני שומע את קולו של הרבי הקדוש: “קינדרלך, זיסר תארי קינדרלך...”    ...הדבר הכי גדול, לעשות טובה למישהו. מה אגיד לך, אתה יודע כמה תורות אפשר לעשות ברחובות ת”א?",
+    "correct_label": "D",
+    "raw_model_response": "{\n  \"selected_option\": \"A\"\n}"
+  },
+  {
+    "id": "heb_rap_060",
+    "fragment": "היום סומך על חברים כמו על רכבת ישראל\n הבנתי, שבסוף אני כולה רק עבד, ישראל",
+    "correct_label": "B",
+    "raw_model_response": "{\n  \"selected_option\": \"B\"\n}"
+  },
+  {
+    "id": "heb_rap_061",
+    "fragment": "!מליון בקבוקים של גינס מאן, שוברים פה שיא",
+    "correct_label": "D",
+    "raw_model_response": "{\n  \"selected_option\": \"D\"\n}"
+  },
+  {
+    "id": "heb_rap_062",
+    "fragment": "באנו ארבעה נינג’ות, קוואבנגה",
+    "correct_label": "C",
+    "raw_model_response": "{\n  \"selected_option\": \"C\"\n}"
+  },
+  {
+    "id": "heb_rap_063",
+    "fragment": "מייצג ת’עמק",
+    "correct_label": "C",
+    "raw_model_response": "{\n  \"selected_option\": \"C\"\n}"
+  },
+  {
+    "id": "heb_rap_064",
+    "fragment": "לא בדוק שיש עוד לייף\n שאוטאאוט לאבה, זה המוטו",
+    "correct_label": "A",
+    "raw_model_response": "{\n  \"selected_option\": \"C\"\n}"
+  },
+  {
+    "id": "heb_rap_065",
+    "fragment": "סיפין הני הני הני, עד שאין אותך",
+    "correct_label": "B",
+    "raw_model_response": "{\n  \"selected_option\": \"B\"\n}"
+  },
+  {
+    "id": "heb_rap_066",
+    "fragment": "לכהן את מושון אבל אנ’לא ילד נכון Shout",
+    "correct_label": "C",
+    "raw_model_response": "{\n  \"selected_option\": \"C\"\n}"
+  },
+  {
+    "id": "heb_rap_067",
+    "fragment": "אין לי ערק ערק וגם אין לי אוי כפרה שלי",
+    "correct_label": "C",
+    "raw_model_response": "{\n  \"selected_option\": \"A\"\n}"
+  },
+  {
+    "id": "heb_rap_068",
+    "fragment": "אני קושר פי אר אל קודס כמו רוקי בי",
+    "correct_label": "D",
+    "raw_model_response": "{\n  \"selected_option\": \"D\"\n}"
+  },
+  {
+    "id": "heb_rap_069",
+    "fragment": "זה מיקרופון לצ’יקי צ’אן צ’יקי צ’יקי צ’אן צ’אן\n מהפי.אר טרופרז עד הוו טאנג קלאן\n שאטגאן קבינט מהראפ לזכייה שלי בגראמי\n ואו.טי מגיע כמו קוואמי\n אני בדואי זקן על השדרה החמישית\n הראש שלי בכרם יו הלב שלי בביט\n עולה על מעבורת כל הדרך לפוקט\n סגיבידיו! אל תעצרו את הטראק",
+    "correct_label": "A",
+    "raw_model_response": "{\n  \"selected_option\": \"D\"\n}"
+  },
+  {
+    "id": "heb_rap_070",
+    "fragment": "ראפרים בשקל קונה חמישה בקופיקס",
+    "correct_label": "B",
+    "raw_model_response": "{\n  \"selected_option\": \"B\"\n}"
+  },
+  {
+    "id": "heb_rap_071",
+    "fragment": "אני מפורסם, מרגיש כמו גיא טיוי",
+    "correct_label": "D",
+    "raw_model_response": "{\n  \"selected_option\": \"D\"\n}"
+  },
+  {
+    "id": "heb_rap_072",
+    "fragment": "אם אתה מופע חימום פי נשאר עם הקפוצ’ון",
+    "correct_label": "C",
+    "raw_model_response": "{\n  \"selected_option\": \"A\"\n}"
+  },
+  {
+    "id": "heb_rap_073",
+    "fragment": "מניח פייק אמסיז על משכבם בשיבה טובה\n יְהֵא שְׁלָמָא רַבָּא מִן שְׁמַיָּא. חַיִּים וְשָׂבָע",
+    "correct_label": "C",
+    "raw_model_response": "{\n  \"selected_option\": \"C\"\n}"
+  },
+  {
+    "id": "heb_rap_074",
+    "fragment": "שלישייה כמו מיגוס",
+    "correct_label": "B",
+    "raw_model_response": "{\n  \"selected_option\": \"B\"\n}"
+  },
+  {
+    "id": "heb_rap_075",
+    "fragment": "אמרה שאין ממה לחשוש, כולי בלבלות בראש\n כמו בדיזינגוף סנטר",
+    "correct_label": "B",
+    "raw_model_response": "{\n  \"selected_option\": \"B\"\n}"
+  },
+  {
+    "id": "heb_rap_076",
+    "fragment": "אייזיק לא איב יש לי ברימסטון איי",
+    "correct_label": "D",
+    "raw_model_response": "{\n  \"selected_option\": \"D\"\n}"
+  },
+  {
+    "id": "heb_rap_077",
+    "fragment": "אה, אין לי מה להוכיח\n והוכחתי את זה היום על המגרש",
+    "correct_label": "D",
+    "raw_model_response": "{\n  \"selected_option\": \"A\"\n}"
+  },
+  {
+    "id": "heb_rap_078",
+    "fragment": "עיניים בנק הפועלים, מעשן ת׳דיסקונט",
+    "correct_label": "D",
+    "raw_model_response": "{\n  \"selected_option\": \"D\"\n}"
+  },
+  {
+    "id": "heb_rap_079",
+    "fragment": "הקרו שלי לבן כמו הארון של עטר מיינר\n מדינה של גנבים ואתה בן זונה ופראייר",
+    "correct_label": "A",
+    "raw_model_response": "{\n  \"selected_option\": \"A\"\n}"
+  },
+  {
+    "id": "heb_rap_080",
+    "fragment": "קח את זה באיזי, אתה בין הבודדים",
+    "correct_label": "B",
+    "raw_model_response": "{\n  \"selected_option\": \"B\"\n}"
+  },
+  {
+    "id": "heb_rap_081",
+    "fragment": "פאק בויז השיט שאני לא אוהב\n יאנג בויז השיט שאני כן אוהב\n אם ’תה לא בקרו שלנו אז אתה אויב\n אם ’תה לא בקרו שלנו אז אתה אויב",
+    "correct_label": "B",
+    "raw_model_response": "{\n  \"selected_option\": \"B\"\n}"
+  },
+  {
+    "id": "heb_rap_082",
+    "fragment": "וויליה רואה אותי ומתעלפת\n מה יש לפלר בפה\n (לא קצף של בירצפת)",
+    "correct_label": "A",
+    "raw_model_response": "{\n  \"selected_option\": \"A\"\n}"
+  },
+  {
+    "id": "heb_rap_083",
+    "fragment": "בהתחלה הייתי מגמגם כמו מוזס",
+    "correct_label": "A",
+    "raw_model_response": "{\n  \"selected_option\": \"A\"\n}"
+  },
+  {
+    "id": "heb_rap_084",
+    "fragment": "אני חוזר, כמו צ’קים של ענבל אור\n אני חוזר, כמו צ’קים של ענבל אור",
+    "correct_label": "C",
+    "raw_model_response": "{\n  \"selected_option\": \"C\"\n}"
+  },
+  {
+    "id": "heb_rap_085",
+    "fragment": "עדיף תחפש איפה אפי",
+    "correct_label": "C",
+    "raw_model_response": "{\n  \"selected_option\": \"C\"\n}"
+  },
+  {
+    "id": "heb_rap_086",
+    "fragment": "?שקד שלחתי לך הודעה למה לא ענית\n לא ראיתי\n ..אבל\n אהה..אבל יש שם 2 וי-ים, ראיתי שראית",
+    "correct_label": "C",
+    "raw_model_response": "{\n  \"selected_option\": \"C\"\n}"
+  },
+  {
+    "id": "heb_rap_087",
+    "fragment": "כמעט עשרים שנה עברו מאז שרנו על סטיקרים אבל הכתובת עוד על הקיר",
+    "correct_label": "B",
+    "raw_model_response": "{\n  \"selected_option\": \"B\"\n}"
+  },
+  {
+    "id": "heb_rap_088",
+    "fragment": "חקירה? בכלל לא סרט\n כולי על שקט לא תוציא ממני רטט",
+    "correct_label": "D",
+    "raw_model_response": "{\n  \"selected_option\": \"D\"\n}"
+  },
+  {
+    "id": "heb_rap_089",
+    "fragment": "יש פה אחלה רוף, אני שנייה בודק גישה חוזר\n אם רצים על זה שלושה עולים לדפוק אחד שומר\n מטפסים לאט מציירים מהר\n ואם זה לא איזה מנאייק אפ’חד לא עוצר - רק אומר",
+    "correct_label": "C",
+    "raw_model_response": "{\n  \"selected_option\": \"C\"\n}"
+  },
+  {
+    "id": "heb_rap_090",
+    "fragment": "אנ’לא פרפר, אנ’לא נחמד",
+    "correct_label": "B",
+    "raw_model_response": "{\n  \"selected_option\": \"B\"\n}"
+  },
+  {
+    "id": "heb_rap_091",
+    "fragment": "המצאנו את הסלנג שמשתמשים בו בהאנג ’שך\n לא נכון כמו צ’ופסטיקס, זה שיט שלא אוכל בקופיקס",
+    "correct_label": "B",
+    "raw_model_response": "{\n  \"selected_option\": \"B\"\n}"
+  },
+  {
+    "id": "heb_rap_092",
+    "fragment": "אז הוא חצה איזה ים לשתיים",
+    "correct_label": "D",
+    "raw_model_response": "{\n  \"selected_option\": \"D\"\n}"
+  },
+  {
+    "id": "heb_rap_093",
+    "fragment": "שקיות של דם זרקו אל המרתף",
+    "correct_label": "C",
+    "raw_model_response": "{\n  \"selected_option\": \"C\"\n}"
+  },
+  {
+    "id": "heb_rap_094",
+    "fragment": "זים, זגזים, כוסית מהמגזין",
+    "correct_label": "A",
+    "raw_model_response": "{\n  \"selected_option\": \"B\"\n}"
+  },
+  {
+    "id": "heb_rap_095",
+    "fragment": "וולקאם בוצדם עוד פעם עשיתי עם ג’יי קיי\n (רולינג דאון דה סטריט ויז מיי נימבוס סיפינג און ג’ין & ג’וס)",
+    "correct_label": "A",
+    "raw_model_response": "{\n  \"selected_option\": \"A\"\n}"
+  },
+  {
+    "id": "heb_rap_096",
+    "fragment": "אם להיות כן כמו הכלב על הדאש",
+    "correct_label": "B",
+    "raw_model_response": "{\n  \"selected_option\": \"B\"\n}"
+  },
+  {
+    "id": "heb_rap_097",
+    "fragment": "אותיות בעברית עם משמעות באנגלית תזכור את\n העובדה צורח - פ׳ כי אנ’לא מקבל משכורת",
+    "correct_label": "D",
+    "raw_model_response": "{\n  \"selected_option\": \"D\"\n}"
+  },
+  {
+    "id": "heb_rap_098",
+    "fragment": "נוסיף לה זרת ונקבל צורת שטן המיוחסת לרוק כבד",
+    "correct_label": "D",
+    "raw_model_response": "{\n  \"selected_option\": \"D\"\n}"
+  },
+  {
+    "id": "heb_rap_099",
+    "fragment": "ויצאו מארון אחד לארון אחר",
+    "correct_label": "C",
+    "raw_model_response": "{\n  \"selected_option\": \"C\"\n}"
+  },
+  {
+    "id": "heb_rap_100",
+    "fragment": "אתה כמו תינוק אז לשחק מולך זה סל קל",
+    "correct_label": "D",
+    "raw_model_response": "{\n  \"selected_option\": \"D\"\n}"
+  },
+  {
+    "id": "heb_rap_101",
+    "fragment": "באתי פה לשבור שורות במעונות מבשל אמת",
+    "correct_label": "C",
+    "raw_model_response": "{\n  \"selected_option\": \"C\"\n}"
+  },
+  {
+    "id": "heb_rap_102",
+    "fragment": "והשכנה שלי צורחת לי כמו גברת ברכה (שקטטט!!)",
+    "correct_label": "B",
+    "raw_model_response": "{\n  \"selected_option\": \"B\"\n}"
+  },
+  {
+    "id": "heb_rap_103",
+    "fragment": "מעגל המעריצים שלך לא סוגר חצי מניין",
+    "correct_label": "B",
+    "raw_model_response": "{\n  \"selected_option\": \"B\"\n}"
+  },
+  {
+    "id": "heb_rap_104",
+    "fragment": "?תגידי, יש לך אהוב בסיירת חרוב? או שיש לך חרוב בסיירת אהוב",
+    "correct_label": "B",
+    "raw_model_response": "{\n  \"selected_option\": \"B\"\n}"
+  },
+  {
+    "id": "heb_rap_105",
+    "fragment": "לגמור בבום גדול כמו קוזו אוקמוטו",
+    "correct_label": "D",
+    "raw_model_response": "{\n  \"selected_option\": \"D\"\n}"
+  },
+  {
+    "id": "heb_rap_106",
+    "fragment": "יש לי כבר כמה בילי ג׳ינס, אני מון ווקינג\n הילד לא שלי, הוא רק נשמע כמוני",
+    "correct_label": "B",
+    "raw_model_response": "{\n  \"selected_option\": \"B\"\n}"
+  },
+  {
+    "id": "heb_rap_107",
+    "fragment": "מעשן טיקאל ארבעים בחודש פק”ל\n מספיק טיפש אחד לשרוף את המוח שלו כמו קק”ל",
+    "correct_label": "C",
+    "raw_model_response": "{\n  \"selected_option\": \"C\"\n}"
+  },
+  {
+    "id": "heb_rap_108",
+    "fragment": "תקוע במשחק כמו ג’ומנג’י (היי)",
+    "correct_label": "B",
+    "raw_model_response": "{\n  \"selected_option\": \"B\"\n}"
+  },
+  {
+    "id": "heb_rap_109",
+    "fragment": "אז כל ה”עכברים” יוצאים כי פתאום ניגנתי בחליל",
+    "correct_label": "D",
+    "raw_model_response": "{\n  \"selected_option\": \"C\"\n}"
+  },
+  {
+    "id": "heb_rap_110",
+    "fragment": "יור סיטי איז דה בומב איף יו סיטי מקינג פיי",
+    "correct_label": "C",
+    "raw_model_response": "{\n  \"selected_option\": \"C\"\n}"
+  },
+  {
+    "id": "heb_rap_111",
+    "fragment": "ואומר לי כמו ליעד זה נסטי",
+    "correct_label": "C",
+    "raw_model_response": "{\n  \"selected_option\": \"D\"\n}"
+  },
+  {
+    "id": "heb_rap_112",
+    "fragment": "“!ואני לא לבד-ה”",
+    "correct_label": "A",
+    "raw_model_response": "{\n  \"selected_option\": \"D\"\n}"
+  },
+  {
+    "id": "heb_rap_113",
+    "fragment": "יוצא כמו פרינס עם הלבן",
+    "correct_label": "B",
+    "raw_model_response": "{\n  \"selected_option\": \"B\"\n}"
+  },
+  {
+    "id": "heb_rap_114",
+    "fragment": "מלך תל אביבי כמו קינג ג’ורג",
+    "correct_label": "D",
+    "raw_model_response": "{\n  \"selected_option\": \"D\"\n}"
+  },
+  {
+    "id": "heb_rap_115",
+    "fragment": "רוקסטאר כפרה",
+    "correct_label": "D",
+    "raw_model_response": "{\n  \"selected_option\": \"A\"\n}"
+  },
+  {
+    "id": "heb_rap_116",
+    "fragment": "פוגש את קובי, טי.איי.סי.טי היה הצוות",
+    "correct_label": "C",
+    "raw_model_response": "{\n  \"selected_option\": \"C\"\n}"
+  },
+  {
+    "id": "heb_rap_117",
+    "fragment": "התסכול שאתה שומע\n אין אבשה שבשעת צרה פה יחייג למאה",
+    "correct_label": "B",
+    "raw_model_response": "{\n  \"selected_option\": \"B\"\n}"
+  },
+  {
+    "id": "heb_rap_118",
+    "fragment": "איך אני משונה משתנה כל הזמן",
+    "correct_label": "C",
+    "raw_model_response": "{\n  \"selected_option\": \"D\"\n}"
+  },
+  {
+    "id": "heb_rap_119",
+    "fragment": "שומרת לה על הגב כמו על הטיס שלי",
+    "correct_label": "D",
+    "raw_model_response": "{\n  \"selected_option\": \"D\"\n}"
+  },
+  {
+    "id": "heb_rap_120",
+    "fragment": "עושה מתוק כמו אומפה לומפה",
+    "correct_label": "C",
+    "raw_model_response": "{\n  \"selected_option\": \"C\"\n}"
+  },
+  {
+    "id": "heb_rap_121",
+    "fragment": "לא נוער עובד לא לומד ולא שמו”צ",
+    "correct_label": "B",
+    "raw_model_response": "{\n  \"selected_option\": \"B\"\n}"
+  },
+  {
+    "id": "heb_rap_122",
+    "fragment": "(מה עושות היום?)",
+    "correct_label": "A",
+    "raw_model_response": "{\n  \"selected_option\": \"A\"\n}"
+  },
+  {
+    "id": "heb_rap_123",
+    "fragment": "הם קוראים לי כבד, אני לא שם קצוץ",
+    "correct_label": "B",
+    "raw_model_response": "{\n  \"selected_option\": \"B\"\n}"
+  }
+]

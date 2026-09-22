@@ -1,0 +1,494 @@
+{
+  "heb_rap_001": {
+    "score": 75,
+    "reasoning": "The model correctly captures the overall message about false freedom attained through violence, but misses the central wordplay on 'butterfly' (as a symbol of freedom) and the specific nuance of the knife potentially harming the wielder."
+  },
+  "heb_rap_002": {
+    "score": 50,
+    "reasoning": "The model correctly grasped the soldier/basic needs theme, but completely missed the core cultural reference to the iconic song 'Ein Lach Ma Lidaog' by Uzi Fox."
+  },
+  "heb_rap_003": {
+    "score": 100,
+    "reasoning": "The AI model correctly explains the underlying theme of loyalty while explicitly identifying the reference to Maccabi Haifa's green jersey alongside the hip-hop crew context."
+  },
+  "heb_rap_004": {
+    "score": 100,
+    "reasoning": "The AI model accurately identifies 'Esek Shahor' as a hip-hop show and correctly explains the slang phrase 'פתחו לי מייק' as giving him the opportunity/platform to rap early in his career."
+  },
+  "heb_rap_005": {
+    "score": 100,
+    "reasoning": "The AI model perfectly captures the meaning of the slang expressions ('שכונה', 'כפית של זהב') and the contrast with Mishmar HaShiv'a accurately."
+  },
+  "heb_rap_006": {
+    "score": 100,
+    "reasoning": "The model correctly identifies the text as Birkat Kohanim and accurately explains its meaning and function within the song's context."
+  },
+  "heb_rap_007": {
+    "score": 100,
+    "reasoning": "The AI model correctly explains both slang references ('ריפה' as weed and 'קריפר' as the exploding Minecraft mob) and accurately captures the overall meaning of the line."
+  },
+  "heb_rap_008": {
+    "score": 100,
+    "reasoning": "The model accurately identifies the reference to the proverb 'כל עכבה לטובה' and correctly explains its meaning and function in the context of the lyrics."
+  },
+  "heb_rap_009": {
+    "score": 25,
+    "reasoning": "The model completely missed the hip-hop slang meanings of the spot getting 'hot' (police arriving) and 'holler' (call/alert), misinterpreting the fragment as generic party hype."
+  },
+  "heb_rap_010": {
+    "score": 25,
+    "reasoning": "The model correctly interpreted the literal surface meaning of the idiom, but completely missed the core hip-hop slang wordplay referencing the rapper HaTzel and his 'Lions' fanbase."
+  },
+  "heb_rap_011": {
+    "score": 100,
+    "reasoning": "The AI model correctly explains both the literal origin of the slang word 'hydro' and its contextual meaning within the phrase."
+  },
+  "heb_rap_012": {
+    "score": 25,
+    "reasoning": "The model completely missed the core slang meaning of 'אצבע' as a piece of hashish, recognizing only the literal idiom of pointing an accusing finger."
+  },
+  "heb_rap_013": {
+    "score": 100,
+    "reasoning": "The AI model accurately identifies both commissions of inquiry referenced and properly conveys the contextual meaning of the line."
+  },
+  "heb_rap_014": {
+    "score": 100,
+    "reasoning": "The AI correctly explains the hip-hop slang and the biblical reference to King David's musical virtuosity, accurately capturing the intended comparison."
+  },
+  "heb_rap_015": {
+    "score": 25,
+    "reasoning": "The model correctly recognizes the slang idiom format ('מעניין לי את ה...'), but hallucinates a 'Two-Pack' pun and completely misses the actual meaning of the line, which uses Tupac as a metaphor for the artist's missing father."
+  },
+  "heb_rap_016": {
+    "score": 100,
+    "reasoning": "The AI model perfectly captures the meaning and cynical tone of both metaphors, accurately explaining 'reality' as staged TV and 'lottery' as a desperate shortcut to salvation."
+  },
+  "heb_rap_017": {
+    "score": 75,
+    "reasoning": "The model accurately explains the theme of uprising against oppression and the struggle for freedom, but misses the explicit homage to Karl Marx mentioned in the ground truth."
+  },
+  "heb_rap_018": {
+    "score": 100,
+    "reasoning": "The AI model accurately identifies the double meaning of 'freshman' as both a newcomer/rookie and being 'fresh' (stylish/new), matching the ground truth perfectly."
+  },
+  "heb_rap_019": {
+    "score": 50,
+    "reasoning": "The model accurately interprets the literal imagery of pulling a hidden weapon from a toilet tank, but fails to identify the specific cultural reference to the iconic scene in The Godfather."
+  },
+  "heb_rap_020": {
+    "score": 25,
+    "reasoning": "The model deciphered the surface-level Columbus metaphor but completely missed the song's actual context, the inverted reference where Jimbo J refers to himself/his audience, and the double entendre on the Taglit (Birthright) program."
+  },
+  "heb_rap_021": {
+    "score": 100,
+    "reasoning": "The AI model correctly identifies the reference to the public controversy surrounding the Asi stream in Kibbutz Nir David and provides an accurate, context-aware interpretation of the fragment."
+  },
+  "heb_rap_022": {
+    "score": 0,
+    "reasoning": "The model completely missed the true meaning of the line, which is an intertextual reference to three distinct Israeli rap songs, and instead gave a literal translation of the words with hallucinated text."
+  },
+  "heb_rap_023": {
+    "score": 25,
+    "reasoning": "The model completely missed the primary cultural reference to the iconic Israeli rock band 'Tamouz' (the 'legend'), though it correctly recognized Tammuz as a Hebrew month and understood the idiom 'on paper'."
+  },
+  "heb_rap_024": {
+    "score": 50,
+    "reasoning": "The model correctly identified that Egged is a cooperative of 'members' (חברים), but hallucinated an irrelevant interpretation about being a driver/bus service and missed the famous idiom 'חברים יש רק באגד'."
+  },
+  "heb_rap_025": {
+    "score": 75,
+    "reasoning": "The model correctly captures the literal and metaphorical meaning of staying true to your roots and helping others, but misses the artist-specific context (Peled) and the prominent acronym wordplay (פתח להם דלת = פל״ד)."
+  },
+  "heb_rap_026": {
+    "score": 100,
+    "reasoning": "The model accurately identified the double meaning of 'buzz' (bee sound vs. media hype/gossip) and correctly explained the criticism of people talking without taking action."
+  },
+  "heb_rap_027": {
+    "score": 50,
+    "reasoning": "The model correctly captures the theme of cynicism and indifference to neighbors' hardship, but takes 'דני יתום' literally as an orphan, completely missing the cultural wordplay on prominent Israeli figure Danny Yatom."
+  },
+  "heb_rap_028": {
+    "score": 100,
+    "reasoning": "The AI model correctly explains both the metaphorical meaning of the line and its direct biblical allusion to Joseph being thrown into a pit before rising to power in the palace."
+  },
+  "heb_rap_029": {
+    "score": 100,
+    "reasoning": "The AI model accurately explains the slang 'מתפלפ' as going crazy ('מתחרפן') from listening to their music, aligning perfectly with the ground truth."
+  },
+  "heb_rap_030": {
+    "score": 100,
+    "reasoning": "The AI accurately identifies 'ג'ילופי' as an old, beaten-up car (jalopy) and provides a completely correct contextual interpretation of the line."
+  },
+  "heb_rap_031": {
+    "score": 0,
+    "reasoning": "The AI model completely missed the reference to the hip-hop anthem 'I Got 5 on It' and chipping in for weed, hallucinating an unrelated meaning about shifting into fifth gear."
+  },
+  "heb_rap_032": {
+    "score": 100,
+    "reasoning": "The AI model perfectly captures both sides of the wordplay (Huskies needing snow and 'snow' as cocaine slang) and correctly explains the overall critical meaning of addiction in the city."
+  },
+  "heb_rap_033": {
+    "score": 25,
+    "reasoning": "The model completely missed the factual context that this is an outro sample from Shlomo Gronich's 'Ani Nig'al Min HaOlam', instead fabricating a generic hip-hop narrative about addressing haters."
+  },
+  "heb_rap_034": {
+    "score": 50,
+    "reasoning": "The model correctly identified the biblical idiom and the shoutout to Nechi Nech, but completely missed the main hip-hop reference to Nechi Nech's debut album 'Tzadik Ehad BeSdom'."
+  },
+  "heb_rap_035": {
+    "score": 100,
+    "reasoning": "The model accurately identified the cultural reference to Gil Sasover's sudden disappearance from public life and correctly explained how it functions as a punchline in the rap context."
+  },
+  "heb_rap_036": {
+    "score": 100,
+    "reasoning": "The model accurately explains the punchline, detailing the wordplay on sharpness ('חד') in relation to both intellect and the notoriously outdated broadcast quality of Channel 1."
+  },
+  "heb_rap_037": {
+    "score": 75,
+    "reasoning": "The model accurately explains the critique of tax money funding weapons and captures the double meaning of 'seeing through', but misses the specific oxymoron noted in the ground truth regarding seeing peace through a weapon."
+  },
+  "heb_rap_038": {
+    "score": 50,
+    "reasoning": "The model correctly identified the slang meaning of taking a bong hit, but completely missed the second half of the pun—decapitating someone like a murderer."
+  },
+  "heb_rap_039": {
+    "score": 75,
+    "reasoning": "The model accurately explains the double meaning and pun of the slang phrase in the context of the war, but misses the specific biographical context regarding the artist's mother-in-law."
+  },
+  "heb_rap_040": {
+    "score": 50,
+    "reasoning": "The model correctly identifies the reference to mentalist Lior Suchard, but completely misinterprets 'the other side of the road' as romantic distance rather than the war trauma context."
+  },
+  "heb_rap_041": {
+    "score": 100,
+    "reasoning": "The model accurately identifies Mordechai Vanunu's background in exposing nuclear secrets and correctly interprets the slang in context as refusing to be a snitch or collaborator."
+  },
+  "heb_rap_042": {
+    "score": 100,
+    "reasoning": "The model accurately explains the semantic meaning of the proverb within the hip-hop context, capturing the contrast between empty talkers and those who possess true knowledge."
+  },
+  "heb_rap_043": {
+    "score": 25,
+    "reasoning": "The model correctly inferred that the word refers to food, but incorrectly claimed it is made-up gibberish when it is actually a real, traditional Turkish cake."
+  },
+  "heb_rap_044": {
+    "score": 50,
+    "reasoning": "The model correctly identifies the contradiction between sweetness and the spicy shifka pepper, but wrongly describes it as a complimentary image rather than an ironic insult stating she is not sweet at all."
+  },
+  "heb_rap_045": {
+    "score": 25,
+    "reasoning": "The model correctly deduced the general meaning of the sentence, but completely missed the iconic cultural reference to the TV character Tantzer from the sitcom 'Shemesh', hallucinating that it was a personal diss against a real person."
+  },
+  "heb_rap_046": {
+    "score": 50,
+    "reasoning": "The model correctly captures the thematic meaning of triumph and perseverance, but completely misses the core fact that this is a direct musical reference to the band Kaveret."
+  },
+  "heb_rap_047": {
+    "score": 100,
+    "reasoning": "The AI model accurately broke down all components of the slang and wordplay, correctly identifying lean, Fanta, and the mirage metaphor."
+  },
+  "heb_rap_048": {
+    "score": 0,
+    "reasoning": "The model interpreted the phrase literally as maintaining steady eye contact rather than recognizing the religious/humorous play on 'shomeret negiah' indicating modesty or avoidance."
+  },
+  "heb_rap_049": {
+    "score": 50,
+    "reasoning": "The model correctly identifies 'מילה ל...' as giving a shoutout/respect to someone named Atar, but completely misses the core cultural reference to musician Atar Mayner and his song 'Oleh'."
+  },
+  "heb_rap_050": {
+    "score": 100,
+    "reasoning": "The AI model accurately identifies the reference to Berry Sakharof and Rami Fortis's song 'Nitzotzot' and perfectly explains the metaphor regarding Cohen@Mushon's musical synergy."
+  },
+  "heb_rap_051": {
+    "score": 50,
+    "reasoning": "The model correctly identifies the slang meaning of being high for 'בעננים', but completely misses the core hip-hop slang of 'כחול' referring to the police."
+  },
+  "heb_rap_052": {
+    "score": 50,
+    "reasoning": "The model correctly understood that the phrase refers to swallowing a drug or pill, but it completely missed the central Pokémon pun ('Pokéball') and hallucinated an incorrect etymology ('פאקינג כדור')."
+  },
+  "heb_rap_053": {
+    "score": 100,
+    "reasoning": "The model's explanation captures the exact meaning of the lyrics, accurately detailing the loss of clarity and authenticity in society and how direct speech is met with astonishment."
+  },
+  "heb_rap_054": {
+    "score": 25,
+    "reasoning": "The model completely missed the cultural allusion to Snoop Dogg's iconic line from 'Drop It Like It's Hot', providing only a literal and overanalyzed interpretation of the words."
+  },
+  "heb_rap_055": {
+    "score": 25,
+    "reasoning": "The model completely missed the historical reference to the 2002 terror attacks in Mombasa, mistakenly treating the city name merely as a generic distant location used for exaggeration."
+  },
+  "heb_rap_056": {
+    "score": 100,
+    "reasoning": "The AI model correctly identified the biblical reference to the Book of Judges and accurately explained the meaning of a moral and leadership vacuum leading to chaos."
+  },
+  "heb_rap_057": {
+    "score": 75,
+    "reasoning": "The model correctly identifies the reference to the DeLorean time machine from 'Back to the Future' and the song's theme, but misses the wordplay on 'van' (דלורי-וואן)."
+  },
+  "heb_rap_058": {
+    "score": 100,
+    "reasoning": "The model accurately identifies the reference to Chief Keef's iconic track 'Love Sosa' and perfectly explains the line's meaning in context."
+  },
+  "heb_rap_059": {
+    "score": 75,
+    "reasoning": "The model provides an accurate and thorough thematic breakdown of the text, but misses identifying the specific famous story being quoted ('הגיבן הקדוש')."
+  },
+  "heb_rap_060": {
+    "score": 75,
+    "reasoning": "The model accurately explains the lack of trust and the wordplay, but interprets 'עבד, ישראל' as modern enslavement to the state system rather than the biblical allusion to the enslavement of the people of Israel in Egypt mentioned in the ground truth."
+  },
+  "heb_rap_061": {
+    "score": 100,
+    "reasoning": "The AI model perfectly captures both meanings of the wordplay between Guinness beer and Guinness World Records."
+  },
+  "heb_rap_062": {
+    "score": 100,
+    "reasoning": "The AI model accurately identifies the reference to the Teenage Mutant Ninja Turtles and correctly explains the meaning of 'Cowabunga' within the context."
+  },
+  "heb_rap_063": {
+    "score": 50,
+    "reasoning": "The model correctly understands the hip-hop concept of repping one's home turf, but its explanation is too vague as it fails to identify the specific geographic entity referred to (Menahemia / Emek HaMa'ayanot)."
+  },
+  "heb_rap_064": {
+    "score": 25,
+    "reasoning": "The model correctly interpreted the literal meaning of 'עוד לייף' but completely misunderstood 'לאבה' as 'love' (אהבה) instead of the rapper Lava Dome, missing the entire hip-hop reference."
+  },
+  "heb_rap_065": {
+    "score": 75,
+    "reasoning": "The model correctly identifies 'הני' as Hennessy and accurately interprets the meaning of the line, but it misses the phonetic wordplay between 'הני' and 'אין'."
+  },
+  "heb_rap_066": {
+    "score": 50,
+    "reasoning": "The model correctly identifies Cohen@Mushon and the shout-out to them, but fails to recognize the direct reference to their song 'ילד נכון', misinterpreting the lyrics instead."
+  },
+  "heb_rap_067": {
+    "score": 25,
+    "reasoning": "The model completely missed that the line references two specific Israeli hip-hop songs, instead interpreting the lyrics literally as cultural symbols of Mizrahi music."
+  },
+  "heb_rap_068": {
+    "score": 50,
+    "reasoning": "The model correctly identifies the connection between PR and Jerusalem (Al-Quds), but completely hallucinates regarding 'Rocky B', interpreting it as Rocky the fictional boxer rather than the prominent Jerusalem hip-hop artist Roy Assag."
+  },
+  "heb_rap_069": {
+    "score": 25,
+    "reasoning": "The model completely missed that the entire passage is an overt homage/paraphrase of Kwami's classic verse from 'Milhemet Mikrofone HaZahav', and hallucinated explanations for 'שאטגאן קבינט' (the supergroups Shotgunz and Kabinet) and 'סגיבידיו'."
+  },
+  "heb_rap_070": {
+    "score": 100,
+    "reasoning": "The AI model perfectly explains both the idiom 'ראפרים בשקל' and the cultural reference to Cofix's five-shekel pricing scheme."
+  },
+  "heb_rap_071": {
+    "score": 100,
+    "reasoning": "The AI accurately identifies 'Guy TV' as a prominent Israeli content creator and perfectly explains the line's meaning and context."
+  },
+  "heb_rap_072": {
+    "score": 50,
+    "reasoning": "The AI correctly identified the overall tone of disrespect towards the opening act, but it completely missed the central punchline/wordplay regarding the failure to warm up the room enough to take off a hoodie."
+  },
+  "heb_rap_073": {
+    "score": 100,
+    "reasoning": "The model accurately explains both the metaphorical 'killing/burying' of fake MCs and the ironic recitation of the Kaddish over them, capturing the meaning completely."
+  },
+  "heb_rap_074": {
+    "score": 75,
+    "reasoning": "The model accurately explains the comparison to the American hip-hop trio Migos, but lacks the specific context of the group 'Helem Tarbut' and its members mentioned in the ground truth."
+  },
+  "heb_rap_075": {
+    "score": 100,
+    "reasoning": "The AI model accurately explains both the literal context and the specific cultural reference to Dizengoff Center as a confusing place where it is easy to get lost."
+  },
+  "heb_rap_076": {
+    "score": 100,
+    "reasoning": "The model accurately identified the video game reference to The Binding of Isaac, correctly explained the item Brimstone and characters Isaac/Eve, and captured the intended meaning of being exceptionally powerful."
+  },
+  "heb_rap_077": {
+    "score": 25,
+    "reasoning": "The model completely missed that this is an iconic comedic quote by footballer Alon Mizrahi, instead taking an inherently contradictory and nonsensical statement entirely seriously at face value."
+  },
+  "heb_rap_078": {
+    "score": 100,
+    "reasoning": "The AI model perfectly explains the wordplay connecting the bank logo colors (red for Bank Hapoalim and green for Bank Discount) to bloodshot eyes and smoking weed."
+  },
+  "heb_rap_079": {
+    "score": 50,
+    "reasoning": "The model correctly identified the reference to Atar Mayner's signature white wardrobe, but completely missed that 'מדינה של גנבים' is a direct quotation of Mayner's hit song."
+  },
+  "heb_rap_080": {
+    "score": 25,
+    "reasoning": "The model only interpreted the surface literal meaning ('take it easy, you are one of the few') and completely missed the core hip-hop reference and wordplay on the rapper E-Z and his track 'Bein HaBodedim'."
+  },
+  "heb_rap_081": {
+    "score": 25,
+    "reasoning": "The AI model accurately interpreted the literal meaning of the lyrics but completely missed the essential intertextual reference to Chief Keef's 'I Don't Like', which is the core of the ground truth explanation."
+  },
+  "heb_rap_082": {
+    "score": 75,
+    "reasoning": "The model accurately identified the Harry Potter references (Veela, Fleur) and correctly caught the sexual innuendo in the lyrics, but erroneously interpreted 'בירצפת' as beer spilled on the floor rather than recognizing it as the canonical Hebrew translation for Butterbeer."
+  },
+  "heb_rap_083": {
+    "score": 100,
+    "reasoning": "The AI model accurately identifies the biblical reference to Moses being 'heavy of speech' and correctly explains its metaphorical application to struggling with rap flow and delivery early in one's career."
+  },
+  "heb_rap_084": {
+    "score": 100,
+    "reasoning": "The AI model correctly explains the cultural reference to Inbal Or's bankruptcy scandal and accurately breaks down the double meaning of the wordplay on 'חוזר'."
+  },
+  "heb_rap_085": {
+    "score": 100,
+    "reasoning": "The AI model correctly identifies the 'Where's Waldo' reference and perfectly explains both its cultural origin and its metaphorical slang meaning in a hip-hop context."
+  },
+  "heb_rap_086": {
+    "score": 100,
+    "reasoning": "The AI model perfectly captures the meaning of the slang expression and accurately explains the context of the WhatsApp read receipts and catching the person in a lie."
+  },
+  "heb_rap_087": {
+    "score": 100,
+    "reasoning": "The model accurately identifies the cultural reference to Hadag Nahash's song and correctly explains the idiom and meaning in context."
+  },
+  "heb_rap_088": {
+    "score": 75,
+    "reasoning": "The model accurately explains the semantic meaning of remaining calm and silent during an interrogation, but misses the extended phone-at-the-cinema wordplay explicitly highlighted in the ground truth."
+  },
+  "heb_rap_089": {
+    "score": 75,
+    "reasoning": "The model accurately explains all slang terms and the overall context of graffiti culture, but makes a minor error stating two climb up instead of three."
+  },
+  "heb_rap_090": {
+    "score": 100,
+    "reasoning": "The model correctly identifies the reference to 'פרפר נחמד' and accurately explains its contextual meaning in the song."
+  },
+  "heb_rap_091": {
+    "score": 100,
+    "reasoning": "The model accurately and comprehensively breaks down every part of the punchline, capturing both the literal and figurative meanings of the slang perfectly."
+  },
+  "heb_rap_092": {
+    "score": 100,
+    "reasoning": "The AI model accurately identifies the biblical reference to the parting of the Red Sea and provides insightful analysis of the phrase's nuance and tone."
+  },
+  "heb_rap_093": {
+    "score": 100,
+    "reasoning": "The AI model correctly identified the exact historical reference to the Ethiopian blood donation affair and accurately captured its cultural and thematic significance."
+  },
+  "heb_rap_094": {
+    "score": 25,
+    "reasoning": "The model completely missed the core cultural context that this line is a direct quotation/allusion to the classic Israeli hip-hop song 'Kusit Hee Kusit', providing only a literal breakdown instead."
+  },
+  "heb_rap_095": {
+    "score": 50,
+    "reasoning": "The model correctly identified the Harry Potter and Snoop Dogg references, but completely omitted the explanation for 'בוצדם' (Mudblood) as a diss and missed the drug-related double entendre of 'ג'יי, קיי'."
+  },
+  "heb_rap_096": {
+    "score": 100,
+    "reasoning": "The AI model accurately identifies the bobblehead doll reference, explains the pun between honesty ('כנות') and nodding 'yes' ('כן'), and perfectly captures the fragment's meaning."
+  },
+  "heb_rap_097": {
+    "score": 100,
+    "reasoning": "The model accurately identified the bilingual pun between the Hebrew letter 'Pe' and the English word 'Pay' and explained its meaning in context flawlessly."
+  },
+  "heb_rap_098": {
+    "score": 100,
+    "reasoning": "The AI model accurately captures both the physical hand gesture and its cultural association with rock/metal as described in the ground truth."
+  },
+  "heb_rap_099": {
+    "score": 50,
+    "reasoning": "The model correctly identifies the wordplay on coming out of the closet, but completely misses that the 'other closet' refers to a burial casket/coffin."
+  },
+  "heb_rap_100": {
+    "score": 50,
+    "reasoning": "The model correctly identifies the basketball metaphor of an easy score, but completely misses the central double entendre on 'סל-קל' as an infant car seat."
+  },
+  "heb_rap_101": {
+    "score": 25,
+    "reasoning": "The AI model completely missed the central cultural reference and wordplay on the TV show 'Breaking Bad' (שובר שורות) and cooking meth ('מבשל מת' / 'מבשל אמת'), providing only a generic hip-hop interpretation."
+  },
+  "heb_rap_102": {
+    "score": 50,
+    "reasoning": "The model correctly understands the context of a neighbor screaming for quiet, but fails to identify the core cultural reference to the iconic character 'Gveret Bracha' from the TV show 'HaPijamot', mistakenly treating it as a generic name."
+  },
+  "heb_rap_103": {
+    "score": 100,
+    "reasoning": "The AI model perfectly explains the Jewish cultural reference of 'minyan' and accurately captures the exact meaning and context of the punchline."
+  },
+  "heb_rap_104": {
+    "score": 50,
+    "reasoning": "The model accurately identified the wordplay and literal meaning, but completely missed the core cultural allusion to the iconic 1970 song 'Yesh Li Ahav BeSayeret Haruv'."
+  },
+  "heb_rap_105": {
+    "score": 50,
+    "reasoning": "The model correctly identifies Kozo Okamoto and the 1972 Lod airport attack, but misses the core punchline explained in the ground truth regarding his release and remaining a free man."
+  },
+  "heb_rap_106": {
+    "score": 75,
+    "reasoning": "The AI accurately identified the Michael Jackson reference, the jab at copycat rappers in the scene, and the romantic flex, but missed the double entendre where 'Billie Jeans' also signifies having classic hit songs."
+  },
+  "heb_rap_107": {
+    "score": 100,
+    "reasoning": "The AI model accurately and thoroughly explains all slang terms, quantities, and wordplays in complete alignment with the ground truth."
+  },
+  "heb_rap_108": {
+    "score": 100,
+    "reasoning": "The AI model accurately identifies the cultural reference to Jumanji and correctly explains its metaphorical application to hip-hop and the music industry."
+  },
+  "heb_rap_109": {
+    "score": 100,
+    "reasoning": "The AI model accurately identifies the reference to the Pied Piper of Hamelin and correctly explains the metaphor of his music drawing out a crowd."
+  },
+  "heb_rap_110": {
+    "score": 25,
+    "reasoning": "The model only provides a literal translation of the transliterated English lyric, completely missing the essential cultural reference and interpolation of 2Pac's 'California Love'."
+  },
+  "heb_rap_111": {
+    "score": 25,
+    "reasoning": "The model correctly identifies that 'זה נסטי' is used as praise, but completely hallucinates the reference by attributing it to a social media persona rather than the rapper Liad Meir and his track 'Nestea Freestyle'."
+  },
+  "heb_rap_112": {
+    "score": 25,
+    "reasoning": "The model completely missed that this fragment is an iconic sample from Cholo's song 'Lo Levad', providing only a literal surface-level interpretation of the words."
+  },
+  "heb_rap_113": {
+    "score": 0,
+    "reasoning": "The model completely misinterprets the line as referring to the musician Prince and cocaine, entirely missing the intended pun combining 'Prince Charming' and 'knight on a white horse'."
+  },
+  "heb_rap_114": {
+    "score": 100,
+    "reasoning": "The AI model perfectly explains the double meaning of the wordplay on King George as both royalty and a central Tel Aviv street, accurately capturing the phrase's meaning."
+  },
+  "heb_rap_115": {
+    "score": 0,
+    "reasoning": "The model completely missed that the phrase is a direct cultural reference to the late rapper Nomi's album and title track, instead providing a generic literal breakdown of the words."
+  },
+  "heb_rap_116": {
+    "score": 100,
+    "reasoning": "The AI model accurately identifies Kobi as Subliminal and correctly explains the reference to TACT as his crew and label, fully capturing the context and meaning."
+  },
+  "heb_rap_117": {
+    "score": 100,
+    "reasoning": "The explanation accurately defines 'אבשה' and perfectly captures the meaning and societal context regarding the Ethiopian community's distrust of the police."
+  },
+  "heb_rap_118": {
+    "score": 75,
+    "reasoning": "The model accurately explains the semantic meaning and wordplay of the phrase, but misses the key cultural context that this line is a direct quotation of Eviatar Banai's song 'Same'ach Sheba'at'."
+  },
+  "heb_rap_119": {
+    "score": 0,
+    "reasoning": "The model completely hallucinated the meaning of the key slang word 'טיס' by claiming it means 'טוסיק' (butt), entirely missing its true Amharic-derived meaning of a lighter/smoke."
+  },
+  "heb_rap_120": {
+    "score": 100,
+    "reasoning": "The model accurately identifies the reference to Willy Wonka's Oompa Loompas and correctly explains both the literal meaning and its metaphorical interpretation in the hip-hop context."
+  },
+  "heb_rap_121": {
+    "score": 100,
+    "reasoning": "The AI model correctly identifies both youth movements referenced in the fragment and accurately explains the wordplay and contextual meaning."
+  },
+  "heb_rap_122": {
+    "score": 25,
+    "reasoning": "The model gave the literal interpretation of the phrase rather than identifying it as a specific viral TikTok meme reference."
+  },
+  "heb_rap_123": {
+    "score": 100,
+    "reasoning": "The AI model perfectly captures both slang meanings and accurately identifies the pun on 'chopped liver' (כבד קצוץ)."
+  }
+}

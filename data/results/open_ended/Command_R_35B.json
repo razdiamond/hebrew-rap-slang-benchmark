@@ -1,0 +1,1109 @@
+[
+  {
+    "id": "heb_rap_001",
+    "fragment": "כל אחד תופס סכין פרפר כדי להרגיש חופשי",
+    "ground_truth": "משחק מילים: פרפר מתואר בהמון תרבויות כחיה חופשיה. סכין פרפר הוא סכין מתקפל ומאוד מסוכן לאדם לא מנוסה כי הוא יכול להפתח בלי כוונה ולפגוע באדם שמשתמש בו. כלומר – כל אחד רוצה להיות חופשי אבל הוא משתמש באלימות כדי להשיג את החופש שלו, אך לפעמים האלימות שלו פוגעת בו.",
+    "raw_model_response": "האמן מתאר מצב בו אנשים מחפשים חופש, אך במקום למצוא אותו בדרכים חיוביות, הם בוחרים בדרך אלימה וכואבת - כמו תפיסת סכין פרפר. זה מייצג את הרצון לחופש, אך גם את הדרך המעוותת והלא בריאה להגיע אליו.",
+    "cosine_similarity": 87.75,
+    "llm_judge_score": 75,
+    "llm_judge_reasoning": "The model correctly captures the overall message regarding seeking freedom through violence, but misses the specific wordplay between the animal butterfly (symbol of freedom) and the butterfly knife."
+  },
+  {
+    "id": "heb_rap_002",
+    "fragment": "הכל שטויות שלחי לי תחתונים וגופיות",
+    "ground_truth": "טונה מרפרר את השיר ״אין לך מה לדאוג״ של עוזי פוקס. תלמה אליגון רוז כתבה את השיר על מלחמת יום הכיפורים (1973), מנקודת המבט של חייל שבחזית ומבקש מחברה שלו דברים יומיומיים ולא דברים גדולים (כמו תחתונים וגופיות).",
+    "raw_model_response": "טונה מבקש מהבחורה לשלוח לו תחתונים וגופיות, ובכך הוא רומז שהוא רוצה להתקרב אליה באופן פיזי ואינטימי. הוא רואה את הבקשה הזו כדרך להביע את הרצון שלו לקשר קרוב יותר.",
+    "cosine_similarity": 73.56,
+    "llm_judge_score": 0,
+    "llm_judge_reasoning": "The model completely failed to identify the iconic cultural reference to Uzi Fox's classic song and instead hallucinated an intimate, romantic meaning."
+  },
+  {
+    "id": "heb_rap_003",
+    "fragment": "אי אפשר להחליף קבוצה עם חולצה ירוקה מייצג את הקלאן",
+    "ground_truth": "פלד אוהד שרוף של מכבי חיפה שמתהדרת בחולצות ירוקות",
+    "raw_model_response": "פלד מתאר את הקשר החזק והבלתי ניתק בין חברי קבוצתו, \"הקלאן\", לחולצה הירוקה שהם לובשים. החולצה הירוקה מסמלת את השייכות לקבוצה, ואת העובדה שאי אפשר להחליף אותה או להחליף את חברי הקבוצה באחרים. זה כמו לומר שהחולצה הירוקה מייצגת את האחדות והנאמנות של הקבוצה, ומי שלובש אותה הוא חלק בלתי נפרד מהקלאן.",
+    "cosine_similarity": 72.49,
+    "llm_judge_score": 0,
+    "llm_judge_reasoning": "The AI model completely missed the reference to the Maccabi Haifa soccer team, hallucinating that 'green shirt' literally refers to his rap clan's uniform."
+  },
+  {
+    "id": "heb_rap_004",
+    "fragment": "זוכר שעסק שחור, לפני בערך עשור, פתחו לי מייק",
+    "ground_truth": "עסק שחור הייתה תוכנית היפ הופ ברדיו גלגלצ בהנחיית לירון תאני וקוואמי. טונה מתייחס כאן לתוכנית בה אירחו עסק שחור את “ראסטה קישקשתא” – ההרכב הראשון של טונה (יחד עם אוז וטירקס). שם הם ביצעו פריסטייל. מדובר בערך בשנת 2000 כלומר ממש בתחילת דרכו של טונה קישור לקטע המדובר",
+    "raw_model_response": "האמן מתייחס לתחילת הקריירה שלו, לפני כ-10 שנים, כאשר החל להופיע ולשיר במועדונים ובברים. הוא מתאר כיצד \"פתחו לו מייק\", כלומר נתנו לו הזדמנות לשיר ולבצע ראפ עם מיקרופון, ובכך פתחו לו את הדלת לעולם המוזיקה. \"עסק שחור\" מתייחס למועדונים או מקומות בילוי ליליים, בהם לרוב מתקיימות הופעות של אמני היפ-הופ.",
+    "cosine_similarity": 79.78,
+    "llm_judge_score": 50,
+    "llm_judge_reasoning": "The model correctly interpreted 'פתחו לי מייק' as an early career opportunity to perform on the microphone, but completely hallucinated the meaning of 'עסק שחור', which is a legendary radio show rather than nightlife clubs."
+  },
+  {
+    "id": "heb_rap_005",
+    "fragment": "איזה שכונה, יא כפית של זהב? אתה בכלל ממשמר השבעה",
+    "ground_truth": "עומר גדל במושב משמר השבעה מגיל 3, אז עלה מארה\"ב, ועד גיל 17. אודיה צוחקת על השימוש של עומר אדם במילה שכונה, שמיוחסת בדרך כלל לאנשים ממעמד סוציו-אקונומי נמוך ולערים פריפריאליות, ו\"מזכירה\" לו שהוא מגיע ממושב, בו אין שכונות והוא מושב שתושביו מגיעים לרוב ממעמד סוציו-אקונומי גבוה. היא משתמשת גם בביטוי “כפית של זהב”, המשמש שם גנאי למי שהורגל בילדותו לחיי רווחה ומותרות.",
+    "raw_model_response": "עומר אדם מתייחס למישהו שמתחזה למשהו שהוא לא, או שמנסה להציג תדמית מסוימת שאינה אמיתית. הוא קורא לו \"כפית של זהב\", כלומר, משהו מזויף ומצועצע, ומגלה שהוא בכלל ממשמר השבעה, יישוב קטן וציורי, מה שמרמז על כך שהאדם הזה מנסה להציג תדמית של משהו שהוא לא.",
+    "cosine_similarity": 81.22,
+    "llm_judge_score": 25,
+    "llm_judge_reasoning": "The model incorrectly claims Omer Adam is the speaker rather than the subject being mocked, completely misinterprets 'כפית של זהב' as meaning fake/gaudy instead of privileged/wealthy, and only captures a tiny grain of truth regarding posing as something one is not."
+  },
+  {
+    "id": "heb_rap_006",
+    "fragment": "יְבָרֶכְךָ ה’ וְיִשְׁמְרֶךָ\n יָאֵר ה’ פָּנָיו אֵלֶיךָ וִיחֻנֶּךָּ\n יִשָּׂא ה’ פָּנָיו אֵלֶיךָ וְיָשֵׂם לְךָ שָׁלוֹם",
+    "ground_truth": "ציטוט ישיר של ברכת הכוהנים, ברכה שהכוהנים נוהגים לברך את ציבור המתפללים בזמן חזרת הש\"ץ על תפילת שמונה־עשרה. שקל סיפר כי ההשראה לציטוט הברכה באה מאישה שהכיר בזמן שירד לסיני. הוסיף וסיפר שהייתה מחוברת ליהדות במיוחד, וכי כשהגיע לאולפן הוא הקריא את הברכה במיקרופון והשתמש בטייק הראשון שעשה. בתמונה: ברכת כוהנים בכותל",
+    "raw_model_response": "שקל מתייחס לברכות המסורתיות מתוך ספר במדבר, פרק ו', פסוקים כ\"ד-כ\"ו, בהן הברכה האלוהית ניתנת לעם ישראל. הוא משתמש בברכות אלו כדי לבטא את הרצון שלו לשלום, הגנה וברכה עבור המאזינים שלו.",
+    "cosine_similarity": 82.56,
+    "llm_judge_score": 75,
+    "llm_judge_reasoning": "The model correctly identifies the biblical source and meaning of the Priestly Blessing in the song, but misses the specific anecdotal background provided in the ground truth."
+  },
+  {
+    "id": "heb_rap_007",
+    "fragment": "מעושן מריפה ומתנהג כמו קריפר",
+    "ground_truth": "ריפה זהו סלנג למריחואנה שנמצא בשימוש בקרב פוארטו-ריקנים. בשורה זו מו אומר שהוא מסטול (“מעושן”) ושהוא מתנהג כמו קריפר – החיה האייקונית מהמשחק “מיינקראפט”. במשחק הקריפר מתקרב לשחקן ואז מתפוצץ, כלומר מו .אומר שאם מישהו מתקרב אליו הוא מתפוצץ",
+    "raw_model_response": "האמן מתאר אדם שמעשן מריחואנה ומתנהג באופן מוזר, מביך או מטריד, כמו \"קריפר\" - מונח המתאר אדם שמתנהג באופן לא נעים או מאיים כלפי אחרים.",
+    "cosine_similarity": 79.39,
+    "llm_judge_score": 50,
+    "llm_judge_reasoning": "The model correctly identifies the reference to smoking marijuana, but misunderstands 'קריפר' as a creepy/awkward person rather than the exploding Minecraft mob."
+  },
+  {
+    "id": "heb_rap_008",
+    "fragment": "כל עכבה, כל עכבה טובה,",
+    "ground_truth": "אזכור לפתגם שמיוחס לחיד\"א (הרב חיים יוסף דוד אזולאי) [אך יש שמייחסים לרבי מאיר הרופא] ומשמעותו היא כמובן שכל עיכוב יטיב למתעכב. פתגם זה מתקשר באופן ישיר לפסיביות הוורס, כפי שמוסבר בפירוט בטייט לעיל.",
+    "raw_model_response": "רביד פלוטניק, הידוע גם בשם הבמה \"נצ'י נצ'\", מתכוון לומר שהדברים הטובים בחיים מגיעים לעיתים עם עיכובים או קשיים. הוא מאמין שדווקא העיכובים האלה יכולים להוביל לתוצאות חיוביות ולגרום לדברים להיות טובים יותר בסופו של דבר. זוהי גישה אופטימית לחיים, בה הוא מעודד את המאזינים לקבל את העיכובים כדבר חיובי ולא כדבר שלילי.",
+    "cosine_similarity": 77.7,
+    "llm_judge_score": 100,
+    "llm_judge_reasoning": "The AI model accurately explains the meaning of the well-known idiom 'כל עכבה לטובה' in the context of the lyrics, capturing the exact semantic meaning described in the ground truth."
+  },
+  {
+    "id": "heb_rap_009",
+    "fragment": "ואם נהיה פה חם לאללה תן לי האללה מאן",
+    "ground_truth": "נהיה פה חם לאללה – הכוונה היא לא להתחממות הגלובלית אלא שהספוט ‘מתחמם’, כלומר מתקרבים שוטרים ‘תן לי האללה’ – תרגום מאנגלית של המונח Holler at me שפירושו ‘תן לי קריאה’ אאוטקאסט עשו מזה שיר",
+    "raw_model_response": "האמן מבקש מהאלוהים (האללה) שיעזור לו להתמודד עם החום הרב, ומבקש ממנו רחמים או הקלה. זה ביטוי סלנגי לבקשה לעזרה במצב קשה או לא נעים.",
+    "cosine_similarity": 79.35,
+    "llm_judge_score": 0,
+    "llm_judge_reasoning": "The model completely misunderstood the slang, taking 'חם' literally as weather heat and incorrectly interpreting the English hip-hop loanword 'האללה' (holler) as a prayer to God (Allah)."
+  },
+  {
+    "id": "heb_rap_010",
+    "fragment": "לא חי בצל של אף אחד, אבל תמיד מוקף באריות",
+    "ground_truth": "משחק מילים ורפרנס להצל – ראפר לשעבר .שהיום פעיל כדמות פוליטית חברתית .לקהל המעריצים של הצל קוראים צבא האריות של הצל",
+    "raw_model_response": "מיכאל סוויסה מתאר את עצמו כמי שחי באופן עצמאי ובלתי תלוי, הוא לא חי בצלו של אף אחד, כלומר הוא לא מושפע או תלוי באחרים. עם זאת, הוא מוקף בחברים או אנשים חזקים ומצליחים, אותם הוא מכנה \"אריות\", מה שמעיד על מעגל חברתי איכותי ומכובד.",
+    "cosine_similarity": 69.62,
+    "llm_judge_score": 25,
+    "llm_judge_reasoning": "The model only interpreted the surface literal meaning and idiom while completely missing the central hip-hop wordplay and cultural reference to the rapper HaTzel and his 'Lions'."
+  },
+  {
+    "id": "heb_rap_011",
+    "fragment": "זה ההידרו",
+    "ground_truth": "המושג 'הידרו' מבטא שיטת גידול צמחים, אך בסלנג 'הידרו' הוא גם שם כולל לסם שמסב לך מצב־רוח שמח ללא תלות באירועים שקורים לך",
+    "raw_model_response": "רביד פלוטניק, הידוע גם בשם הבמה \"נצ'י נצ'\", מתייחס בשורה זו לסוג מסוים של מריחואנה, הידוע בשם \"הידרו\". המונח \"הידרו\" מתאר מריחואנה שגודלה בתנאי מעבדה או בסביבה מבוקרת, מה שמאפשר איכות גבוהה יותר של הצמח. השורה הזו היא רפרנס לסצנת העישון והקנאביס, והכוונה היא שהדובר בשיר מתאר את החוויה שלו עם סם זה.",
+    "cosine_similarity": 77.07,
+    "llm_judge_score": 100,
+    "llm_judge_reasoning": "The AI model accurately explains that 'hydro' refers to high-grade hydroponically grown cannabis and correctly places it within the song's context."
+  },
+  {
+    "id": "heb_rap_012",
+    "fragment": "אתה מואשם כאן בגלל אצבע רק תדע זאת אצבע מאשימה",
+    "ground_truth": "אצבע זה כינוי הנפוץ בקרב סטלנים למנת חשיש. אצבע מאשימה זה ביטוי המתאר הפניית אצבע לעבר מישהו והאשמתו. אודימן משתמש במשחק מילים ואומר שמאשימים מישהו על פי החוק בגלל אצבע חשיש, לכן ניתן לקרוא לה אצבע מאשימה. אצבעות חשיש: אצבעות מאשימות כלפי מישהו:",
+    "raw_model_response": "האמן מתייחס למצב בו אדם מואשם במשהו, אך האשמה נובעת ממעשה קטן או זניח, כמו אצבע מאשימה. הוא מדגיש שהאשמה היא לא על משהו משמעותי, אלא על פרט קטן, כמו אצבע בודדת שמאשימה את האדם.",
+    "cosine_similarity": 81.8,
+    "llm_judge_score": 0,
+    "llm_judge_reasoning": "The AI model completely missed the core slang meaning of 'אצבע' (a piece of hashish) and instead hallucinated a literal, incorrect interpretation about an accusation based on a negligible act."
+  },
+  {
+    "id": "heb_rap_013",
+    "fragment": "בין אם ועדת שמגר, ובין אם אגרנט",
+    "ground_truth": "אזכור לשתי ועדות חקירה ממלכתיות -- האחת, שמגר, הייתה בנוגע לרצח רבין, והשנייה, אגרנט, הייתה בנוגע לליקויים שגרמו למלחת יום כיפור לפרוץ כפי שפרצה. ראוי לציין שהשם \"ועדת שמגר\" ניתן למספר ועדות חשובות , אך בד\"כ כשמזכירים \"ועדת שמגר\" ללא נימוק נוסף מתכוונים לועדה על רצח רבין.",
+    "raw_model_response": "ג'ימבו ג'יי משווה בין שתי ועדות חקירה מפורסמות בישראל: ועדת אגרנט, שחקרה את כישלון צה\"ל במלחמת יום הכיפורים, ווועדת שמגר, שחקרה את אירועי אוקטובר 2000. השורה מציגה את ההקבלה בין שני אירועים משמעותיים בהיסטוריה הישראלית, ומדגישה את חשיבותן של ועדות החקירה בהבנת המחדלים והלקחים שיש להפיק מהם.",
+    "cosine_similarity": 82.28,
+    "llm_judge_score": 50,
+    "llm_judge_reasoning": "The model correctly identifies the reference to state commissions of inquiry and accurately describes the Agranat Commission, but factually errs by claiming the Shamgar Commission investigated the October 2000 events."
+  },
+  {
+    "id": "heb_rap_014",
+    "fragment": "איזי על המלל, כמו דוד על הנבל",
+    "ground_truth": ".דוד המלך היה ידוע ביכולת המדהימה שלו לנגן על כלי הנבל על פי ספר שמואל, לאחר שדוד נמשח למלך ורוח אלוהים עברה משמואל אליו, שמואל היה במצב רוח רע והמשרתים שלו הציעו שהם יביאו אליו נגן נבל מוכשר, הלא הוא דוד :בהמלצה שהוא נגן ממש טוב ואמרו בֵּן לְיְִשַׁי בֵּית הַלַּחְמִי יֹדֵעַ נַגֵּן וְגִבֹּור חַיִל וְאִישׁ מִלְחָמָה .וּנְבֹון דָּבָר וְאִישׁ תֹּאַר וַה' עִמֹּו בשורה הזאת איזי משווה את עצמו אל דוד המלך בכך שהוא מוכשר באופן וורבלי באותה רמה שדוד היה מוכשר .על כלי הנגינה, הנבל",
+    "raw_model_response": "איזי משווה את עצמו לדוד המלך, שהיה ידוע כמלחין ומשורר מוכשר. השורה מדגישה את הכישרון של איזי ביצירת מילים ושירים, ומציגה אותו כדמות דומיננטית ומעוררת השראה בעולם המוזיקה, בדומה לדוד המלך בנבל שלו.",
+    "cosine_similarity": 87.79,
+    "llm_judge_score": 100,
+    "llm_judge_reasoning": "The AI model accurately explains the comparison between EZ's lyrical prowess and King David's mastery of the harp."
+  },
+  {
+    "id": "heb_rap_015",
+    "fragment": "מעניין לי את הטופאק אם הוא חי או לא חי",
+    "ground_truth": "בשורה הזאת וייב איש מדבר על חוסר הידיעה של מה שעלה בגורלו של אבא שלו, והוא משתמש בדימוי על קונספירציית טופאק, והאם הוא עדיין חי או לא. כמובן שאת המילה “טופאק” הוא מחליף במקום המילה “ז*ן”.",
+    "raw_model_response": "וייב איש מתייחס לאגדה האורבנית סביב מותו של טופאק שאקור, ראפר אייקוני. השורה מבטאת אדישות כלפי השאלה אם טופאק עדיין בחיים או לא, ומדגישה את חוסר העניין שלו בספקולציות סביב הנושא. וייב איש מצהיר שהדבר לא משפיע עליו או על חייו.",
+    "cosine_similarity": 86.56,
+    "llm_judge_score": 25,
+    "llm_judge_reasoning": "The model completely missed the slang pun substituting 'Tupac' for a profanity and the metaphorical reference to the artist's father, taking the reference to Tupac completely literally."
+  },
+  {
+    "id": "heb_rap_016",
+    "fragment": "המציאות הזאת ריאליטי, הגאולה בלוטו",
+    "ground_truth": "תרגום לעברית של “ריאליטי” הוא “מציאות”, אך נראה שבמקרה זה הכוונה בפירוש היא לתוכניות ריאליטי נצ'י אומר בכך שהמציאות שלנו היא כמו תוכנית ריאליטי – זולה, מזויפת ורודפת אחרי אהדה מהקהל. הדרך היחידה לברוח מהחיים האלו, היא לזכות בלוטו – קיצור דרך להשגת כסף רב. אמירה זו מהווה רמיזה למשפט הראשון בוורס אין קיצורי דרך, בחיים אין דרך אחרת מה שיכול להעיד שנצ'י טוען בציניות שהישועה היא דרך זכייה בלוטו",
+    "raw_model_response": "רביד פלוטניק משווה את המציאות היומיומית שלנו לתוכנית ריאליטי, בה הכל מתוסרט ומבוים, והגאולה, או התקווה לשינוי, היא כמו זכייה בלוטו - אירוע נדיר ובלתי צפוי. הוא מבטא תחושה של חוסר שליטה בחיים, כאילו הכל מוכתב מראש, והגאולה היא משהו חיצוני ובלתי תלוי.",
+    "cosine_similarity": 82.63,
+    "llm_judge_score": 75,
+    "llm_judge_reasoning": "The model accurately interprets the reality TV metaphor and the lottery analogy, but slightly misses the specific cynical nuance regarding shortcuts to wealth referenced in the context of the verse."
+  },
+  {
+    "id": "heb_rap_017",
+    "fragment": "גזירת גורל של עבדות עד כדי התקוממת\n שתשתנה המציאות ואז אולי תהיה חירות\n תמחק כאן הטעות ונקום מהמרות",
+    "ground_truth": "הצדעה לקרל מרקס וחזון ההתקוממות של האדם העובד",
+    "raw_model_response": "האמן מדבר על מאבק לשחרור, על התקוממות נגד מצב של עבדות או דיכוי. הוא מאמין כי שינוי המציאות, הפיכתה לצודקת יותר, תביא לחירות ולתיקון הטעויות של העבר. המילה \"התקוממת\" מדגישה את הרצון לפעול באופן אקטיבי לשינוי, ולא לקבל את המצב הקיים.",
+    "cosine_similarity": 63.46,
+    "llm_judge_score": 50,
+    "llm_judge_reasoning": "The model accurately interprets the literal theme of an uprising against oppression, but completely misses the specific subtextual reference to Karl Marx and the working-class struggle."
+  },
+  {
+    "id": "heb_rap_018",
+    "fragment": "סיימתי תיכון ועדיין אני פרשמן\n פאפראצי מתנפלים עליי כי אני פרשמן",
+    "ground_truth": "היבואן מכה בנו עם משחק מילים שנון, הנשען על המשמעות הכפולה של המילה פרשמן. פרשמן בארה\"ב זה כינוי לשנה הראשונה במוסד לימודי, אך היבואן סיים תיכון. פה נכנסת המשמעות הכפולה של פרשמן – איש רענן/טרי.",
+    "raw_model_response": "נורוז מתאר את המעבר שלו מבית הספר התיכון לחיים הבוגרים, אך למרות זאת הוא עדיין מרגיש צעיר וחסר ניסיון, כמו פרשמן (סטודנט בשנה הראשונה). הוא מגזים ומשווה את עצמו לסלבריטי, כאשר הוא אומר שפאפראצי מתנפלים עליו, כאילו הוא דמות מפורסמת, למרות שהוא עדיין בתחילת הדרך.",
+    "cosine_similarity": 77.25,
+    "llm_judge_score": 50,
+    "llm_judge_reasoning": "The model correctly identifies 'freshman' as a first-year student/beginner, but completely misses the core hip-hop wordplay on being 'fresh' (stylish/fresh man)."
+  },
+  {
+    "id": "heb_rap_019",
+    "fragment": "מוציא את הגלוק מהאסלה",
+    "ground_truth": "רפרנס לסנדק, לסצנה בה מייקל קורליאון יורה בשוטר בעזרת אקדח שהוחבא בשירותים.",
+    "raw_model_response": "האמן מתאר פעולה של הוצאת אקדח (גלוק) מאסלה, ככל הנראה לאחר שהחביא אותו שם. השורה הזו יכולה לרמז על כך שהוא נזקק לנשק או שהוא מתכונן למצב בו יצטרך להשתמש בו.",
+    "cosine_similarity": 78.35,
+    "llm_judge_score": 25,
+    "llm_judge_reasoning": "The model only interpreted the lyrics literally and completely missed the core meaning of the line, which is a direct reference to the iconic scene in The Godfather."
+  },
+  {
+    "id": "heb_rap_020",
+    "fragment": "אתם עדיין קולומבוס בשבילנו\n זאת רק אמריקה שנהייתה פחות תגלית",
+    "ground_truth": "התייחסות נוספת לשיר \"בואו לפני\" מהאלבום הראשון של ג'ימבו. :הפעם, לבית השלישי בו ג'ימבו שר בואו להיות לנו מה שקולומבוס היה עבור אמריקה ג'ימבו פונה למעריצים ואומר שהוא עדיין מעריך אותם ואוהב אותם כמו שאהב בהתחלה, ואם כבר משהו השתנה (נהיה פחות תגלית) זה הוא. -המילה תגלית משמשת כאן משמעות נוספת תגלית היא פרויקט שנועד לחזק את זהותם היהודית, הזיקה לישראל והקשר עם צעירים מקהילות אחרות, של צעירים יהודיים מרחבי העולם, בעיקר מארצות .הברית",
+    "raw_model_response": "ג'ימבו ג'יי משווה את עצמו ואת חבריו לאמנים לספן קולומבוס, שמצא יבשת חדשה, אמריקה. הוא טוען שהם עדיין \"קולומבוס\" עבור הקהל שלהם, כלומר הם מביאים משהו חדש ומרענן, כמו גילוי יבשת חדשה. עם זאת, הוא מוסיף שהאמנות שלהם, או \"אמריקה\", כבר לא כל כך חדשה ומרגשת, והיא הפכה להיות פחות \"תגלית\" ויותר מוכרת.",
+    "cosine_similarity": 82.8,
+    "llm_judge_score": 50,
+    "llm_judge_reasoning": "The model correctly captures the theme of fading novelty and discovery, but completely reverses the roles by claiming Jimbo is Columbus rather than addressing the audience as Columbus discovering him."
+  },
+  {
+    "id": "heb_rap_021",
+    "fragment": "ניסמן, נראה לי איזה ילד שינה את הערך של האסי בויקיפדיה",
+    "ground_truth": "רפרנס לוויכוח על מעמדו של נחל האסי – בין פרטי (של חברי הקיבוץ “ניר דוד”) לציבורי. אמנם הויכוח החל ב-2012, אך רק לאחרונה (כשלוש שנים לפני יום יציאת השיר) המאבק תפס תאוצה ואף הוכרע לבסוף לטובת גישה ציבורית בהסדר מסוים.",
+    "raw_model_response": "מישהו שינה את הערך של האסי בויקיפדיה, כנראה מתוך שעמום או כמתיחה.",
+    "cosine_similarity": 69.02,
+    "llm_judge_score": 0,
+    "llm_judge_reasoning": "The model completely missed the cultural reference to the public struggle over the Asi stream, interpreting the line literally and speculating that it was just a prank."
+  },
+  {
+    "id": "heb_rap_022",
+    "fragment": "לבקש קאש, לייצר הייפ עם הגאנג",
+    "ground_truth": "אזכור לשלושה שירי ראפ ישראלים: “לבקש את הקאש” “הייפ” “עם הגאנג”",
+    "raw_model_response": "ג'ימבו ג'יי מתאר את הרצון של ראפרים להשיג כסף (\"קאש\") ולהגביר את הפופולריות שלהם (\"לייצר הייפ\") בעזרת החברים שלהם (\"הגאנג\"). זה מתייחס לתהליך שבו ראפרים מנסים לבנות לעצמם שם ולהצליח בתעשייה באמצעות שיתופי פעולה וקידום הדדי עם חבריהם.",
+    "cosine_similarity": 71.05,
+    "llm_judge_score": 25,
+    "llm_judge_reasoning": "The model correctly translates the literal slang terms (cash, hype, gang) but completely misses the core meaning and context of the line, which is an intertextual reference to three specific Israeli rap songs."
+  },
+  {
+    "id": "heb_rap_023",
+    "fragment": "אגדה כמו תמוז שנולד באחד באייר, על הנייר",
+    "ground_truth": "תמוז הוא הרכב רוק ישראלי שכלל את שלום חנוך, אריאל זילבר, מאיר ישראל, יהודה עדר ואיתן גדרון. על אף שההרכב פעל רק במשך שנתיים והוציא אלבום אחד בעל שמונה שירים, הוא זכה למעמד מיתולוגי בהיסטוריה הישראלית. טונה כבר חלק כבוד ל'תמוז' כשכחבר בהרכב השאטגאנז קרא לאלבום ‘סוף עונת החרוזים’ על משקל ‘סוף עונת התפוזים’, שמו של האלבום של תמוז. תמוז הוא שם של חודש בלוח השנה העברי, כמו אייר, החודש שבו נולד טונה. אם כי על פי לוח השנה, יום ההולדת של טונה הוא בי\"א באייר צילום מסך מאתר בית חב\"ד",
+    "raw_model_response": "שקל משווה את עצמו לאגדה, כמו תמוז, דמות מיתולוגית מהמיתולוגיה הבבלית, והוא טוען שגם הוא, כמו תמוז, נולד באחד באייר, כלומר הוא אגדה בעצמו, לפחות על הנייר, כלומר על הנייר הוא אגדה, אבל במציאות זה לא בהכרח כך.",
+    "cosine_similarity": 71.72,
+    "llm_judge_score": 25,
+    "llm_judge_reasoning": "The model completely missed the reference to the iconic Israeli rock band 'Tammuz' and the Hebrew month wordplay, hallucinating Babylonian mythology instead, but correctly grasped the literal meaning of the phrase 'על הנייר'."
+  },
+  {
+    "id": "heb_rap_024",
+    "fragment": "מה אני  נראה לך אגד? אין לי חברים",
+    "ground_truth": "אזכור למשפט ידוע בעברית: “חברים יש רק באגד” הביטוי הוא דרך להביע שאין דבר כזה חברות אמת, או כדי להצדיק התנהגות לא חברית. מקור הביטוי ככל הנראה הוא מעצם העובדה שאגד היא תאגיד-שיתופי שיש בו “חברים” שמחזיקים במניות החברה.",
+    "raw_model_response": "פלד רומז בכך שהוא לא זקוק לחברים, שכן הוא עצמו מהווה אגדה, דמות מופתית ומרשימה. הוא מציג ביטחון עצמי גבוה ומדגיש את העובדה שהוא עומד לבדו, ללא צורך בתמיכה או בחברות של אחרים.",
+    "cosine_similarity": 71.43,
+    "llm_judge_score": 0,
+    "llm_judge_reasoning": "The model completely misunderstood the reference, confusing the bus company 'Egged' (and the well-known idiom 'חברים יש רק באגד') with the word 'legend' (אגדה)."
+  },
+  {
+    "id": "heb_rap_025",
+    "fragment": "”אל תשכח מאיפה באת, פתח להם דלת",
+    "ground_truth": "פלד גדל בקיבוץ מנחמיה מדרום לכנרת. הכוונה היא להראות שאפשר להצליח גם מהפריפריה ובז'אנר שהוא לא פופולרי. ראשי התיבות של המשפט ‘פתח להם דלת’ הם פלד, כפי שכבר הוזכר:",
+    "raw_model_response": "פלד מעודד את המאזינים לא לשכוח את שורשיהם ומקורותיהם. הוא מדגיש את החשיבות של פתיחת דלתות לאחרים, במיוחד לאלו שמגיעים מאותו רקע ומעמד. השורה מעודדת צניעות, הכרת תודה ושיתוף פעולה עם הקהילה ממנה באת.",
+    "cosine_similarity": 75.3,
+    "llm_judge_score": 50,
+    "llm_judge_reasoning": "The model correctly captures the literal and thematic message of community solidarity, but completely misses the clever hip-hop wordplay where 'פתח להם דלת' forms the acronym for the rapper's name, Peled (פלד)."
+  },
+  {
+    "id": "heb_rap_026",
+    "fragment": "כמו דבורים תמיד מחפשים באזז\n מספרים סיפורים וכלום פה לא זז",
+    "ground_truth": "בשורה הזאת למילה באזז יש שתי משמעויות. המשמעות הראשונה היא תיאור לדברים מעניינים- סיפורים, רכילויות וכולי. פלד מדבר על אותם אנשים בתור נחיל דבורים שהולך אחרי מה שמעניין את הרוב. אותם אנשים רק מדברים ולא באמת פועלים למען שינוי המשמעות השנייה של המילה היא חיקוי של הרעש שהדבורים יוצרות כשהן עפות",
+    "raw_model_response": "פלד משווה את עצמו ואת האמנים האחרים לדבורים, שמחפשות באזז, כלומר, תשומת לב ופרסום. הוא טוען שהם מספרים סיפורים, כלומר, יוצרים מוזיקה ומנסים להעביר מסרים, אך בפועל \"כלום פה לא זז\", כלומר, אין תגובה או השפעה משמעותית על הקהל או על התעשייה.",
+    "cosine_similarity": 87.25,
+    "llm_judge_score": 50,
+    "llm_judge_reasoning": "The model correctly understands 'באזז' as seeking attention and hype, but misidentifies the target of the line as Peled and fellow artists making music rather than gossipers and passive bystanders, while also missing the pun on the sound a bee makes."
+  },
+  {
+    "id": "heb_rap_027",
+    "fragment": "אז מה אם השכן שלי דני יתום",
+    "ground_truth": "אזרחי ישראל שמתעלמים מהמצב הקשה וממשיכים לחגוג בזמן שליד הבית שלהם .יש צרות .משחק מילים על השם של האלוף וראש השב\"כ לשעבר, דני יתום",
+    "raw_model_response": "השורה מתייחסת לכך שדני, השכן, הוא יתום, אך זה לא הופך אותו ל\"פראייר\" או חלש. המסר הוא שדברים חיצוניים, כמו יתמות, לא מגדירים את האדם ולא הופכים אותו לפגיע או חסר יכולת. הדג נחש מעודדים כאן את הרעיון של כוח פנימי ועמידה בפני קשיים, ללא קשר למצב החברתי או המשפחתי.",
+    "cosine_similarity": 64.34,
+    "llm_judge_score": 0,
+    "llm_judge_reasoning": "The model completely missed the pun on the public figure Danny Yatom and hallucinated a literal interpretation about orphanhood and inner strength."
+  },
+  {
+    "id": "heb_rap_028",
+    "fragment": "לפני שהוא יתן לך ארמון\n הוא יזרוק אותך לבור",
+    "ground_truth": "מאור ממשיך עם האזכורים התנ\"כיים, והפעם מאזכר את סיפורי יוסף. יוסף נזרק לבור ע\"י אחיו ונמכר למדיינים/לישמעאלים. וַיִּ֨קָּחֻ֔הוּ וַיַּשְׁלִ֥כוּ אֹת֖וֹ הַבֹּ֑רָה וְהַבּ֣וֹר רֵ֔ק אֵ֥ין בּ֖וֹ מָֽיִם (בראשית ל\"ד, פסוק כ\"ז) לאחר מאבקים ומבחנים שעבר יוסף, הוא הצליח להגיע למעמד מושל במצרים וַיַּרְכֵּ֣ב אֹת֗וֹ בְּמִרְכֶּ֤בֶת הַמִּשְׁנֶה֙ אֲשֶׁר־ל֔וֹ וַיִּקְרְא֥וּ לְפָנָ֖יו אַבְרֵ֑ךְ וְנָת֣וֹן אֹת֔וֹ עַ֖ל כׇּל־אֶ֥רֶץ מִצְרָֽיִם׃ (בראשית מ\"א פסוק מ\"ג)",
+    "raw_model_response": "האמן מתאר את המציאות בה אנשים מבטיחים הבטחות גדולות, אך לפני שהם מקיימים אותן, הם עלולים לפגוע בך או להשאיר אותך במצב גרוע יותר ממה שהיית בו קודם. זה מעין אזהרה מפני אנשים שמבטיחים הרים וגבעות, אך בפועל עלולים לגרום נזק.",
+    "cosine_similarity": 66.25,
+    "llm_judge_score": 25,
+    "llm_judge_reasoning": "The model completely missed the core biblical allusion to the story of Joseph and God's trials, interpreting the line generically as a warning against deceitful people."
+  },
+  {
+    "id": "heb_rap_029",
+    "fragment": "שומע אותנו אתה מתפלפ",
+    "ground_truth": "ההרכב ממליץ להזהר, כי אם תקשיבו למוזיקה שהם יוצרים יותר מדי, אתה ״תתפלפ״ או במילים אחרות, תתחרפן",
+    "raw_model_response": "אל איי אף מתכוון שהשומע את השיר מבין את המסרים העמוקים והמורכבים שהוא מעביר, ולכן הוא \"מתפלפ\" - כלומר, מתפלסף, חושב לעומק ומפגין רמה גבוהה של הבנה.",
+    "cosine_similarity": 72.44,
+    "llm_judge_score": 0,
+    "llm_judge_reasoning": "The AI completely misinterpreted the slang 'מתפלפ' (to go crazy/flip out) as philosophizing and thinking deeply, which is entirely incorrect."
+  },
+  {
+    "id": "heb_rap_030",
+    "fragment": "אבל רק ראיתי את זאתי, לקחנו סיבוב בג׳ילופי",
+    "ground_truth": "ג'ילופי – מכונית ישנה במצב רעוע.",
+    "raw_model_response": "מיכאל סוויסה מתאר רגע בו הוא רואה אישה מושכת ומחליט לצאת איתה לסיבוב בג'יפ שלו.",
+    "cosine_similarity": 63.61,
+    "llm_judge_score": 25,
+    "llm_judge_reasoning": "The model correctly understood the general context of taking a drive, but completely misunderstood the slang word 'ג'ילופי' (jalopy / beat-up old car), confusing it with a jeep."
+  },
+  {
+    "id": "heb_rap_031",
+    "fragment": "אני שם ת’חמש",
+    "ground_truth": "רפרנס להמנון הוויד האל-מותי I got 5 on it של הראפר לוניז בשיר של לוניז הוא מתחלק עם חבר בקניה של שקית וויד, וכל אחד שם חמישה דולר, פלד עושה אותו הדבר",
+    "raw_model_response": "פלד מתכוון שהוא שם את האצבע שלו בצורת V, המייצגת את המספר 5, כמחווה של ניצחון או הצלחה.",
+    "cosine_similarity": 77.63,
+    "llm_judge_score": 0,
+    "llm_judge_reasoning": "The AI model completely fabricated an explanation involving a V-sign gesture, missing the reference to pitching in money for weed based on the song 'I Got 5 On It'."
+  },
+  {
+    "id": "heb_rap_032",
+    "fragment": "”חצי מהעיר הזאת האסקיז, אם תקח להם ת׳שלג הם בסבל",
+    "ground_truth": "מאור מקביל את תושבי תל אביב להאסקי סיבירי, על ידי שימוש במילה שלג, שהיא גם סלנג לקוקאין. כמו שהאסקי סיבירי סובל מחום כשהוא נמצא במזג אוויר חם, כך מאור טוען שתל אביבים מכורים לקוק ובלי ה'שלג' הם יסבלו. כמו כן יש חיבור בין “שלג” לבין שתי שורות קודם לכן שמאור מדבר על קור/קפאון. עובדה משעשעת (או שלא) – בינואר 2026 קרה מקרה בקנדה שבו האסקי סיבירי בלע מפית עם קוקאין ברחוב.",
+    "raw_model_response": "מאור מתייחס למצב בו חלק מהאנשים בעיר תלויים בשלג, או במילים אחרות, הם \"מכורים\" לשלג. אם יילקח מהם השלג, הם יסבלו ויתקשו לתפקד ללא החומר אליו הם מכורים.",
+    "cosine_similarity": 82.6,
+    "llm_judge_score": 50,
+    "llm_judge_reasoning": "The model correctly understands that 'snow' refers to an addictive drug causing withdrawal, but it completely misses the wordplay and metaphor involving Huskies as well as explicitly identifying the drug as cocaine."
+  },
+  {
+    "id": "heb_rap_033",
+    "fragment": "תסתכלו על עצמכם",
+    "ground_truth": ":הסקיט שמנוגן ברקע של האאוטרו הוא הבית הרביעי מהשיר שלמה גרוניך – אני נגעל מן העולם תסתכלו על עצמכם תסתכלו על עצמכם כשראיתי את עצמי שברתי לרסיסים את המראה",
+    "raw_model_response": "מיכאל סוויסה קורא למאזינים להביט פנימה, אל תוך עצמם, ולבחון את המצב בו הם נמצאים. הוא מעודד אותם לקחת אחריות על חייהם ולהבין את המציאות שלהם, במקום להאשים גורמים חיצוניים. השורה הזו היא קריאה להתבוננות עצמית ולקחת שליטה על החיים.",
+    "cosine_similarity": 74.13,
+    "llm_judge_score": 25,
+    "llm_judge_reasoning": "The model provided a generic, speculative interpretation of the literal words rather than identifying the line as a direct sample from Shlomo Gronich's song."
+  },
+  {
+    "id": "heb_rap_034",
+    "fragment": "אולי נשאר צדיק אחד בסדום, תשאל את נצ’י",
+    "ground_truth": "רפרנס לאלבומו של נצ'י נצ' “צדיק אחד בסדום”",
+    "raw_model_response": "האמן רומז לכך שיש צורך בדמות מוסרית וטהורה, כמו צדיק אחד בסדום, כדי להציל את המצב. הוא מפנה את השאלה לנצ'י, ככל הנראה דמות מוכרת או בעלת השפעה, כדי להדגיש את חשיבות החיפוש אחר דמות כזו.",
+    "cosine_similarity": 70.82,
+    "llm_judge_score": 25,
+    "llm_judge_reasoning": "The model completely missed the direct cultural reference to Nechi Nech's album 'Tzadik Ehad BeSdom', offering only a literal biblical interpretation."
+  },
+  {
+    "id": "heb_rap_035",
+    "fragment": "אני מעלים אותך הופך אותך לגיל ססובר",
+    "ground_truth": "גיל ססובר הוא שחקן, זמר וקומיקאי ישראלי. בשנות ה90 ססובר היה בפסגת עולם הבידור, בין היתר היה מנחה בערוץ הילדים, והשתתף בקומדי סטור. בתחילת שנות האלפיים ססובר החליט להיעלם מהעין הציבורית, ללא שום הסבר. בהמשך גם נפתחה קבוצת פייסבוק לשם חיפושיו בשם “לאן נעלם גיל ססובר?”,ואחרי הלחץ הציבורי, ססובר חשף את עצמו בכתבה לחדשות 12.",
+    "raw_model_response": "רון נשר משווה את עצמו לגיל ססובר, שחקן ומנחה טלוויזיה ישראלי, ומציג את עצמו כדמות דומיננטית ומפורסמת כמו ססובר. הוא טוען שהוא יכול להעלים ולשנות את המציאות, בדומה ליכולתו של ססובר להציג ולהנחות תוכניות טלוויזיה. השורה היא משחק מילים על המילה \"להעלים\" ומדגישה את הכוח והנוכחות של נשר.",
+    "cosine_similarity": 70.6,
+    "llm_judge_score": 25,
+    "llm_judge_reasoning": "The model correctly identifies Gil Sassover as an Israeli TV host/actor, but completely hallucinates the meaning of the punchline, missing the well-known cultural reference to Sassover's sudden disappearance from public life."
+  },
+  {
+    "id": "heb_rap_036",
+    "fragment": "יש מצב שתלמד\n כמו שידור בערוץ אחד, אתה לא חד",
+    "ground_truth": "הערוץ הראשון (או ערוץ אחד) הוא ערוץ ציבורי, בין היתר מופקות עבורו תוכניות חינוכיות ולימודיות. בנוסף הערוץ ידוע לשמצה שכל שידור שמשודר בו נראה באיכות של שנות ה-80.",
+    "raw_model_response": "האמן משווה את חוסר החדות והבהירות של האדם אליו הוא פונה לשידור בערוץ אחד, שמתאפיין באיכות נמוכה ובחוסר בהירות. הוא רומז שהאדם צריך ללמוד ולהשתפר, שכן הוא לא מצליח להעביר את המסר שלו בצורה ברורה וחדה כמו שצריך.",
+    "cosine_similarity": 74.47,
+    "llm_judge_score": 100,
+    "llm_judge_reasoning": "The model accurately explains the punchline's wordplay on 'sharpness' (חד) regarding Channel 1's notoriously poor broadcast quality and ties it effectively to the context of the line."
+  },
+  {
+    "id": "heb_rap_037",
+    "fragment": "המיסים שלי קונים נשק, ואני רואה דרכו",
+    "ground_truth": "בשנות ה-2000 תקציב הביטחון עמד על 60 מיליארד. 15% מהתקציב השנתי רוב המיסים הישראליים הולכים למימון אמצעים מיליטריסטיים .כגון נשק, מטוסים, ספינות מלחמה ועוד מה ששאנן “רואה דרכו” זה את השלום ובעצם יוצר .(אוקסימורון, לראות שלום מבעד נשק (כלי הרג",
+    "raw_model_response": "האמן מבטא ביקורת חברתית על כך שהמיסים שהוא משלם משמשים לרכישת נשק, והוא רואה את הנשק כדבר שקוף, כלומר, הוא מודע לכך שהכסף שלו תורם לתעשייה זו.",
+    "cosine_similarity": 78.29,
+    "llm_judge_score": 50,
+    "llm_judge_reasoning": "The model correctly identifies the criticism regarding taxes funding weapons, but misinterprets 'רואה דרכו' as transparency/awareness rather than aiming for peace through a weapon."
+  },
+  {
+    "id": "heb_rap_038",
+    "fragment": "והורדתי ראש כמו רוצח",
+    "ground_truth": "משחק מילים על הביטוי “להוריד ראש”, אשר משמעותו עישון באנג. “להוריד ראש” יכול להתפרש גם כלערוף למישהו את הראש; ובכך לרצוח אותו.",
+    "raw_model_response": "האמן מתאר מצב בו הוא מרגיש מובס או מוכה, בדומה לרוצח שנתפס. הוא מרגיש שהפסיד בקרב או במצב מסוים, ולכן הוא \"הוריד ראש\", כלומר, נכנע או נכשל. השורה מבטאת תחושה של חוסר אונים ודימוי עצמי נמוך.",
+    "cosine_similarity": 74.7,
+    "llm_judge_score": 0,
+    "llm_judge_reasoning": "The model completely failed to identify the slang meaning of taking a bong hit and the wordplay on decapitation, hallucinating an incorrect meaning related to defeat and low self-esteem."
+  },
+  {
+    "id": "heb_rap_039",
+    "fragment": "אמא שלך לא חוזרת לקריית שמונה, אשכרה איבדנו ת׳צפון",
+    "ground_truth": "אזכור של מאור לחמותו, אמא של אשתו סהר. סהר ומשפחתה הם במקור מקריית שמונה, ומאור מתאר מצב שבעקבות המלחמה והנזק הגדול שהעיר ספגה אמא שלה החליטה לא לחזור להתגורר בקריית שמונה. מאור מבצע משחק מילים על הביטוי “איבדנו את הצפון” = ביטוי סלנג ישראלי קלאסי שפירושו: “השתגענו”, “יצאנו מדעתנו״, ועל כך שבעקבות העזיבה של האמא מהעיר (שנחשבת לצפונית ביותר בישראל) הם, פשוטו כמשמעו, איבדו את הצפון",
+    "raw_model_response": "מאור מתייחס לעובדה שאמא של מישהו לא חוזרת לקריית שמונה, מה שמעיד על כך שהם איבדו את הצפון, כלומר, הם התבלבלו או איבדו את הדרך. הביטוי \"איבדנו את הצפון\" הוא סלנג שמשמעותו אובדן כיוון או חוסר התמצאות.",
+    "cosine_similarity": 85.58,
+    "llm_judge_score": 50,
+    "llm_judge_reasoning": "The model correctly identifies the slang phrase 'איבדנו את הצפון' but fails to recognize the pun on the literal northern region of Israel (Kiryat Shmona) and misses the biographical context."
+  },
+  {
+    "id": "heb_rap_040",
+    "fragment": "ואני רחוק מלהיות סושרד אבל יכול להרגיש\n מתי את חושבת על מה שקורה בצד השני של הכביש",
+    "ground_truth": "אזכור למנטליסט ואמן החושים ליאור סושרד. מאור מבהיר שאומנם הוא לא מנטליסט עם יכולת קריאת מחשבות, אבל הוא יודע להרגיש ולראות אם אשתו שוקעת בטראומה בימי המלחמה",
+    "raw_model_response": "מאור משווה את עצמו ל\"סושרד\", קוסם ומנטליסט מפורסם, ומצהיר שהוא רחוק מלהיות בעל יכולות על-טבעיות כמו שלו. למרות זאת, הוא בטוח ביכולתו לחוש את המחשבות של בת זוגו, ולדעת מתי היא חושבת על דברים שקורים בצד השני של הכביש, כלומר, מתי היא חושבת על דברים שמעבר למה שהם חווים יחד.",
+    "cosine_similarity": 81.95,
+    "llm_judge_score": 75,
+    "llm_judge_reasoning": "The model correctly identifies the cultural reference to mentalist Lior Suchard and captures the core meaning, but misses the specific war and trauma context behind 'the other side of the road'."
+  },
+  {
+    "id": "heb_rap_041",
+    "fragment": "לא משתפ כמו ואנונו",
+    "ground_truth": "מרדכי ואנונו הוא טכנאי שעבד בקריה למחקר גרעיני בדימונה אשר מסר לעיתונאים זרים תצלומים של מתקני הקריה ובעצם חשף מידע אודות היכולות הגרעיניות של ישראל",
+    "raw_model_response": "אורי שוחט משווה את עצמו למרדכי ואנונו, איש טכנאי גרעין ישראלי שחשף סודות גרעיניים של ישראל לעיתון בריטי. השורה מרמזת על כך שאורי שוחט לא מוכן לחשוף סודות או מידע רגיש, בדומה לואנונו.",
+    "cosine_similarity": 73.83,
+    "llm_judge_score": 75,
+    "llm_judge_reasoning": "The model accurately identifies Mordechai Vanunu and his leak of nuclear secrets, but contradicts itself by stating that he was someone who refused to reveal sensitive information."
+  },
+  {
+    "id": "heb_rap_042",
+    "fragment": "זה שמדבר לא יודע\n זה שיודע לא מדבר",
+    "ground_truth": "ציטוט מהפרק “חוכמת הבידוד” בספר הטאו של לאו צה ייתכן ששקל מתחבר למשפט הזה, שאומר שאנשים חסרי ידע .מרבים לדבר, ואילו האנשים בעלי הידע ממעטים במילים",
+    "raw_model_response": "השורה מתייחסת להבדל בין מי שמדבר על דברים באופן שטחי, ללא ידע אמיתי, לבין מי שמבין את העניין לעומק ולכן בוחר שלא לדבר עליו. לעיתים, מי שיודע באמת, מעדיף לשמור את הידע לעצמו ולא לחשוף אותו בפני כולם.",
+    "cosine_similarity": 82.06,
+    "llm_judge_score": 75,
+    "llm_judge_reasoning": "The model accurately explains the semantic meaning of the phrase, but misses the minor nuance of its specific origin as a Tao Te Ching quote."
+  },
+  {
+    "id": "heb_rap_043",
+    "fragment": "אמרתי תכיני לי טישפישטי",
+    "ground_truth": "טישפישטי – עוגה טורקית",
+    "raw_model_response": "לוקץ מבקש מהבחורה להכין לו ארוחה קלה ומהירה, כנראה משהו מתוק או קליל, כמו \"טישפישטי\", ביטוי סלנג שמשמעותו דבר מה פשוט וקל לביצוע.",
+    "cosine_similarity": 64.26,
+    "llm_judge_score": 25,
+    "llm_judge_reasoning": "The model correctly guessed that it might be something sweet from context, but hallucinated that 'Tishpishti' is a slang phrase for something simple and easy to do, rather than recognizing it as a traditional Turkish cake."
+  },
+  {
+    "id": "heb_rap_044",
+    "fragment": "(מתוקה כמו פלפל שיפקה (שיפקה",
+    "ground_truth": "פלפל שיפקה הוא סוג של פלפל חריף. המסר שמועבר פה היא שטניה לא מתוקה בכלל.‏‏",
+    "raw_model_response": "השורה מתייחסת למטפורה בה הפלפל מייצג את המתיקות של טניה, כאשר \"שיפקה\" הוא סוג של פלפל חריף, אך כאן הוא משמש כמילה נרדפת למתוק, כמשחק מילים.",
+    "cosine_similarity": 84.01,
+    "llm_judge_score": 25,
+    "llm_judge_reasoning": "The model correctly identifies that a shipka pepper is spicy, but completely misses the ironic meaning of the line, falsely claiming the spicy pepper is used as a synonym for sweetness."
+  },
+  {
+    "id": "heb_rap_045",
+    "fragment": "איך שבא כסף כל אחד מניאק כמו טנצר",
+    "ground_truth": "אזכור לסדרה הישראלית “שמש”. בסדרה יש דמות בשם ישעיהו טנצר (שרוב הדמויות פונות אליו בתור טנצר) והוא לקוח קבוע באימפריית השמש. משפט מאוד אייקוני מהסדרה שחוזר על עצמו הוא “טנצר המניאק”, המאוזכר בשורה הזאת.",
+    "raw_model_response": "צוקוש משווה את התנהגותם של אנשים כאשר מדובר בכסף להתנהגות של טנצר, דמות ידועה לשמצה בעולם הפשע הישראלי. הכוונה היא שכאשר מגיע כסף, אנשים יכולים לשנות את אופיים ולהתנהג בצורה לא מוסרית או לא ישרה, בדומה לטנצר.",
+    "cosine_similarity": 75.98,
+    "llm_judge_score": 25,
+    "llm_judge_reasoning": "The model correctly infers the general metaphor of immoral behavior, but completely hallucinates the reference by claiming Tentser is an Israeli crime figure rather than the iconic sitcom character from 'Shemesh'."
+  },
+  {
+    "id": "heb_rap_046",
+    "fragment": "בכל זאת הגענו למרות הכל",
+    "ground_truth": "“רפרנס לפזמון השיר “למרות הכל של כוורת, וגם מושר בלחן שלו.",
+    "raw_model_response": "השורה מתייחסת להתגברות על מכשולים ומצוקות בדרך להצלחה. למרות כל הקשיים, המהמורות והמכשולים, האמן והלהקה הצליחו להגיע ליעד שלהם ולהגשים את חלומם. זוהי הצהרה של ניצחון והתגברות על כל הסיכויים.",
+    "cosine_similarity": 72.49,
+    "llm_judge_score": 25,
+    "llm_judge_reasoning": "The model explained only the literal meaning of the words and completely missed the core point, which is a direct musical reference to the classic Kaveret song 'Lamrot Hakol'."
+  },
+  {
+    "id": "heb_rap_047",
+    "fragment": "מוזג תלין שלי לפנטה מורגנה בשמש",
+    "ground_truth": "לין (lean) הוא משקה נרקוטי מעורבב שמכיל: סירופ לשיעול (קודאין) ,משקה מוגז וממתקים שנותנים לזה את הטעם והצבע הסגול. בנוסף נורוז משתמש במשחק מילים עם תופעת הפטה מורגנה, שבמקום המילה פטה הוא משתמש בפנטה, משקה מוגז אשר הוא אחד ממרכיבי הלין. תופעת הפטה מורגנה יכולה להות דומה להשפעת ההזיות של המשקה על האדם ששותה אותו.",
+    "raw_model_response": "נורוז מתאר מצב של התעלות רוחנית, מעין חוויה מיסטית. הוא משווה את החוויה הזו לשתיית פנטה (משקה קל) עם תלין (סוג של אלכוהול), כלומר, חיבור בין העולם הגשמי לרוחני, בין החומר לרוח. המושג \"מורגנה\" מתייחס לאשליה אופטית, ולכן השורה מתארת חוויה מטושטשת, מעין הזיה, שמתערבבת עם המציאות היומיומית, כמו שמש שמתעתעת בעיניים.",
+    "cosine_similarity": 75.01,
+    "llm_judge_score": 50,
+    "llm_judge_reasoning": "The model correctly catches the mirage/hallucination motif and the mixing with Fanta, but misidentifies 'lean' as alcohol (parsing 'תלין' incorrectly) and hallucinates an elaborate theme of spiritual transcendence."
+  },
+  {
+    "id": "heb_rap_048",
+    "fragment": "שומרת מבט",
+    "ground_truth": "החמרה קומית של קונספט שמירת הנגיעה ביהדות, האוסר על גבר ואישה שאינם נשואים או שאינם הורה וילד לגעת אחד בשני מגע המגיע ממקום של חיבה או תאווה (למשל: חיבוק, נשיקה וכו').",
+    "raw_model_response": "הכוונה בשורה \"שומרת מבט\" היא שהבחורה אליה מופנה השיר שומרת על קשר עין, כלומר היא לא מסיטה את מבטה מהדובר וממשיכה להביט בו באופן ממוקד. זה יכול לרמז על עניין, משיכה או רצון לתקשורת ישירה.",
+    "cosine_similarity": 64.41,
+    "llm_judge_score": 0,
+    "llm_judge_reasoning": "The model completely missed the slang's humorous religious allusion to 'shomeret negiah' and instead gave a literal, incorrect interpretation about maintaining eye contact."
+  },
+  {
+    "id": "heb_rap_049",
+    "fragment": "מילה לעטר, אני רק עולה, רק עולה",
+    "ground_truth": "אזכור לשיר “עולה” של עטר מיינר",
+    "raw_model_response": "וייב איש מתכוון לכך שהוא נמצא בתנופה מתמדת, במגמת עלייה מתמדת, והוא רק בתחילת הדרך. הוא רואה את עצמו כמי שעוד יגיע רחוק, ולכן הוא \"רק עולה\".",
+    "cosine_similarity": 68.18,
+    "llm_judge_score": 25,
+    "llm_judge_reasoning": "The model completely missed the core cultural reference to Atar Mayner's song 'Oleh', explaining only the literal surface meaning of rising and progressing."
+  },
+  {
+    "id": "heb_rap_050",
+    "fragment": "כמו ברי ורמי, גם לנו יש ניצוצות",
+    "ground_truth": "כשכהן ומושון עושים מוזיקה ביחד החיבור ביניהם עושה פלאים, “ניצוצות” מטאפורים נוצרים. רפרנס לשיר של ברי סחרוף ורמי פורטיס-",
+    "raw_model_response": "כהן@מושון משווים את עצמם לצמד הראפרים הוותיק ברי סחרוף ורמי פורטיס, ומביעים בכך את הרצון שלהם להשאיר חותם משמעותי בעולם המוזיקה, בדומה לברי ורמי שהשאירו את חותמם כצמד אייקוני. הניצוצות מייצגים את הכישרון, היצירתיות והברק שיש להם, בדיוק כמו שהיה לברי ורמי.",
+    "cosine_similarity": 82.3,
+    "llm_judge_score": 50,
+    "llm_judge_reasoning": "The model correctly identifies the duo dynamic and metaphorical sparks, but mistakenly calls Berry Sakharof and Rami Fortis a veteran rap duo and misses that 'Nitzotzot' is a direct reference to their famous song."
+  },
+  {
+    "id": "heb_rap_051",
+    "fragment": "כשאתה בעננים\n אל תתפלא שיש כחול בתמונה",
+    "ground_truth": "הכוונה ל-“כשאתה בעננים”, היא כשאתה במצב שמאוד טוב לך בו, אבל הכוונה היא כנראה גם כשאתה למעלה (בהיי). אודימן אומר שכשאתה בעננים אין פלא שיש כחול בתמונה. כחול הוא שם קוד לשוטר, והמשמעות הכפולה היא שכשאתה משתמש בסמים, אל תתפלא כשהשוטרים יגיעו.",
+    "raw_model_response": "האמן מתאר מצב בו אדם נמצא במצב רוח מרומם, \"בעננים\", כלומר בתחושה של אושר ושמחה. הוא מזהיר אותו שלא יתפלא אם ימצא גם גוונים של כחול בתמונה, כלומר, שלא יתפלא אם יחווה גם רגעים פחות שמחים או אתגרים בדרך. זה רמז לכך שחיים מאושרים אינם תמיד ורודים לחלוטין, ויש גם רגעים פחות חיוביים.",
+    "cosine_similarity": 79.33,
+    "llm_judge_score": 25,
+    "llm_judge_reasoning": "The model correctly identified the conventional idiom of being happy ('בעננים'), but completely missed the drug context and the slang meaning of 'כחול' referring to police officers."
+  },
+  {
+    "id": "heb_rap_052",
+    "fragment": "שוב בלעתי פוקדור,",
+    "ground_truth": "סוויסה משתמש במשחק מילים פוקדור- פה כדור פוקדור= הכדורים שבו אש השתמש לתפוס פוקימונים",
+    "raw_model_response": "האמן מתאר בליעה של פוקדור, אשר מתייחס לכדורים או גלולות. הביטוי \"בלעתי פוקדור\" יכול לרמז על שימוש בסמים או תרופות, ומציג את ההתמודדות עם התמכרות או הרגל לא בריא.",
+    "cosine_similarity": 68.7,
+    "llm_judge_score": 75,
+    "llm_judge_reasoning": "The model correctly identifies the slang meaning of swallowing pills/drugs, but misses the specific wordplay on Pokémon/Pokeball highlighted in the ground truth."
+  },
+  {
+    "id": "heb_rap_053",
+    "fragment": "הצבע הבהיר הפך כהה ואז עמום\n אם תדבר ישיר אתה תקבל מבט המום",
+    "ground_truth": "נצ'י מתאר את המצב שהחברה שלנו נמצאת בו כיום, דרך השימוש בצבעים – הצביעות שולטת, שום דבר כבר לא ברור או “בהיר” ו\"דיבור ישיר\" הוא כל כך נדיר שהוא זוכה לתגובות של פליאה.",
+    "raw_model_response": "השורה מתארת תהליך של שינוי במצב הרוח או באווירה. בתחילה, המצב היה בהיר ואופטימי, אך הוא הפך לכהה ועצוב. כאשר מדברים ישירות על הנושא, מקבלים מבט המום, כלומר תגובה של הלם או חוסר הבנה לנוכח השינוי הפתאומי.",
+    "cosine_similarity": 72.33,
+    "llm_judge_score": 50,
+    "llm_judge_reasoning": "The model correctly captures the literal shift from bright to dark and the shocked reaction to direct speech, but misinterprets the societal critique of dishonesty and hypocrisy as a personal mood change."
+  },
+  {
+    "id": "heb_rap_054",
+    "fragment": "אני בחור נעים, עם חלומות נחמדים",
+    "ground_truth": "אזכור לשורה משירו של סנופ דוג “Drop It Like It’s Hot” I’m a nice dude, with some nice dreams",
+    "raw_model_response": "האמן מתאר את עצמו כבחור נעים, בעל אישיות נעימה וחיובית. הוא מדגיש את הצד הרגוע והנינוח באישיותו, ומציג את עצמו כאדם עם חלומות חיוביים ונעימים, שאינם מאיימים או שליליים.",
+    "cosine_similarity": 69.41,
+    "llm_judge_score": 0,
+    "llm_judge_reasoning": "The model completely missed that the line is an allusion to Snoop Dogg's 'Drop It Like It's Hot' and instead offered only a literal, superficial paraphrasing."
+  },
+  {
+    "id": "heb_rap_055",
+    "fragment": "מתפוצץ בום קאסם מכאן עד מומבסה",
+    "ground_truth": "מומבסה היא עיר בקנייה, בה התרחש פיגוע וניסיון פיגוע בשנת 2002 הפיגוע כלל פיצוץ מכונית תופת בבית מלון, במסגרתו נהרגו שלשוה ישראלים לצד 12 הרוגים נוספים. בנוסף באותו זמן גם שוגרו טילי כתף לעבר מטוס ישראלי זמן קצר לאחר המראתו מהעיר.",
+    "raw_model_response": "ג'יגה ג'וס מתאר את עוצמת הפיצוץ שלו, שמגיע מרמת חוזק גבוהה עד כדי כך שהוא מורגש ממרחק רב, מהעיר קאסם (עיר ערבית בישראל) עד לעיר מומבסה (בקניה). השורה מדגישה את ההשפעה הרחבה והעוצמה של האמן.",
+    "cosine_similarity": 64.26,
+    "llm_judge_score": 25,
+    "llm_judge_reasoning": "The model correctly identifies Mombasa as a city in Kenya, but completely misses the historical context of the 2002 terror attacks against Israelis and hallucinates 'Qassam' as an Arab city rather than referring to the rocket/explosive context."
+  },
+  {
+    "id": "heb_rap_056",
+    "fragment": "בימים ההם אין מלך, אין נביא",
+    "ground_truth": "“בַּיָּמִים הָהֵם אֵין מֶלֶךְ בְּיִשְׂרָאֵל אִישׁ הַיָּשָׁר בְּעֵינָיו יַעֲשֶׂה.” ביטוי המופיע מספר פעמים בספר שופטים בתקופה של שחיתות מוסרית ומתאר את המצב האנרכי באותה תקופה. מוזכר בעיקר סביב הסיפור של פילגש בגבעה שהיה נקודת שבר שהסטוריה של העם היהודי",
+    "raw_model_response": "האמן מתאר תקופה של תוהו ובוהו, בה אין מנהיגות ברורה או הנחיה רוחנית. הוא מתייחס לתקופה בה אין מלך, כלומר אין מנהיג פוליטי, ואין נביא, כלומר אין דמות רוחנית שמנחה את העם. השורה מבטאת תחושה של חוסר כיוון ואי-ודאות.",
+    "cosine_similarity": 77.43,
+    "llm_judge_score": 75,
+    "llm_judge_reasoning": "The AI correctly explains the meaning of anarchy and the absence of leadership, but misses the explicit biblical origin in the Book of Judges highlighted in the ground truth."
+  },
+  {
+    "id": "heb_rap_057",
+    "fragment": "תכניס מפתח אל הסוויץ’ ובוא נשמע תשאגה\n כנס אל הדלורי-וואן, אפשר להירגע",
+    "ground_truth": "אזכור למכונית הדלוריאן ששימשה את מורנו ורבנו, ד\"ר בראון, כבסיס למכונת הזמן שבנה בסרט \"בחזרה לעתיד\" שכמובן מתקשר בצורה ישירה לנושא השיר ,בנוסף, ישנו משחק מילים בין דלוריאן לדלורי-וואן מכיוון שהם צריכים וואן כדי להכיל את כל .חברי הלהקה",
+    "raw_model_response": "האמן מתאר כניסה למכונית, כנראה רכב ישן או קלאסי, ומדמה את החוויה לעלייה על דרך המלך, למקום רגוע ושליו. הוא משווה את הנסיעה במכונית לחוויה מרגיעה ומנחמת, כמו כניסה למצב של שלווה והנאה.",
+    "cosine_similarity": 69.46,
+    "llm_judge_score": 25,
+    "llm_judge_reasoning": "The model correctly inferred that it refers to a classic car, but completely missed the core cultural reference to the DeLorean from 'Back to the Future' and the pun on 'van'."
+  },
+  {
+    "id": "heb_rap_058",
+    "fragment": "ביצ’ז אוהבות אותי כמו צ’יף קיף",
+    "ground_truth": ",רפרנס לשירו הפופולרי ביותר של הראפר צ'יף קיף .“Love Sosa” These bitches love Sosa, O End or no end Fuckin' with them O boys, you gon' get fucked over ‘Raris and Rovers, these hoes love Chief Sosa",
+    "raw_model_response": "השורה מתייחסת לפופולריות ולכוח המשיכה שיש לאביב בקרב הנשים, בדומה לדמותו של צ'יף קיף, דמות מסדרת \"הפנתר השחור\", הידועה בקסמיה ובכישוריה החברתיים.",
+    "cosine_similarity": 65.09,
+    "llm_judge_score": 25,
+    "llm_judge_reasoning": "While the model correctly identified the theme of female attraction from the literal text, it completely hallucinated Chief Keef as a character from 'Black Panther' rather than the well-known rapper whose song 'Love Sosa' is being referenced."
+  },
+  {
+    "id": "heb_rap_059",
+    "fragment": "[סגיר: הרב שלמה קרליבך]\n דע לך אני כבר בת”א אני ממש לבד, אין לי אף בן אדם אחד. אתה יודע כבר כמה פעמים כבר ניסיתי לאבד עצמי לדעת? בתוך הים, אני כבר בתוך הים ואני כמעט טובע פתאום אני שומע את קולו של הרבי הקדוש: “קינדרלך, זיסר תארי קינדרלך...”    ...הדבר הכי גדול, לעשות טובה למישהו. מה אגיד לך, אתה יודע כמה תורות אפשר לעשות ברחובות ת”א?",
+    "ground_truth": "חלק מסיפורו של הרב שלמה קרליבך – “הגיבן הקדוש”.",
+    "raw_model_response": "עטר מיינר מתאר רגע של משבר אישי, בו הוא מרגיש בודד ומנסה להתאבד בים. ברגע של ייאוש, הוא שומע את קולו של הרב שלמה קרליבך, שמעודד אותו ומזכיר לו את חשיבות עשיית הטוב לאחרים. הרב אומר \"קינדרלך, זיסר תארי קינדרלך\", כלומר, \"ילדים, עשו טוב לילדים אחרים\". האמן מבין שהדרך להתגבר על המשבר היא דרך נתינה לאחרים, וזה מה שיעניק לו משמעות וחיבור לאנשים.",
+    "cosine_similarity": 68.12,
+    "llm_judge_score": 25,
+    "llm_judge_reasoning": "The model completely failed to identify that the fragment is a direct audio sample of Rabbi Shlomo Carlebach telling his famous story 'The Holy Hunchback', erroneously hallucinating that Atar Mayner is describing a personal suicide attempt."
+  },
+  {
+    "id": "heb_rap_060",
+    "fragment": "היום סומך על חברים כמו על רכבת ישראל\n הבנתי, שבסוף אני כולה רק עבד, ישראל",
+    "ground_truth": "פלאש אומר שהוא סומך על החברים שלו כמו על רכבת ישראל, שמאחרת או שיש בה שיבושים. כלומר, הוא לא סומך עליהם בכלל. הוא מוסיף שהוא הבין שהוא כולה עבד, כמו עם ישראל במצרים. שימו לב שהביטויים “רכבת ישראל” ו\"רק עבד, ישראל\" מאוד מזכירים אחד את השני.",
+    "raw_model_response": "האמן משווה את החברים לרכבת ישראל, שמגיעה באיחור או לא מגיעה כלל, ובכך מבטא את חוסר האמון שלו בחברים. הוא מבין שהוא תלוי בעצמו, כמו עבד, ומזדהה עם המדינה ישראל, שמתמודדת עם קשיים ומכשולים.",
+    "cosine_similarity": 83.21,
+    "llm_judge_score": 50,
+    "llm_judge_reasoning": "The model correctly explained the Israel Railways comparison regarding lack of trust, but completely misunderstood the second line's pun and biblical reference to slavery."
+  },
+  {
+    "id": "heb_rap_061",
+    "fragment": "!מליון בקבוקים של גינס מאן, שוברים פה שיא",
+    "ground_truth": "Guinness ~ גינס :סטילה עושה בשורה הזאת שילוב בין שני “גינסים” מוכרים • .גינס – מותג בירה כהה אירנלדי מוכר • ,ספר השיאים של גינס – ספר המאגד שיאים רבים שתועדו .בעיקר בנוגע ליכולות אנושיות ולמוצרים אותם ייצר האדם הוא והחבר'ה שלו שתו כל כך הרבה בקבוקים של בירת גינס .שהם שברו שיא גינס בעצמם בתמונה: המהדורה האחרונה והעדכנית ביותר של ספרי .גינס נכון לשנת 2018",
+    "raw_model_response": "האמן מתאר מסיבה פרועה ומשתלחת, בה נשברים שיאים של שתייה והוללות. הוא מדמה את כמות האלכוהול העצומה שנצרכת ל\"מיליון בקבוקים של גינס\", ובכך מדגיש את העוצמה והעודף שבאירוע.",
+    "cosine_similarity": 63.47,
+    "llm_judge_score": 75,
+    "llm_judge_reasoning": "The model correctly captures the overall scene of drinking massive amounts of Guinness and breaking records, but it misses the explicit double entendre connecting the beer to the Guinness World Records."
+  },
+  {
+    "id": "heb_rap_062",
+    "fragment": "באנו ארבעה נינג’ות, קוואבנגה",
+    "ground_truth": "מתייחס כמובן לצבי הנינג׳ה, קבוצת גיבורי על דמיונית שמורכבת מארבעה צבים מוטאנטים. הביטוי הקליט שלהם הוא ״קוואבנגה״",
+    "raw_model_response": "ארבעה חברים, המגדירים את עצמם כ\"נינג'ות\", מגיעים לדיזינגוף סנטר, ומזכירים את הסיסמה המפורסמת מהסדרה \"צבי הנינג'ה\" - \"קוואבנגה\", המבטאת פעולה מהירה ומלאת אנרגיה.",
+    "cosine_similarity": 86.32,
+    "llm_judge_score": 75,
+    "llm_judge_reasoning": "The model correctly identifies the Teenage Mutant Ninja Turtles reference and catchphrase, but hallucinates specific location details (Dizengoff Center) not present in the fragment or ground truth."
+  },
+  {
+    "id": "heb_rap_063",
+    "fragment": "מייצג ת’עמק",
+    "ground_truth": "פלד במקור מהמושבה מנחמיה ששייכת למועצה האזורית עמק המעיינות.",
+    "raw_model_response": "האמן מתכוון לייצג את אזור העמק, ככל הנראה עמק יזרעאל, ומציג את עצמו כמייצג של האזור והתרבות המקומית.",
+    "cosine_similarity": 67.27,
+    "llm_judge_score": 50,
+    "llm_judge_reasoning": "The model correctly identified the concept of representing the valley region, but incorrectly guessed the specific valley as Emek Yizrael instead of Emek HaMa'ayanot."
+  },
+  {
+    "id": "heb_rap_064",
+    "fragment": "לא בדוק שיש עוד לייף\n שאוטאאוט לאבה, זה המוטו",
+    "ground_truth": "רפרנס לשורה מהשיר “חושם לאב” של סוויסה מהאלבום “סוויסהלנצח” בוורס של לאבה דום פאק בוי נייס, לא בדוק שיש עוד לייף",
+    "raw_model_response": "מאור מתייחס לחיים, ל\"לייף\", ומביע את הרעיון שיש עוד הרבה מה לחוות ולחיות. הוא אומר שזה המוטו שלו, הגישה שלו לחיים - לצאת החוצה, לחוות אהבה, ולא לפחד מהחיים. זה מעין קריאה לפעולה, להנות מהחיים במלואם.",
+    "cosine_similarity": 71.59,
+    "llm_judge_score": 0,
+    "llm_judge_reasoning": "The model completely missed that the line is an explicit reference to rapper Lava Dome and a quote from the song 'Husham Love', instead hallucinating a generic philosophical interpretation about love and life."
+  },
+  {
+    "id": "heb_rap_065",
+    "fragment": "סיפין הני הני הני, עד שאין אותך",
+    "ground_truth": "הני הוא כמובן הקוניאק של חברת הנסי. בנוסף, יש פה משחק מילים על הצליל של המילה ״הני״ לעומת המילה ״אין״ בהמשך השורה",
+    "raw_model_response": "וייב איש מתאר כאן את הרגע שבו הוא מרגיש אבוד וחסר כיוון, והוא זקוק לאהובתו כדי למצוא את הדרך הנכונה. המילים \"סיפין הני הני הני\" הן ביטוי סלנג שמשמעותו \"אני מבולבל, לא יודע מה לעשות\". הוא אומר שעד שלא תהיה איתו, הוא לא ימצא את הדרך הנכונה, ולכן הוא זקוק לה נואשות.",
+    "cosine_similarity": 70.33,
+    "llm_judge_score": 0,
+    "llm_judge_reasoning": "The AI model completely hallucinates the meaning of 'סיפין הני' (sipping Hennessy cognac), fabricating an entirely incorrect emotional definition instead."
+  },
+  {
+    "id": "heb_rap_066",
+    "fragment": "לכהן את מושון אבל אנ’לא ילד נכון Shout",
+    "ground_truth": "רפרנס לשיר “ילד נכון” של כהן@מושון",
+    "raw_model_response": "שקל משווה את עצמו לאמנים כהן@מושון, ומבהיר שהוא לא ילד קטן יותר, אלא אמן בוגר ומנוסה. הוא צועק את זה כדי להדגיש את המסר.",
+    "cosine_similarity": 72.34,
+    "llm_judge_score": 25,
+    "llm_judge_reasoning": "The model recognized Cohen@Mushon as artists, but completely missed that the line is a shout-out referencing their specific hit song 'Yeled Nachon', hallucinating an entirely fabricated meaning instead."
+  },
+  {
+    "id": "heb_rap_067",
+    "fragment": "אין לי ערק ערק וגם אין לי אוי כפרה שלי",
+    "ground_truth": "כהן מאזכר כאן שני שירים: “ערק” של דודו פארוק ו-“אוי כפרה שלי” ‘של רביד פלוטניק (נצ'י נצ)",
+    "raw_model_response": "כהן מתאר מצב בו אין לו ערק, משקה אלכוהולי פופולרי בתרבות המזרחית, ומביע צער על כך. הוא משתמש בביטוי \"אוי כפרה שלי\" כדי להדגיש את החסר ואת הרצון שלו לשתות ערק.",
+    "cosine_similarity": 77.76,
+    "llm_judge_score": 0,
+    "llm_judge_reasoning": "The model interpreted the fragment literally as a desire for alcohol, entirely missing the cultural references to songs by Dudu Faruk and Ravid Plotnik."
+  },
+  {
+    "id": "heb_rap_068",
+    "fragment": "אני קושר פי אר אל קודס כמו רוקי בי",
+    "ground_truth": "אלפרבר מצליח לקשר בין הפי אר טרופרז לעיר ירושלים, על ידי ההשוואה לרועי אסייג, הידוע יותר כ-רוקי בי, אחד מאמני ההיפהופ הפוריים והיצרניים בסצינה הירושלמית ואחד המגוונים שבהם. סגנונו משלב בהצלחה אלמנטים תיאטרלים ופוליטיים מכל קצוות הקשת: טו-סטפ בריטי כדוגמת רוטס מאנובה ודיזי רסקל; אנטי גנגסטאראפ אמריקני כגון פאבליק אנמי ומוס דף; רגאיי מסונתז כשל סיזלה ובאונטי קילר ועל כל אלה נוספים צלילי ברייקביט המזכירים עבודות של אמני אנטיקון ו-Def Jux. אומנם כיום רוקי בי מתגורר ופעיל בברלין – אך לנצח יוודע ויזכר כרוקי הירושלמי.",
+    "raw_model_response": "האמן משווה את עצמו לרוקי בלבואה, הדמות מהסרט \"רוקי\", ומציג את עצמו כמי שמתמודד עם אתגרים ומגיע להישגים, בדומה לרוקי בסרטים. הוא קושר את שמו (פי.אר) לירושלים (קודס היא מילה ערבית לירושלים), כלומר הוא רואה את עצמו כמי שמתעלה ומגיע להישגים משמעותיים, בדומה לדמות של רוקי.",
+    "cosine_similarity": 74.33,
+    "llm_judge_score": 25,
+    "llm_judge_reasoning": "The model correctly notes the connection to Jerusalem via 'Al-Quds', but completely hallucinates the central reference by mistaking the Jerusalem rapper Rocky B for Rocky Balboa."
+  },
+  {
+    "id": "heb_rap_069",
+    "fragment": "זה מיקרופון לצ’יקי צ’אן צ’יקי צ’יקי צ’אן צ’אן\n מהפי.אר טרופרז עד הוו טאנג קלאן\n שאטגאן קבינט מהראפ לזכייה שלי בגראמי\n ואו.טי מגיע כמו קוואמי\n אני בדואי זקן על השדרה החמישית\n הראש שלי בכרם יו הלב שלי בביט\n עולה על מעבורת כל הדרך לפוקט\n סגיבידיו! אל תעצרו את הטראק",
+    "ground_truth": "8 השורות האלו הן רפרנס לוורס של קוואמי ב'מלחמת מיקרופון הזהב המילים המקוריות: זה מיקרופון או ג'קי צ'אן? צ'יקי צ'יקי צ'אן צ'אן\\מש.ב.ק.ס עד הוו-טאנג קלאן\\בויאקה שב\"ק מהראפ עד לרוק בית הסוהר\\וקוואמי מגיע כמו זוהר\\אני בדואי זקן על השדירה החמישית\\הראש שלי מנהטן יו הלב שלי בביט\\עולה על הרכבת כל הלילה לקהיר\\סגיבידיו\\אל תעצרו את השיר בנוסף, יש פה כמה רפרנסים להרכבים שאורטגה היה (או עד היום) חבר בהם: פי.אר. טרופרז הוא ההרכב שבו אורטגה התחיל את דרכו בשנת 2003, הרכב שמונה בין חבריו את פלד (שלימים אורטגה יחבור אליו להוציא את האלבום ״משלוח מיוחד״), קלין (אנטון אוסטרובסקי – כנראה יותר ידוע לקהל הרחב בשל תפקידיו בסדרות הטלוויזיה ״בלו נטלי״ ו״תא גורדין״), נועה פארן (אחת הראפריות הישראליות היחידות – וכנראה המוכרת ביותר בהן) ולוקץ׳ (שידוע לקהל הרחב בשל שירי הפרודיה שלו ״אני כושי יו יו״ וכו׳ ובתור מי שלקח את נצ׳י תחת חסותו והפך אותו ל״הייפ מן״ שלו). ההרכב התפרק מאז ולא הוציא חומרים חדשים כבר כמעט עשור. שאטגאן הוא רפרנס ל״שאטגאנז״, שהוא אחד משני הסופר-גרופים העיקריים שפעלו בשנים האחרונות בראפ הישראלי. הקולקטיב חבר יחד להוצאת אלבום – ״סוף עונת החרוזים״, שמסמפל שירים של להקות ישראליות (בין השאר, כמובן, גם את ״סוף עונת התפוזים״ של תמוז). ההרכב מורכב מאורטגה, שי 360 (התפרסם בעיקר כחלק מהקולקטיב ״ת.א.ק.ט״ של סאבילימנל, ולאחר מכן יצא לקריירת סולו בצפון אמריקה) וטונה (שלימים פרץ למיינסטרים עם האלבום ״גם זה יעבור״, שהוציא להיטים כמו ״רוק 30״, ״סרט ערבי״ ו״שניצלים״). הוא כרגע בהפוגה, ולא צפוי להוציא חומרים חדשים בזמן הקרוב. לבסוף, קבינט הוא הסופר-גרופ הנוסף (והיחיד שעדיין פועל) בסצנת ההיפ-הופ בישראל היום, ומורכב מהצמד כהן@מושון (כאשר הראשון ביניהם – מיכאל כהן, מתקלט גם בתור Cohen Beats ונחשב לאחד המפיקים בחוד החנית של הפן הטכני בסצנה, והשני – מיכאל מושונוב, בנו של השחקן מוני מושונוב, פורץ לאחרונה בתור כוכב טלוויזיה מעבר לפועלו בתור ראפר), הצמד אקסום (טדרוס וג׳ודיה), פלד ואורטגה. הם הוציאו מספר להיטים כאשר הידוע ביותר בהם – ״סייפר״ – הוא שילוב של פריסטיילים על ביט שאורי שוחט שלף מהמרתף יום בהיר אחד. בדף הג׳ינייס של השיר עצמו תוכלו לראות את אורי שוחט מדבר על ההפקה יותר לעומק.",
+    "raw_model_response": "אורטגה משווה את עצמו לדמויות מוכרות בעולם ההיפ-הופ, כמו צ'יקי צ'אן (דמות קומיקס ואנימציה), חברי להקת פי.אר טרופרז, חברי להקת וו טאנג קלאן, קוואמי (ראפר ישראלי), ומזכיר את הזכייה האפשרית שלו בגראמי. הוא מתאר את עצמו כבדואי זקן, אך עם ראש פתוח וחדשני (הכרם מסמל את הישן, והביט את החדש), והוא עולה על מעבורת כדי להגיע לפוקט (אי בתאילנד), שם הוא רוצה שהמוזיקה שלו תמשיך להתנגן ללא הפסקה.",
+    "cosine_similarity": 77.17,
+    "llm_judge_score": 25,
+    "llm_judge_reasoning": "The model completely missed the primary meaning—an iconic homage to Kwami's verse in Boyaka's 'Milhemet Mikrofon HaZahav' and references to supergroups—hallucinating details while only correctly recognizing a few literal names like PR Troopers and Kwami."
+  },
+  {
+    "id": "heb_rap_070",
+    "fragment": "ראפרים בשקל קונה חמישה בקופיקס",
+    "ground_truth": "רשת הקמעונאות קופיקס ידועה בכך שהיא מוכרת במחיר אחיד של חמישה שקלים למוצר או מספר מוצרים. בחמישה שקלים אפשר לקנות או חמש שקיות במבה קטנות, או חמישה ראפרים כי הם שווים שקל כל אחד.",
+    "raw_model_response": "אורטגה משווה ראפרים זולים, חסרי כישרון, לאפשרות לקנות חמישה פריטים במחיר של שקל אחד בקופיקס, רשת בתי קפה זולה. הוא רומז שיש שפע של ראפרים כאלה, כמו שיש שפע של מוצרים זולים בקופיקס.",
+    "cosine_similarity": 86.52,
+    "llm_judge_score": 75,
+    "llm_judge_reasoning": "The model correctly understands that the line insults cheap, untalented rappers in the context of the discount chain Cofix, but it slightly confuses the pricing math (stating items cost one shekel instead of Cofix's famous five-shekel fixed price)."
+  },
+  {
+    "id": "heb_rap_071",
+    "fragment": "אני מפורסם, מרגיש כמו גיא טיוי",
+    "ground_truth": "גיא טיוי הוא שמו של ערוץ היוטיוב של גיא פודוליץ' שהפך מפורסם עקב הסרטונים המצחיקים שלו. נכון ל-27.06.19 יש לערוץ 266 אלף עוקבים.",
+    "raw_model_response": "יאנג בויז משווים את המעמד שלהם למעמד של כוכבי טלוויזיה מפורסמים, כמו גיא פינס, שמסקרים את האירועים הכי חמים ומדווחים עליהם לציבור הרחב. הם מרגישים שהם במרכז העניינים, כמו כוכבי טלוויזיה, ומקבלים חשיפה ופופולריות.",
+    "cosine_similarity": 68.58,
+    "llm_judge_score": 25,
+    "llm_judge_reasoning": "The model correctly understands the general context of feeling famous, but completely misidentifies 'GuyTV' (the popular YouTuber Guy Podolich) as television celebrities like Guy Pines."
+  },
+  {
+    "id": "heb_rap_072",
+    "fragment": "אם אתה מופע חימום פי נשאר עם הקפוצ’ון",
+    "ground_truth": "למרות שאתה מופע חימום, עדיין לא מספיק חם כאן כדי שאני אוריד את הקפוצ'ון. אפילו את העבודה של לחמם אתה לא עושה מספיק טוב",
+    "raw_model_response": "האמן מתאר מצב בו הוא לא צריך להוריד את הקפוצ'ון, כלומר להיחשף, כי הוא לא המופע הראשי, אלא רק מופע החימום. הוא נשאר \"מאחורי הקלעים\", כך שלא צריך להציג את עצמו באופן מלא.",
+    "cosine_similarity": 79.11,
+    "llm_judge_score": 0,
+    "llm_judge_reasoning": "The model completely misinterprets the punchline, confusing who the warm-up act is and hallucinating a metaphor about staying behind the scenes instead of recognizing the pun on temperature and insulting the other artist."
+  },
+  {
+    "id": "heb_rap_073",
+    "fragment": "מניח פייק אמסיז על משכבם בשיבה טובה\n יְהֵא שְׁלָמָא רַבָּא מִן שְׁמַיָּא. חַיִּים וְשָׂבָע",
+    "ground_truth": "טדרוס פשוטו כמשמעו הורג פייק אמסיז, ולא שוכח לומר .עליהם קדיש כהלכה לאחר מכן",
+    "raw_model_response": "האמן מתאר כיצד הוא \"מניח\" או \"משתיק\" ראפרים מזויפים (פייק אמסיז) ומבטיח להם \"שיבה טובה\", כלומר, חיים טובים ושלווים. הוא מאחל להם \"שלום רב משמים\", כלומר, בריאות ואושר, ומסיים בברכת \"חיים ושבע\", המייחלת להם שפע והצלחה.",
+    "cosine_similarity": 67.3,
+    "llm_judge_score": 25,
+    "llm_judge_reasoning": "The model completely missed the violent metaphor and funeral context (Kaddish recitation over murdered fake MCs), misinterpreting the mortuary prayer and idioms as genuine blessings for a long, happy life."
+  },
+  {
+    "id": "heb_rap_074",
+    "fragment": "שלישייה כמו מיגוס",
+    "ground_truth": "הלם תרבות הם שלישייה – סטילה, חן פורתי ואנדרדוג. במובן הזה הם כמו מיגוס – שלישיית ההיפ הופ האמריקאית המצליחה.",
+    "raw_model_response": "השורה מתייחסת לשלישיית הראפרים האמריקאית מיגוס (Migos), אשר ידועה בסגנון הייחודי והמוזיקלי שלה. האמן משווה את עצמו ואת חבריו לשלישייה מצליחה זו, ומדגיש את הכימיה וההרמוניה ביניהם, בדומה לשלישיית מיגוס.",
+    "cosine_similarity": 80.1,
+    "llm_judge_score": 75,
+    "llm_judge_reasoning": "The model correctly identifies the reference to the American hip-hop trio Migos and the comparison to the artists' group, but it misses the specific context of the group 'Helam Tarbut'."
+  },
+  {
+    "id": "heb_rap_075",
+    "fragment": "אמרה שאין ממה לחשוש, כולי בלבלות בראש\n כמו בדיזינגוף סנטר",
+    "ground_truth": "דיזינגוף סנטר ידוע כמקום שקל ללכת בו לאיבוד , בין השאר בגלל חלוקה לא מוסדרת לקומות, שניתן לעבור ביניהן ללא מדרגות, כי כל הקומות בנויות בזווית ביחס לקרקע (ולא .במקביל כנהוג) מבחינה זו, משווים את הבלבול בדיזינגוף סנטר לבלבול .שחווה איזי בשיר",
+    "raw_model_response": "השורה מתארת תחושה של חוסר דאגה ופחד, בדומה לחוויה של שוטטות בדיזינגוף סנטר, שם הכל נראה בטוח ורגוע, והדובר מרגיש חופשי ומשוחרר.",
+    "cosine_similarity": 77.49,
+    "llm_judge_score": 0,
+    "llm_judge_reasoning": "The model completely misinterprets the line, claiming it describes calm and safety rather than the well-known trope of disorientation and confusion associated with Dizengoff Center."
+  },
+  {
+    "id": "heb_rap_076",
+    "fragment": "אייזיק לא איב יש לי ברימסטון איי",
+    "ground_truth": "בוי צ'יקן מכוון לרפרנס למשחק The Binding Of Issac ששם אתה משחק כדמויות תנכיות במשימה לנצח את אמא של אייזק. הברימסטון במשחק הוא פריט שמחזק בהרבה את השחקן. מה שבוי צ'יקן מנסה להגיד זה שהוא חזק.",
+    "raw_model_response": "יאנג בויז מתייחסים לדמות בשם אייזיק, ומשווים את עצמם לאיב, דמות מקראית. הם טוענים שיש להם כוח רב כמו ברימסטון, דמות מיתולוגית הקשורה לגיהינום, כלומר הם חזקים ומסוכנים.",
+    "cosine_similarity": 78.04,
+    "llm_judge_score": 25,
+    "llm_judge_reasoning": "The model completely missed the core pop-culture reference to the video game 'The Binding of Isaac' and hallucinated mythological origins, but it correctly deduced the general intended meaning that they are strong."
+  },
+  {
+    "id": "heb_rap_077",
+    "fragment": "אה, אין לי מה להוכיח\n והוכחתי את זה היום על המגרש",
+    "ground_truth": "ציטוט של מלך השערים אלון ״אווירון״ מזרחי, שנאמר בראיון לערוץ 1 בסוף משחק. אלון היה אומר הרבה משפטים חסרי הגיון; לדוגמה: שיחקנו הגנתי וניצחנו התקפי אני רוצה לשחק באירופה או בספרד ההתקדמות שלי בכדורגל הישראלי היא כמו אוניברסיטה – אתה מקבל תעודה בכיתה י', תעודה בכיתה יא' ותעודה בכיתה יב'",
+    "raw_model_response": "האמן מתאר מצב בו הוא אינו צריך להוכיח את עצמו או את יכולותיו, שכן הוא כבר הוכיח את זהותו ואת כישוריו במגרש, ככל הנראה בהקשר של ספורט או תחרות כלשהי. הוא בטוח בעצמו וביכולותיו, ולכן אינו מרגיש צורך להוכיח את עצמו שוב.",
+    "cosine_similarity": 66.11,
+    "llm_judge_score": 25,
+    "llm_judge_reasoning": "The model completely missed the cultural reference to Alon Mizrahi's iconic illogical quote, offering only a literal, surface-level interpretation of the words."
+  },
+  {
+    "id": "heb_rap_078",
+    "fragment": "עיניים בנק הפועלים, מעשן ת׳דיסקונט",
+    "ground_truth": "כהן מתכוון לצבעים של הלוגואים של הבנקים האלו, בנק הפועלים מזוהה עם הצבע האדום (הצבע של העיניים בסטלה) והצבע של הלוגו של דיסקונט הוא ירוק (הוויד).",
+    "raw_model_response": "האמן משווה את העיניים לבנק הפועלים, כלומר, העיניים הן כמו כספת שמכילה את כל הרגשות והסודות. הוא מעשן את דיסקונט, כלומר, הוא מנצל את הכסף בבנק כדי לממן את ההרגלים שלו, כמו עישון. השורה הזו היא מטאפורה לחיים של בזבזנות והוללות.",
+    "cosine_similarity": 81.35,
+    "llm_judge_score": 0,
+    "llm_judge_reasoning": "The model completely failed to recognize the metaphor regarding the bank logo colors (red eyes and green weed), hallucinating an incorrect meaning about vaults and lavish spending."
+  },
+  {
+    "id": "heb_rap_079",
+    "fragment": "הקרו שלי לבן כמו הארון של עטר מיינר\n מדינה של גנבים ואתה בן זונה ופראייר",
+    "ground_truth": "דרסו מבצעת מחווה עבור הקולגה עטר מיינר. מיינר ידוע בלבוש הלבן איתו הוא מופיע בהופעות, וכתב של הלהיט “מדינה של גנבים” “כמו כן, דרסו התארחה בלהיט אחר של מיינר,“פרפר .",
+    "raw_model_response": "ישי סוויסה משווה את עצמו לעטר מיינר, זמר ישראלי, ומדגיש את העובדה שהקרו (השם) שלו לבן כמו הארון של עטר, כלומר, הוא מצליח ומפורסם. הוא ממשיך ומביע ביקורת על המדינה, שמכונה \"מדינה של גנבים\", ומכנה את עצמו ואת האחרים \"בן זונה ופראייר\", כלומר, הוא מרגיש מנוצל ומקופח.",
+    "cosine_similarity": 71.18,
+    "llm_judge_score": 25,
+    "llm_judge_reasoning": "The model attributes the verse to the wrong artist and misses both key intertextual references—Atar Mayner's signature all-white wardrobe and his hit song 'Medina Shel Ganavim'—hallucinating metaphorical meanings instead."
+  },
+  {
+    "id": "heb_rap_080",
+    "fragment": "קח את זה באיזי, אתה בין הבודדים",
+    "ground_truth": "רפרנס לשיר “בין הבודדים” של הראפר איזי.",
+    "raw_model_response": "עומר אדם מעודד את המאזין לקחת את החיים בקלות, באיזי, ומדגיש שהוא בין הבודדים שמסוגלים לעשות זאת. כלומר, הוא מציע גישה רגועה וקלילה לחיים, ומציג את עצמו ואת מי שמקשיב לשיר כמישהו מיוחד, שונה מהאחרים ביכולתו לשמור על רוגע.",
+    "cosine_similarity": 74.31,
+    "llm_judge_score": 25,
+    "llm_judge_reasoning": "The model interpreted the phrase entirely literally and missed the core hip-hop reference to the rapper EZ and his song 'Bein Habodedim'."
+  },
+  {
+    "id": "heb_rap_081",
+    "fragment": "פאק בויז השיט שאני לא אוהב\n יאנג בויז השיט שאני כן אוהב\n אם ’תה לא בקרו שלנו אז אתה אויב\n אם ’תה לא בקרו שלנו אז אתה אויב",
+    "ground_truth": "מהפזמון ומשם השיר ניתן להבחין שיש דמיון חזק ובולט בין “I Don’t Like” ״לא אוהב״ של יאנג בויז לבין Chief Keef של .למעשה, כל השיר הוא רפרנס אחד גדול לשיר של צ'יף קיף",
+    "raw_model_response": "יאנג בויז מצהירים על נאמנותם לקבוצה או לחבורה מסוימת (\"קרו\") אליה הם משתייכים. הם מגדירים את עצמם כ\"יאנג בויז\" - צעירים, אנרגטיים ומלאי חיים. השורה מדגישה את ההבדל בין מי שנמצא ב\"קרו\" שלהם, שהוא חלק מהחבר'ה, לבין מי שנמצא מחוץ למעגל הזה, אשר נחשב לאויב. הם מביעים בכך את הנאמנות לחברים שלהם ואת חוסר הסובלנות כלפי מי שאינו חלק מהקבוצה.",
+    "cosine_similarity": 73.57,
+    "llm_judge_score": 25,
+    "llm_judge_reasoning": "The AI accurately explains the literal meaning of the lyrics regarding crew loyalty, but completely misses the core meaning provided in the ground truth, which identifies the fragment as a direct homage and reference to Chief Keef's 'I Don't Like'."
+  },
+  {
+    "id": "heb_rap_082",
+    "fragment": "וויליה רואה אותי ומתעלפת\n מה יש לפלר בפה\n (לא קצף של בירצפת)",
+    "ground_truth": "ויליות הן יצורים קסומים בעולם של הארי פוטר הנראות . כמו נשים עם יופי על-אנושי והמפנט פלר דלאקור היא דמות מהארי פוטר ורבע ויליה (סבתה . הייתה ויליה), היא מתוארת כיפה מאוד בעצמה הזמר מדגיש כמה הוא חתיך שאפילו ויליה כמו פלר נופלת . לרגליו בירצפת היא סוג של משקה בהארי פוטר בעל קצף סמיך . המשקה ומתואר כמתוק ומחמם מאוד",
+    "raw_model_response": "וויליה, ככל הנראה דמות נשית, מתעלפת למראהו של הדובר בשיר. הדובר רומז לכך שיש לפלר (ככל הנראה דמות אחרת) משהו בפה, אך מבהיר שזה לא קצף של בירה (רמז לשתייה מופרזת). הכוונה היא שיש לפלר משהו סודי או מפתה בפה, שמעורר את תשומת לבה של וויליה וגורם לה להתעלף.",
+    "cosine_similarity": 78.15,
+    "llm_judge_score": 25,
+    "llm_judge_reasoning": "The model completely missed the core cultural references to Harry Potter (Veela, Fleur Delacour, and Butterbeer), resulting in a largely hallucinated interpretation aside from reading the literal words."
+  },
+  {
+    "id": "heb_rap_083",
+    "fragment": "בהתחלה הייתי מגמגם כמו מוזס",
+    "ground_truth": "Moses – מוזס – משה משה רבנו הוא דמות מקראית, גדול הנביאים בישראל. לפי המסופר בספר שמות, נבחר על ידי האלוהים כדי להנהיג את בני ישראל בצאתם ממצרים, ושפטם ארבעים שנה בעת לכתם במדבר לארץ ישראל. משה היה “כבד פה וכבד לשון” כלומר הוא היה מגמגם. לרוב אנשים שמתחילים לעשות ראפ, הם צריכים למצוא פלואו, דיקציה, ויכולת לזרום על קצב לכן הם כביכול “מגמגמים”, אסקר מודה שגם הוא לא התחיל מושלם וגם כשהוא התחיל לעשות ראפ הוא התקשה.",
+    "raw_model_response": "אסקר משווה את עצמו למשה רבנו, \"מוזס\" בשמו הלועזי, שהיה מגמגם בדיבורו. השורה מתארת את תחילת דרכו של אסקר, בה הוא מתקשה לבטא את עצמו במילים, בדומה למשה.",
+    "cosine_similarity": 83.69,
+    "llm_judge_score": 75,
+    "llm_judge_reasoning": "The model correctly identifies the biblical reference to Moses's speech impediment and its connection to the artist's beginnings, but misses the specific hip-hop context of struggling with flow and rap delivery."
+  },
+  {
+    "id": "heb_rap_084",
+    "fragment": "אני חוזר, כמו צ’קים של ענבל אור\n אני חוזר, כמו צ’קים של ענבל אור",
+    "ground_truth": "ענבל אור היא יזמת נדל\"ן שפשטה רגל לאחר שחברתה פורקה ע\"י בית המשפט בשל הונאות שביצעה.",
+    "raw_model_response": "ענבל אור הייתה יזמית נדל\"ן ישראלית שהפכה לסמל של הונאה כלכלית. הצ'קים שלה היו ידועים ככאלה שלא מכבדים אותם, כלומר הם \"חוזרים\" מהבנק. האמן משווה את עצמו לצ'קים של ענבל אור, כלומר מבטיח לחזור, אך למעשה לא מקיים, בדומה לצ'קים חסרי הכיסוי שלה.",
+    "cosine_similarity": 81.24,
+    "llm_judge_score": 100,
+    "llm_judge_reasoning": "The model accurately explains who Inbal Or is, correctly identifies the punchline based on bounced checks ('צ'קים חוזרים'), and captures the full context of the line."
+  },
+  {
+    "id": "heb_rap_085",
+    "fragment": "עדיף תחפש איפה אפי",
+    "ground_truth": "“איפה אפי?” היא סדרה של ספרי ילדים בספרים אלו הקורא צריך לאתר איש מסוים, אפי, בתוך ציור עמוס בדמויות ובפרטים שונים. אפי לובש חולצה עם פסים",
+    "raw_model_response": "אפי הוא כינוי לאף, והשורה אומרת למעשה: \"עדיף שתחפש את האף שלך במקום אחר\". כלומר, האמן מציע למאזין לחפש תשובות או פתרונות במקום אחר, שכן הוא לא ימצא אותם אצלו.",
+    "cosine_similarity": 68.11,
+    "llm_judge_score": 0,
+    "llm_judge_reasoning": "The AI completely hallucinated that 'אפי' means 'nose' rather than recognizing the obvious reference to the 'Where's Wally/Waldo?' (איפה אפי?) book series."
+  },
+  {
+    "id": "heb_rap_086",
+    "fragment": "?שקד שלחתי לך הודעה למה לא ענית\n לא ראיתי\n ..אבל\n אהה..אבל יש שם 2 וי-ים, ראיתי שראית",
+    "ground_truth": "באפליקציות המסרים הפופולריות וואטסאפ וטלגרם, ניתן לראות האם אדם מסוים קרא את ההודעה שנשלחה אליו באמצעות שני וי-ים הצבועים בצבע (בוואטסאפ הוי-ים כחולים ובטלגרם ירוקים). .שקד נתפס פה בשקר עקב הוי-ים",
+    "raw_model_response": "שקד לא ענתה להודעה שנשלחה אליה, אך השולח טוען שראה שני וי-ים, מה שמעיד על כך שהיא קראה את ההודעה, אך בחרה לא להגיב.",
+    "cosine_similarity": 86.82,
+    "llm_judge_score": 100,
+    "llm_judge_reasoning": "The AI model accurately explains the meaning of the two checkmarks as read receipts and precisely captures the context of the situation."
+  },
+  {
+    "id": "heb_rap_087",
+    "fragment": "כמעט עשרים שנה עברו מאז שרנו על סטיקרים אבל הכתובת עוד על הקיר",
+    "ground_truth": "התייחסות ל-“שיר הסטיקר” של הדג נחש – שיר שהורכב ברובו המוחלט ממשפטים שהיו על סטיקרים (מדבקות שהופצו והודבקו במקומות שונים בארץ) וייצגו עמדה בנושא מסוים, ומעלה כמה סטיקרים בנוגע לרבין ופועלו, שיוצרו והופצו עוד לפני שנרצח (ואפילו ניתן לשמוע בסוף השיר הטענת אקדח). במקרה זה יתכן ששאזאמאט מתכוונים לשנאה שמכוונת לפוליטקאים שיכולה להוביל לאירועי רצח, כברצח רבין, אך יתכן כי מדובר כאן כבכל השיר על שנאה שמופנת כלפי איזה־שהוא אדם ויכולה להסלים מהר.",
+    "raw_model_response": "האמן מתייחס לשיר \"סטיקרים\" של להקת \"הדג נחש\", שיצא לפני כמעט עשרים שנה. הוא טוען שהמסר של השיר עדיין רלוונטי וה\"כתובת\" - כלומר, המסר החברתי והביקורתי - עדיין \"על הקיר\", כלומר, לא השתנה הרבה מאז.",
+    "cosine_similarity": 71.24,
+    "llm_judge_score": 100,
+    "llm_judge_reasoning": "The AI model correctly identified the reference to Hadag Nahash's 'Shirat HaSticker' and accurately explained the metaphor of the writing remaining on the wall."
+  },
+  {
+    "id": "heb_rap_088",
+    "fragment": "חקירה? בכלל לא סרט\n כולי על שקט לא תוציא ממני רטט",
+    "ground_truth": "משחק מילים כפול. החקירה לא קשה בשבילו בגלל שהוא עבר כבר המון כאלה, ובגלל זה היא לא “סרט רע”. וייב אש יודע לשתוק בחקירה ואז הוא שקט כמו טלפון בזמן סרט.",
+    "raw_model_response": "האמן טוען שהוא לא מודאג מחקירה משטרתית, הוא בטוח בעצמו ובטוח שלא יוציאו ממנו מידע. הוא מתאר את עצמו כ\"על שקט\", כלומר, הוא שומר על קור רוח ולא מתרגש מהמצב, ולכן לא יספק רמזים או רעידות (רעידות יכולות להתפרש כסימן לחוסר ביטחון או פחד).",
+    "cosine_similarity": 78.01,
+    "llm_judge_score": 50,
+    "llm_judge_reasoning": "The model correctly understands the general context of maintaining silence and composure during an interrogation, but completely misses the clever double wordplay connecting movie theater etiquette ('סרט') to mobile phone settings ('שקט' and 'רטט')."
+  },
+  {
+    "id": "heb_rap_089",
+    "fragment": "יש פה אחלה רוף, אני שנייה בודק גישה חוזר\n אם רצים על זה שלושה עולים לדפוק אחד שומר\n מטפסים לאט מציירים מהר\n ואם זה לא איזה מנאייק אפ’חד לא עוצר - רק אומר",
+    "ground_truth": "מוצאים את המקום לעשות בו גרפיטי – איזשהו גג. מתוך הקרו של הארבעה אחד נשאר כדי להזהיר אם מתקרבת משטרה. עולים לגג לאט כדי לא למשוך תשומת לב לא רצויה ומציירים את הפיס מהר",
+    "raw_model_response": "האמן מתאר כאן את תהליך הכניסה לגג (רוף) של מבנה כלשהו. הוא אומר שהוא בודק את הגישה, כלומר בוחן את האפשרות להגיע לגג, ואם יש שלושה אנשים שיטפסו, אחד מהם ישמור. הם מטפסים לאט, מציירים (מבצעים גרפיטי) מהר, ואם אין שומר (מנאייק), אף אחד לא יעצור אותם.",
+    "cosine_similarity": 81.01,
+    "llm_judge_score": 75,
+    "llm_judge_reasoning": "The model correctly captures the overall scene and graffiti context, but misinterprets the slang term 'מנאייק' as a security guard rather than the police, and slightly confuses the division of the crew."
+  },
+  {
+    "id": "heb_rap_090",
+    "fragment": "אנ’לא פרפר, אנ’לא נחמד",
+    "ground_truth": ":ייתכן שיש שני רפרנסים שונים בשורה הזאת • “סדרת הילדים הישנה \"פרפר נחמד • :שיר הילדים אז בוא אליי פרפר נחמד שב אצלי על כף היד שב, תנוח, אל תפחד",
+    "raw_model_response": "רון נשר מתאר את עצמו כמישהו שלא מתנהג בצורה נחמדה או תמימה, אלא כמי שמביע את דעותיו בחופשיות ובלי פחד, גם אם הן לא מקובלות או נחשבות ל\"נחמדות\". הוא לא מנסה להתחנף או להתאים את עצמו לנורמות חברתיות, אלא נשאר נאמן לעצמו ולאופי שלו, גם אם זה לא תמיד מתקבל בברכה.",
+    "cosine_similarity": 66.35,
+    "llm_judge_score": 50,
+    "llm_judge_reasoning": "The model correctly captures the general sentiment of not being naive or polite, but completely misses the explicit cultural reference and wordplay regarding the children's show and song 'Parpar Nechmad'."
+  },
+  {
+    "id": "heb_rap_091",
+    "fragment": "המצאנו את הסלנג שמשתמשים בו בהאנג ’שך\n לא נכון כמו צ’ופסטיקס, זה שיט שלא אוכל בקופיקס",
+    "ground_truth": "פאנץ' מתגלגל של קיד – תלא ממציאים את הסלנג שהנמען של הוורס הזה עושה בו שימוש לא נכון, כמו שהוא לא יודע להשתמש בצ'ופ סטיקס – או מקלות סיניים, שהאכילה בהם דורשת מיומנות החלק השני של הפאנץ' הוא שבקופיקס – רשת המוכרת מזון עממי וזול – אין סיכוי שישתמשו בצ'ופסטיקס, שכאמור דורש תחכום מסוים אגב, ככה משתמשים בצ'ופ סטיקס",
+    "raw_model_response": "האמן מתאר את הסלנג הייחודי שהם המציאו, כזה שמשתמשים בו רק בהאנג-אאוט שלהם. הוא משווה את הסלנג לצ'ופסטיקס, כלי אכילה לא נוח, ומדגיש שהסלנג שלהם הוא \"שיט\" (ביטוי סלנג לעניין לא טוב) שלא ניתן למצוא או להשתמש בו בקופיקס, רשת בתי קפה זולה. כלומר, הסלנג שלהם ייחודי ולא נפוץ כמו צ'ופסטיקס בקופיקס.",
+    "cosine_similarity": 80.91,
+    "llm_judge_score": 25,
+    "llm_judge_reasoning": "The model completely misinterprets the syntax and punchlines—falsely claiming the slang is used in their own hangout rather than the addressee's, missing the meaning of 'misusing it like chopsticks', and misunderstanding the slang terms 'shit' and 'לא אוכל'."
+  },
+  {
+    "id": "heb_rap_092",
+    "fragment": "אז הוא חצה איזה ים לשתיים",
+    "ground_truth": "איזכור חציית ים סוף ביציאת מצריים. וְאַתָּה הָרֵם אֶת מַטְּךָ וּנְטֵה אֶת יָדְךָ עַל הַיָּם וּבְקָעֵהוּ וְיָבֹאוּ בְנֵי יִשְׂרָאֵל בְּתוֹךְ הַיָּם בַּיַּבָּשָׁה",
+    "raw_model_response": "עמית אולמן מתייחס למשה רבנו, אשר על פי המסורת היהודית חצה את ים סוף לשתיים, ובכך הציל את בני ישראל מעבדות במצרים. השורה מדגישה את העוצמה והכוח של הדמות, שמסוגלת לבצע מעשים על-טבעיים.",
+    "cosine_similarity": 76.08,
+    "llm_judge_score": 100,
+    "llm_judge_reasoning": "The AI accurately identifies the biblical allusion to Moses parting the Red Sea during the Exodus, fully capturing the meaning of the fragment."
+  },
+  {
+    "id": "heb_rap_093",
+    "fragment": "שקיות של דם זרקו אל המרתף",
+    "ground_truth": "טדי מרפרר לפרשת השמדת מנות הדם של עולי אתיופיה מ-1996 הנוגעת למדיניות מד\"א בקשר להתנהלות עם תרומות הדם של יוצאי אתיופיה. צוותי מד\"א אכן אספו דם מאתיופים ואף חילקו להם “תעודת תורם דם” אך תרומותיהם “נזרקו למרתף” ולא נעשה בהם שימוש כלל עקב חשש למחלות אשר היו לכאורה נפוצות יותר אז בקרב האוכלוסייה האתיופית מאשר האוכלוסייה ככלל.",
+    "raw_model_response": "טדי נגוסה מתאר מצב בו אנשים זורקים שקיות דם למרתף, מה שמעיד על פעילות לא חוקית או מחתרתית הקשורה לדם, אולי אפילו למעבדה מחתרתית כלשהי.",
+    "cosine_similarity": 75.04,
+    "llm_judge_score": 0,
+    "llm_judge_reasoning": "The model completely missed the historical reference to the 1996 Ethiopian blood donations scandal and instead hallucinated an unfounded scenario about an underground laboratory."
+  },
+  {
+    "id": "heb_rap_094",
+    "fragment": "זים, זגזים, כוסית מהמגזין",
+    "ground_truth": "אזכור לשיר ״כוסית היא כוסית״:",
+    "raw_model_response": "השורה מתארת אישה יפה ומפתה, עם שימוש במילים ייחודיות ומקוריות. \"זים\" ו\"זגזים\" הן מילים סלנגיות המתארות את היופי והגוף הנשי, וכוסית היא כינוי לאישה מושכת. השורה כולה מדגישה את היופי החיצוני של האישה, כאילו היא יצאה מתוך מגזין אופנה או מגזין לגברים.",
+    "cosine_similarity": 78.29,
+    "llm_judge_score": 25,
+    "llm_judge_reasoning": "The model missed the core reference to the iconic song 'Kusit Hi Kusit' and hallucinated definitions for the nonsensical rhyming words 'זים זגזים', only correctly identifying the literal meaning of 'כוסית מהמגזין'."
+  },
+  {
+    "id": "heb_rap_095",
+    "fragment": "וולקאם בוצדם עוד פעם עשיתי עם ג’יי קיי\n (רולינג דאון דה סטריט ויז מיי נימבוס סיפינג און ג’ין & ג’וס)",
+    "ground_truth": "השורות מלאות רפרנסים למונחים מהארי פוטר בהם הזמר משתמש כדי להוכיח שהוא יותר טוב ממי שהוא . עושה עליו דיס בוצדם\" – כינוי גנאי חריף לקוסם להורים מוגלגים (חסרי קסם) ג'יי קיי רולינג – שמה של מחברת ספרי הארי פוטר. הזמר משחק על שמה ואומר כי הוא עשה עם ג'יי, קיי (כינוי לקוקאין) ושהוא “רולינג” (נוסע/מתמסטל) ברחובות על נימבוס (סוג מטאטאים מעופפים מהעולם של הארי פוטר וסוג המטאטא הראשון של הארי בעצמו)",
+    "raw_model_response": "האמן מתייחס לסדרת הספרים והסרטים המצליחה \"הארי פוטר\", שנכתבה על ידי הסופרת ג'יי.קיי. רולינג. הוא משלב את שמה של הסופרת עם הביטוי \"רולינג דאון דה סטריט\", כלומר, הוא ממשיך את הדרך שהתוותה רולינג בעולם הקסום של הארי פוטר. הוא עושה זאת שוב, \"עוד פעם\", ומשלב את רכיבה על המטאטא הקסום, ה\"נימבוס\", עם שתיית \"ג'ין וג'וס\" (ג'ין וטוניק).",
+    "cosine_similarity": 82.84,
+    "llm_judge_score": 50,
+    "llm_judge_reasoning": "The model correctly identifies the Harry Potter theme, J.K. Rowling, and the Nimbus broom, but completely misses the core slang meanings of 'בוצדם' (Mudblood) as well as the drug and hip-hop wordplay on 'ג'יי קיי' and 'רולינג'."
+  },
+  {
+    "id": "heb_rap_096",
+    "fragment": "אם להיות כן כמו הכלב על הדאש",
+    "ground_truth": "מאור מדבר על בובות באבל הד של כלבים שאנשים נוהגים לשים על הדאשבורד באוטו שלהם, כשנוסעים הראש של הבובה זז וזה נראה כאילו הוא מהנהן “כן” עם הראש",
+    "raw_model_response": "מאור משווה את עצמו לכלב שיושב על הדשבורד של המכונית, כלומר הוא מדבר על כנות מוחלטת ובלתי מתפשרת, כמו כלב נאמן שמגלה את כל מה שהוא יודע ללא פחד או מחסומים.",
+    "cosine_similarity": 79.4,
+    "llm_judge_score": 25,
+    "llm_judge_reasoning": "The model correctly identifies the dashboard dog and the literal meaning of being honest, but completely misses the core pun about a bobblehead dog nodding 'yes' (כן) and hallucinates an explanation about dog loyalty."
+  },
+  {
+    "id": "heb_rap_097",
+    "fragment": "אותיות בעברית עם משמעות באנגלית תזכור את\n העובדה צורח - פ׳ כי אנ’לא מקבל משכורת",
+    "ground_truth": "בעברית, האות פ' נשמעת כמו המילה באנגלית “Pay” שמתורגמת לתשלום. מילימטר צורח שהוא רוצה משכורת, אך לא מקבל אותה.",
+    "raw_model_response": "האמן מתייחס למשחק מילים בין האות פ' בעברית למשמעותה באנגלית, שהיא 'F', המייצגת את המילה 'צורח' (צרח באנגלית). הוא מדגיש את העובדה שהוא לא מקבל משכורת, ולכן הוא 'צורח' את המילים שלו, כלומר, הוא מוציא את הכעס והתסכול שלו דרך המוזיקה.",
+    "cosine_similarity": 80.9,
+    "llm_judge_score": 25,
+    "llm_judge_reasoning": "The model correctly notes the frustration regarding not receiving a salary from the literal text, but completely hallucinates the slang wordplay by linking the letter 'Pe' to 'F' and 'screaming' instead of English 'Pay'."
+  },
+  {
+    "id": "heb_rap_098",
+    "fragment": "נוסיף לה זרת ונקבל צורת שטן המיוחסת לרוק כבד",
+    "ground_truth": "מחוות קרני השטן היא מחווה גופנית הידועה בסצנת המטאל והרוק הכבד אם תוסיף להצבעה את הזרת, תקבל את המחווה הזאת",
+    "raw_model_response": "עמית אולמן מתייחס לצורת היד המוכרת בעולם הרוק כבד, בה מרימים את הזרת והאצבע המורה ויוצרים צורת שטן או \"שטן כבד\". הוא מציע להוסיף זרת לצורת היד המוכרת של ירושלים, ובכך ליצור מחווה כפולה - הן לעיר הקודש והן לסצנת הרוק הכבד.",
+    "cosine_similarity": 80.43,
+    "llm_judge_score": 100,
+    "llm_judge_reasoning": "The model accurately explains the sign of the horns rock gesture and correctly grasps both the meaning and the broader song context."
+  },
+  {
+    "id": "heb_rap_099",
+    "fragment": "ויצאו מארון אחד לארון אחר",
+    "ground_truth": ",“איזי עושה בשורה הזאת שימוש חכם על \"יציאה מהארון משפט שנאמר על אדם שמודה במשיכה המינית האמיתית .שלו, כשה\"ארון האחר” הוא ארון קבורה :כשאיזי אומר את השורה הוא בעצם אומר הם יצאו מהארון והודו במשיכה המינית שלהם ובגלל זה .הם נרצחו ונכנסו לארון קבורה",
+    "raw_model_response": "השורה מתייחסת למעבר בין מצבים או זהויות שונות, בדומה למעבר מארון אחד לאחר. האמן מתאר כיצד אנשים יכולים לשנות את התנהגותם או את האופן בו הם מציגים את עצמם, בדומה לשינוי בגדים מארון אחד לאחר. זה יכול לרמוז על חוסר אותנטיות או על כך שאנשים מסתירים את מי שהם באמת.",
+    "cosine_similarity": 77.57,
+    "llm_judge_score": 0,
+    "llm_judge_reasoning": "The model completely missed the double entendre involving 'coming out of the closet' (sexual orientation) and a coffin (burial/murder), hallucinating an irrelevant interpretation about changing clothes and lack of authenticity."
+  },
+  {
+    "id": "heb_rap_100",
+    "fragment": "אתה כמו תינוק אז לשחק מולך זה סל קל",
+    "ground_truth": "תינוק לא יכול לשחק כדורסל לכן קל לקלוע נגדו (“סל קל”). בנוסף, סל־קל הוא כיסא נישא לתינוק שמשמש בד\"כ בנסיעות ברכב.",
+    "raw_model_response": "יאנג בויז משווים את היריב שלהם לתינוק, כלומר מישהו חסר ניסיון וחסר יכולת להתמודד איתם. הם טוענים שזה קל לשחק מולו, כמו לשחק מול תינוק. השורה היא מטאפורה שמדגישה את הפער ביכולות ביניהם.",
+    "cosine_similarity": 74.09,
+    "llm_judge_score": 50,
+    "llm_judge_reasoning": "The model understood the literal meaning of it being easy to play against the opponent, but completely missed the central double entendre and punchline of 'סל-קל' being an infant car seat."
+  },
+  {
+    "id": "heb_rap_101",
+    "fragment": "באתי פה לשבור שורות במעונות מבשל אמת",
+    "ground_truth": "שובר שורות היא סדרת טלוויזיה שגלגלה את קורותיו של וולטר ווייט – מורה לכימיה בתיכון שפונה לבישול קריסטל מת' זי משחק עם המונח ‘בישול מת’ ומבשל אמת",
+    "raw_model_response": "ג'יגה ג'וס מתכוון שהוא בא לשנות את הסטטוס קוו ולשבור את השורות המקובלות והצפויות בשירים. הוא מבטיח להביא אמת ויצירה אותנטית, ומשווה את זה למטבח, בו הוא מבשל את האמת שלו.",
+    "cosine_similarity": 67.17,
+    "llm_judge_score": 25,
+    "llm_judge_reasoning": "The model completely missed the central pop-culture pun referencing the show 'Breaking Bad' (שובר שורות) and cooking crystal meth, instead interpreting the lyrics literally."
+  },
+  {
+    "id": "heb_rap_102",
+    "fragment": "והשכנה שלי צורחת לי כמו גברת ברכה (שקטטט!!)",
+    "ground_truth": "רפרנס לדמות האלמותית של הפיג׳מות – גברת ברכה, ולצעקות ה״שקט״ שלה אל השכנים.",
+    "raw_model_response": "השכנה של האמן צורחת כמו גברת ברכה, דמות מוכרת מהטלוויזיה, ככל הנראה בהתייחסות לתוכנית \"שש עם\" בהגשת יונית לוי, בה הופיעה ברכה כפרשנית לענייני ביטחון. הצריחה של השכנה היא ככל הנראה בעקבות רעש או מטרד כלשהו, והאמן מבקש ממנה בשקט ובנימוס להפסיק.",
+    "cosine_similarity": 80.52,
+    "llm_judge_score": 0,
+    "llm_judge_reasoning": "The model completely hallucinates the cultural reference, bizarrely identifying Mrs. Bracha as a security commentator on the news instead of the iconic character from 'HaPijamot'."
+  },
+  {
+    "id": "heb_rap_103",
+    "fragment": "מעגל המעריצים שלך לא סוגר חצי מניין",
+    "ground_truth": "מניין היא קבוצה של עשרה יהודים שהתקבצו לטובת קיום מצווה זו בעצם דרך של כהן להגיד – אין לך אפילו חמישה מעריצים",
+    "raw_model_response": "האמן טוען שהמעגל החברתי של המעריצים שלו קטן מאוד, פחות מחצי מניין אנשים, כלומר פחות מ-6 אנשים. זה מעיד על כך שהפופולריות שלו נמוכה, ואין לו קהל גדול שמעריץ אותו.",
+    "cosine_similarity": 74.72,
+    "llm_judge_score": 75,
+    "llm_judge_reasoning": "The model accurately explains the punchline's meaning regarding having very few fans, but misses explicitly defining 'minyan' as a 10-person quorum, leading to an awkward 'less than 6' calculation instead of 5."
+  },
+  {
+    "id": "heb_rap_104",
+    "fragment": "?תגידי, יש לך אהוב בסיירת חרוב? או שיש לך חרוב בסיירת אהוב",
+    "ground_truth": "אזכור לשיר “יש לי אהוב בסיירת חרוב” שבוצע על ידי להקת פיקוד מרכז בשנת 1970",
+    "raw_model_response": "השורה היא משחק מילים על שם יחידת סיור צבאית, \"סיירת חרוב\", ועל שם פרי, \"חרוב\". לוקץ' שואל את האישה אם יש לה אהוב (בן זוג) בסיירת חרוב, או לחלופין, אם יש לה חרוב (הפרי) בסיירת אהוב (מקום אהוב). זה משחק מילים כפול, שמדגיש את הכפילות שבמשמעות המילים.",
+    "cosine_similarity": 72.87,
+    "llm_judge_score": 25,
+    "llm_judge_reasoning": "The model completely missed the core cultural reference to the famous 1970 song 'יש לי אהוב בסיירת חרוב' and instead hallucinated a literal wordplay involving the carob fruit."
+  },
+  {
+    "id": "heb_rap_105",
+    "fragment": "לגמור בבום גדול כמו קוזו אוקמוטו",
+    "ground_truth": "נימי מזכיר פה את קוזו אוקמוטו, מחבל יפני מארגון הטרור “הצבא האדום היפני”, שעמד בראש החולייה שביצעה את הטבח בנמל התעופה בלוד ב1972. ב1985 קוזו שוחרר מהכלא בעסקת חילופי שבויים, ונכון ל2003, חי בלבנון כאדם חופשי. נימי אומר שהוא כמו קוזו אוקמוטו כי למרות מה שעשה, הוא נשאר אדם חופשי. מקורות: the japan times (אנגלית) ארכיון המדינה עוד מידע על הצבא האדום היפני (באנגלית)",
+    "raw_model_response": "קוזו אוקמוטו היה חבר בארגון הטרור היפני \"הצבא האדום היפני\" שביצע פיגוע ירי בבניין הקונגרס האמריקאי ב-1975. השורה מתייחסת לסיום דרמטי ואלים, בדומה לפיגוע של אוקמוטו.",
+    "cosine_similarity": 79.73,
+    "llm_judge_score": 25,
+    "llm_judge_reasoning": "While the model correctly identifies Kozo Okamoto and the Japanese Red Army, it severely hallucinates his terrorist attack (claiming an attack on the US Congress rather than the Lod Airport massacre) and misses the core meaning of the line."
+  },
+  {
+    "id": "heb_rap_106",
+    "fragment": "יש לי כבר כמה בילי ג׳ינס, אני מון ווקינג\n הילד לא שלי, הוא רק נשמע כמוני",
+    "ground_truth": "Billie Jean אזכור לקלאסיקה של מייקל ג'קסון השיר מספר על בחורה צעירה שטוענת שמייקל הוא האב של הילד שלה, בעוד שמייקל טוען שלא. לאזכור זה יש שלוש משמעויות: הראשונה, יש לו כבר כמה קלאסיקות גדולות בהיפ הופ הישראלי. השניה, מדובר בסוג של פלקס על כך שהוא שוכב עם הרבה בחורות. מדובר גם במעין עקיצה לראפרים שמושפעים מהסגנון של שאיי (או מנסים לחקות אותו) – שאיי אומר שאמנם הילד לא שלו, אבל הוא נשמע כמוהו. שאיי ביצע עקיצה כזו בעבר בשיר לנסר/גיג עוד אחד שמנסה להיות שאיי, אוקיי, שינסה חזק יותר",
+    "raw_model_response": "שאיי מתגאה בכך שיש לו כמה \"בילי ג'ינס\", כלומר יש לו כמה נשים שהוא מנהל איתן מערכת יחסים, בדומה לדמותו של בילי ג'ין בשיר המפורסם של מייקל ג'קסון. הוא טוען שהילד לא שלו, אך הוא \"נשמע כמוני\", כלומר יש לו דמיון אליו, אולי מבחינת התנהגות או אופי, מה שמעיד על כך שהוא משפיע על הדור הצעיר.",
+    "cosine_similarity": 86.67,
+    "llm_judge_score": 50,
+    "llm_judge_reasoning": "The model correctly identifies the Michael Jackson reference and the flex about women, but misses the core hip-hop punchlines regarding having classic hits and dissing rappers who bite his musical style."
+  },
+  {
+    "id": "heb_rap_107",
+    "fragment": "מעשן טיקאל ארבעים בחודש פק”ל\n מספיק טיפש אחד לשרוף את המוח שלו כמו קק”ל",
+    "ground_truth": "טיקאל – מריחואנה. ארבעים בחודש – ארבעים גרם, הרבה מאוד. פק\"ל – באופן סדיר. תשרוף… כמו קק\"ל – כמו יערות קק\"ל, שדליקים מאוד.",
+    "raw_model_response": "רון עשהאל מתייחס כאן לצריכת סמים, במיוחד מריחואנה מסוג טיקאל, ומשווה אותה לפעילות של הקרן הקיימת לישראל (קק\"ל). הוא טוען שצריכת סמים יכולה לגרום לאדם להיות \"מספיק טיפש\" ולשרוף את המוח שלו, בדומה לפעילות קק\"ל, שלעיתים נתפסת כפעילות לא יעילה או מבוזבזת. השורה מבקרת את צריכת הסמים ואת ההשפעה שלה על המוח, תוך שימוש בהומור ובמשחק מילים עם ראשי התיבות של קק\"ל.",
+    "cosine_similarity": 78.21,
+    "llm_judge_score": 25,
+    "llm_judge_reasoning": "The model correctly identifies 'טיקאל' as marijuana, but completely hallucinates the punchline by claiming KKL is referenced for inefficiency rather than the well-known forest fires associated with KKL forests, while also ignoring 'ארבעים בחודש' and 'פק\"ל'."
+  },
+  {
+    "id": "heb_rap_108",
+    "fragment": "תקוע במשחק כמו ג’ומנג’י (היי)",
+    "ground_truth": "ג'ומנג'י הוא סרט שיצא בשנת 1995 שמדבר על משחק קופסא שמעורב עם המציאות. כוכב הסרט (רובין וויליאמס) נתקע בתוך המשחק למשך 26 שנה. בריבוט לסרט שיצא ב-2017, ארבעת המתבגרים שמשחקים במשחק (הפעם בקונסולת וידיאו) נשאבים לתוך המשחק ופוגשים שם באלכס, שהיה תקוע בתוך המשחק למשך 20 שנה.",
+    "raw_model_response": "האמן משווה את המצב בו הוא נמצא למשחק ג'ומנג'י, משחק לוח בו השחקנים חווים הרפתקאות ומשימות שונות. הוא מרגיש תקוע במצב מסוים, כאילו הוא תקוע במשחק הזה ללא יכולת לצאת ממנו, בדומה למשחק ג'ומנג'י בו השחקנים צריכים לסיים את המשימות כדי לנצח.",
+    "cosine_similarity": 76.57,
+    "llm_judge_score": 75,
+    "llm_judge_reasoning": "The model correctly captures the core metaphor of being trapped inside the game without being able to leave, though it describes Jumanji primarily as a board game rather than referencing the iconic movie plot of being physically sucked into and stuck in the game for decades."
+  },
+  {
+    "id": "heb_rap_109",
+    "fragment": "אז כל ה”עכברים” יוצאים כי פתאום ניגנתי בחליל",
+    "ground_truth": "תשע מילימטר מאזכר פה את אגדת “החלילן מהמלין”, אגדת עם נפוצה שגרסאות שלה ידועות כבר מימי הביניים ועלילתה מתרחשת בעיר המלין שבגרמניה בעת מגפת העכברושים .שפרצה בה בשנת 1284 :בקצרה על עלילת האגדה בעיר המלין של שנת 1284 פורצת מגפת עכברושים שתושביה מנסים בכל כוחם להילחם בה אבל ללא כל הצלחה, מגיע לעיר חלילן מסתורי עם הצעה לגרש את כל העכברושים מהעיר .בתמורה לתשלום התושבים שלא הצליחו אפילו לגרד עכברוש מהעיר מטילים בו .ספק, קוראים לו שוטה ולא מוכנים להצעה האגדה ממשיכה וניתן לכם להנות מההמשך שלה בעצמכם אך מוסר ההשכל ממנה הוא שלשקר לפעמים גורם לעונש .אכזרי שאין כמוהו בהתקשר לשורה, העכברים הם העוקבים של 9 מילימטר והם עוקבים אחריו עם המוזיקה שלו כמו שעכברי וילדי המלין אחרי .החלילן והניגונים שלו",
+    "raw_model_response": "האמן מתייחס למצב בו הוא מושך תשומת לב והערצה מהקהל, בדומה לסיפורו של פינוקיו, בו העכברים נמשכים לחלילו של ג'פטו. השורה מתארת כיצד האמן, באמצעות המוזיקה שלו, הופך להיות מרכז תשומת הלב והקהל \"יוצא מהחורים\" כדי לראות אותו.",
+    "cosine_similarity": 75.97,
+    "llm_judge_score": 50,
+    "llm_judge_reasoning": "The model correctly understands the metaphor of music attracting an audience like mice, but hallucinates that this is from the story of Pinocchio and Geppetto instead of the Pied Piper of Hamelin."
+  },
+  {
+    "id": "heb_rap_110",
+    "fragment": "יור סיטי איז דה בומב איף יו סיטי מקינג פיי",
+    "ground_truth": "-עדן עושה כאן אינטרפולציה ל “California Love” של טופאק וד״ר דרה. בהופעה של עדן ודי ג׳יי מש בירושלים בדצמבר 18׳ עדן נתנה כבוד לאולסקול כששילבה את “Who Shot Ya” -של ביגי ו- “Hit Em Up” של טופאק שיצא בתגובה בסט. השירים מהווים חלקים מרכזיים במלחמה בין האיסט לווסט קואסט, עדן ומש בוחרים לתת כבוד לשניהם.",
+    "raw_model_response": "\"העיר שלך היא פצצה אם העיר שלך עושה כסף.\"",
+    "cosine_similarity": 64.57,
+    "llm_judge_score": 25,
+    "llm_judge_reasoning": "The model accurately translated the transliterated English words into Hebrew, but completely missed the cultural context and musical interpolation of 2Pac's 'California Love' that forms the core of the ground truth."
+  },
+  {
+    "id": "heb_rap_111",
+    "fragment": "ואומר לי כמו ליעד זה נסטי",
+    "ground_truth": "איזכור לשיר “נסטי פריסטייל” של ליעד מאיר, הראפר האהוב על רון חיון. השיר הופק על ידי 314, חברת ההפקות של הילל גוטמן (ששר וורס בשיר) ואחיו מיכאל גוטמן, שמאוזכרת גם בשיר הזה, בוורס הראשון.",
+    "raw_model_response": "האמן משווה את עצמו ליעד, חברו, ומדגיש שהם דומים בכך שהם אוהבים דברים נסטיים, כלומר, דברים מגניבים, ייחודיים ומחוץ לקופסה. השורה מדגישה את החיבור והזהות המשותפת בין השניים.",
+    "cosine_similarity": 77.62,
+    "llm_judge_score": 25,
+    "llm_judge_reasoning": "The model correctly identifies that the line refers to the rapper Liad Meir, but completely hallucinates the meaning of 'נסטי' as an adjective for cool things rather than recognizing the cultural reference to his song 'Nestea Freestyle'."
+  },
+  {
+    "id": "heb_rap_112",
+    "fragment": "“!ואני לא לבד-ה”",
+    "ground_truth": "סימפול מהשיר לא לבד של צ׳ולו מהאלבום ישראלים עצבניים 1:1",
+    "raw_model_response": "האמן מצהיר שהוא לא לבד במאבק או במסע שלו, יש לו תמיכה, שותפים או קהל שמזדהים איתו.",
+    "cosine_similarity": 70.7,
+    "llm_judge_score": 0,
+    "llm_judge_reasoning": "The model completely missed that the fragment is a direct sample reference to Cholo's classic song 'Lo Levad', offering instead a generic literal interpretation of the words."
+  },
+  {
+    "id": "heb_rap_113",
+    "fragment": "יוצא כמו פרינס עם הלבן",
+    "ground_truth": "שילוב בין האינטרפטציה העברית “האביר על הסוס הלבן” לביטוי האנגלי “Prince Charming”.",
+    "raw_model_response": "עטר מיינר משווה את עצמו לפרינס, אמן פופ ורוק אפרו-אמריקאי, שהיה ידוע בהופעותיו המרשימות והססגוניות. השורה \"יוצא כמו פרינס עם הלבן\" מתייחסת להופעה יוצאת דופן, ייחודית ומרשימה, בדומה לפרינס, שהיה ידוע בהופעתו עם חליפות לבנות ומבריקות. עטר מיינר רוצה להדגיש את הייחודיות והסטייל שלו, ומשווה את עצמו לאמן מוערך כמו פרינס.",
+    "cosine_similarity": 68.77,
+    "llm_judge_score": 0,
+    "llm_judge_reasoning": "The model completely misunderstood the wordplay, hallucinating a reference to the musician Prince rather than recognizing the mashup of 'Prince Charming' and 'knight on a white horse'."
+  },
+  {
+    "id": "heb_rap_114",
+    "fragment": "מלך תל אביבי כמו קינג ג’ורג",
+    "ground_truth": "טונה מרגיש מלך בעיר תל אביב בשל ההערצה אליו שמתבטאת בין היתר במילוי מועדון הבארבי פעם אחר פעם לאין מפרע, בדומה למלך ג׳ורג׳, שמכונה גם קינג ג׳ורג׳, וקיים על שמו רחוב בתל אביב.",
+    "raw_model_response": "אורי שוחט משווה את עצמו למלך תל אביבי, ומזכיר את רחוב קינג ג'ורג' בתל אביב, שהוא רחוב מרכזי ומפורסם בעיר. השורה מדגישה את הקשר שלו לתל אביב ואת התחושה שהוא מלך או דמות דומיננטית בעיר.",
+    "cosine_similarity": 82.61,
+    "llm_judge_score": 75,
+    "llm_judge_reasoning": "The model correctly identifies the wordplay involving King George Street and the feeling of dominance in Tel Aviv, but it misattributes the speaker to Ori Shochat and misses the specific reference to filling the Barby club."
+  },
+  {
+    "id": "heb_rap_115",
+    "fragment": "רוקסטאר כפרה",
+    "ground_truth": "אזכור לאלבום הראשון והיחיד של נומי, רוקסטאר כפרה, ולשיר באותו השם.",
+    "raw_model_response": "השורה \"רוקסטאר כפרה\" היא ביטוי של הערכה והערצה כלפי מישהו. האמן משווה את עצמו או את האדם עליו הוא מדבר לרוקסטאר, כוכב רוק, ומרמז על כך שהוא מעריץ את הסטטוס והכריזמה שלו. \"כפרה\" היא מילת חיבה, כך שהשורה כולה מבטאת הערצה ואהבה כלפי מישהו שמתנהג או נראה כמו רוקסטאר.",
+    "cosine_similarity": 74.2,
+    "llm_judge_score": 0,
+    "llm_judge_reasoning": "The model completely missed the specific cultural reference to the late rapper Nomi's debut album and song, opting instead for a literal and generic breakdown of the words."
+  },
+  {
+    "id": "heb_rap_116",
+    "fragment": "פוגש את קובי, טי.איי.סי.טי היה הצוות",
+    "ground_truth": "קובי הוא כמובן סאבלימינל המקים של ‘משפחת תאקט’ ששי לקח בה חלק.",
+    "raw_model_response": "האמן מתייחס למפגש עם חברו קובי, ומזכיר את הצוות שלהם, T.I.C.T, ראשי תיבות של \"תחת אימא קובי טהור\".",
+    "cosine_similarity": 75.1,
+    "llm_judge_score": 25,
+    "llm_judge_reasoning": "The model recognizes that Kobi and the mentioned crew are being referenced, but completely misses who Kobi is (Subliminal) and invents a bizarre, hallucinated acronym for TACT."
+  },
+  {
+    "id": "heb_rap_117",
+    "fragment": "התסכול שאתה שומע\n אין אבשה שבשעת צרה פה יחייג למאה",
+    "ground_truth": "אבשה הוא כינוי לישראלי ממוצא אתיופי, מקור המילה הוא “חבש” – חבל ארץ באתיופיה. במילות השיר מדובר על התסכול של הקהילה האתיופית מהמשטרה שלעיתים קרובות רואה אותם כאשמים, ולא מקדישה לתלונות ולבקשות שלהם את אותם המאמצים והמשאבים שהיא מקדישה לשאר אזרחי המדינה.",
+    "raw_model_response": "האמן מתאר את התסכול שלו מכך שאין לו מישהו שיכול לסמוך עליו בעת צרה, אף אחד שלא יתקשר למספר 100 (מספר החירום של המשטרה) כדי לעזור לו. הוא מרגיש בודד וחסר תמיכה, ואין לו אמונה באנשים שיעמדו לצידו ברגעי משבר.",
+    "cosine_similarity": 67.71,
+    "llm_judge_score": 25,
+    "llm_judge_reasoning": "The model correctly identified the reference to calling the police (100) and general distress, but completely missed the key slang term 'אבשה' (Habesha/Ethiopian-Israeli) and misinterpreted the entire sociopolitical meaning of the line."
+  },
+  {
+    "id": "heb_rap_118",
+    "fragment": "איך אני משונה משתנה כל הזמן",
+    "ground_truth": "השורה הזאת לקוחה מהשיר “שמח שבאת” של אביתר בנאי: ואיך אני משונה משתנה כל הזמן",
+    "raw_model_response": "האמן מתאר את השינויים התכופים באישיותו ובמצבי הרוח שלו, הוא מרגיש משונה, לא יציב, ומשתנה ללא הרף.",
+    "cosine_similarity": 73.98,
+    "llm_judge_score": 75,
+    "llm_judge_reasoning": "The model correctly explains the semantic meaning of the phrase, but fails to identify that it is a direct quotation from Evyatar Banai's song 'Sameach Shebata'."
+  },
+  {
+    "id": "heb_rap_119",
+    "fragment": "שומרת לה על הגב כמו על הטיס שלי",
+    "ground_truth": "טיס באמהרית פירושו עשן, בארץ הרבה פעמים משתמשים במושג בקטע של עישון, או כמצית. מצתים נוהגים להחליף ידיים בתכיפות גבוהה כשהם פרוסים בישיבות, לכן התפתחה מודעות לגניבה של מציתים. עדן משווה בין הדאגה שלה לאש שלה, לדאגה לחברות שלה.",
+    "raw_model_response": "עדן דרסו משווה את הגב שלו לטיס, כלומר למטוס. הוא אומר שהבחורה שומרת לו על הגב כמו שמטפלים במטוס יקר ערך. זה מעיד על אמון, הגנה ותמיכה שהיא נותנת לו.",
+    "cosine_similarity": 77.85,
+    "llm_judge_score": 0,
+    "llm_judge_reasoning": "The model completely misunderstood the slang term 'טיס' (smoke/lighter in Amharic) as an airplane ('מטוס') and hallucinated the entire meaning and context."
+  },
+  {
+    "id": "heb_rap_120",
+    "fragment": "עושה מתוק כמו אומפה לומפה",
+    "ground_truth": "בני האומפה לומפה הם חבורת העובדים של ווילי וונקה, הבעלים של מפעל השוקולד בספר (ולאחר מכן בסרט המבוסס על הספר) “צ'רלי ומפעל השוקולד”. בני האומפה לומפה מילולית עושים מתוק, שכן הם מייצרים שוקולד, שהוא מאכל מתוק.",
+    "raw_model_response": "ש�ר סאול משווה את עצמו לאומפה לומפה, דמות מהספר והסרט \"צ'ארלי ומפעל השוקולדה\", הידועה באהבתה לממתקים. השורה מתכוונת לכך שהוא עושה דברים בצורה מתוקה ומהנה, בדומה לדמות המתוקה והשובבה מהסרט.",
+    "cosine_similarity": 79.98,
+    "llm_judge_score": 75,
+    "llm_judge_reasoning": "The model correctly identifies the cultural reference to Charlie and the Chocolate Factory, but misses the literal pun that Oompa Loompas actually manufacture sweets ('עושים מתוק')."
+  },
+  {
+    "id": "heb_rap_121",
+    "fragment": "לא נוער עובד לא לומד ולא שמו”צ",
+    "ground_truth": "הנוער העובד והלומד והשומר הצעיר (הנקראים גם שמו\"צ) הן תנועות נוער ישראליות פופולריות.",
+    "raw_model_response": "האמן מתאר אורח חיים של חוסר אחריות ומחויבות, בו אין עבודה, אין לימודים ואין מעורבות בפעילויות של \"שמירת מצוות\" (ש\"צ - שומר מצוות). כלומר, הוא מתכוון לאורח חיים של חוסר מסגרת ומחויבות חברתית.",
+    "cosine_similarity": 64.66,
+    "llm_judge_score": 0,
+    "llm_judge_reasoning": "The model completely hallucinates the meaning of the youth movements (הנוער העובד והלומד, השומר הצעיר), incorrectly inventing that 'שמו\"צ' stands for 'שומר מצוות'."
+  },
+  {
+    "id": "heb_rap_122",
+    "fragment": "(מה עושות היום?)",
+    "ground_truth": "רפרנס לסרטון הטיקטוק של כוכבי הרשת, אופק מזרחי וניר בנילוש, בו הם עושים חיקוי של פרחה טיפוסית ואומרים את המשפט “מה עושות היום?” (",
+    "raw_model_response": "האמן שואל את המאזינים מה הם מתכננים לעשות באותו יום, או מה הם עושים באותו הרגע. זו הזמנה למעריצים להצטרף לחוויה המשותפת של האזנה למוזיקה וליצירת אווירה חברתית.",
+    "cosine_similarity": 72.69,
+    "llm_judge_score": 0,
+    "llm_judge_reasoning": "The model completely missed the viral TikTok meme reference and instead gave a literal, fabricated interpretation of the phrase."
+  },
+  {
+    "id": "heb_rap_123",
+    "fragment": "הם קוראים לי כבד, אני לא שם קצוץ",
+    "ground_truth": ":בשורה יש משחק מילים .כבד קצוץ הוא מאכל המוגש כמנה ראשונה או כממרח שקד טוען שהם קוראים לו כבד (סלנג לאדם חסר ספונטניות, חוש הומור, שמחת חיים וכד') אבל הוא לא שם עליהם קצוץ (סלנג לאדם המתייחס לדברים באדישות ובזלזול).",
+    "raw_model_response": "האמן מתאר את התדמית או הכינוי שהדביקו לו אחרים, \"כבד\", אך הוא לא נותן לזה להשפיע עליו או להפריע לו, ולכן הוא \"לא שם קצוץ\" - כלומר, הוא מתעלם מכך ולא נותן לזה חשיבות.",
+    "cosine_similarity": 77.61,
+    "llm_judge_score": 75,
+    "llm_judge_reasoning": "The model correctly explains the meaning of both slang terms in context, but completely misses the central wordplay on the traditional dish 'chopped liver' (כבד קצוץ)."
+  }
+]

@@ -8,6 +8,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 GEMINI_KEY = os.environ.get("GEMINI_API_KEY")
+OPENROUTER_KEY = os.environ.get("OPENROUTER_KEY")
 
 BENCHMARK_PATH = Path("../data/processed/gold_benchmark_150.json")
 RESULTS_DIR = Path("../data/results/multichoice")
@@ -71,12 +72,113 @@ MODELS_CONFIG = [
         "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
         "api_key": GEMINI_KEY
     },
-    # {
-    #     "real_name": "hebatron:30b-q4",
-    #     "clean_name": "Hebatron_30B",
-    #     "base_url": "http://localhost:11434/v1",
-    #     "api_key": "ollama"
-    # },
+    {
+        "real_name": "gemini-3-flash-preview",
+        "clean_name": "Gemini_3_Flash",
+        "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+        "api_key": GEMINI_KEY
+    },
+    {
+        "real_name": "gemini-3.5-flash-lite",
+        "clean_name": "Gemini_3.5_Flash_Lite",
+        "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+        "api_key": GEMINI_KEY
+    },
+    {
+        "real_name": "gemma-4-26b-a4b-it",
+        "clean_name": "Gemma_4_26B",
+        "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+        "api_key": GEMINI_KEY
+    },
+
+# --- OpenAI (via OpenRouter) ---
+    {
+        "real_name": "openai/gpt-5.6-luna",
+        "clean_name": "GPT_5.6_Luna",
+        "base_url": "https://openrouter.ai/api/v1",
+        "api_key": OPENROUTER_KEY
+    },
+    {
+        "real_name": "openai/gpt-5",
+        "clean_name": "GPT_5",
+        "base_url": "https://openrouter.ai/api/v1",
+        "api_key": OPENROUTER_KEY
+    },
+    {
+        "real_name": "mistralai/mistral-large-2407",
+        "clean_name": "Mistral_Large",
+        "base_url": "https://openrouter.ai/api/v1",
+        "api_key": OPENROUTER_KEY
+    },
+    {
+        "real_name": "hebatron:30b-q4",
+        "clean_name": "Hebatron_30B_Q4",
+        "base_url": "http://10.100.102.17:11434/v1",
+        "api_key": "ollama"
+    },
+    # --- Meta Flagships ---
+    {
+        "real_name": "meta-llama/llama-3.3-70b-instruct",
+        "clean_name": "Llama_3.3_70B",
+        "base_url": "https://openrouter.ai/api/v1",
+        "api_key": OPENROUTER_KEY
+    },
+    # --- Qwen 2.5 72B (The True 72B Flagship) ---
+    {
+        "real_name": "qwen/qwen-2.5-72b-instruct",
+        "clean_name": "Qwen_2.5_72B",
+        "base_url": "https://openrouter.ai/api/v1",
+        "api_key": OPENROUTER_KEY
+    },
+    # --- Cohere Command A (111B Multilingual Flagship) ---
+    {
+        "real_name": "cohere/command-a",
+        "clean_name": "Cohere_Command_A",
+        "base_url": "https://openrouter.ai/api/v1",
+        "api_key": OPENROUTER_KEY
+    },
+    # --- DeepSeek 2026 MoE Flagship ---
+    {
+        "real_name": "deepseek/deepseek-v4-flash",
+        "clean_name": "DeepSeek_V4_Flash",
+        "base_url": "https://openrouter.ai/api/v1",
+        "api_key": OPENROUTER_KEY
+    },
+    # --- DeepSeek V4.1 (Brand New Update) ---
+    {
+        "real_name": "deepseek/deepseek-v4.1-flash",
+        "clean_name": "DeepSeek_V4.1_Flash",
+        "base_url": "https://openrouter.ai/api/v1",
+        "api_key": OPENROUTER_KEY
+    },
+    # --- Xiaomi's 2026 Flagship ---
+    {
+        "real_name": "xiaomi/mimo-v2.5",
+        "clean_name": "Xiaomi_Mimo_2.5",
+        "base_url": "https://openrouter.ai/api/v1",
+        "api_key": OPENROUTER_KEY
+    },
+    # --- Meta's Lightweight 2026 Architecture ---
+    {
+        "real_name": "meta/muse-spark-1.3-contributor",
+        "clean_name": "Muse_Spark_1.3",
+        "base_url": "https://openrouter.ai/api/v1",
+        "api_key": OPENROUTER_KEY
+    },
+    # --- Cohere Command R 35B (Mid-Weight Multilingual) ---
+    {
+        "real_name": "cohere/command-r-08-2024",
+        "clean_name": "Command_R_35B",
+        "base_url": "https://openrouter.ai/api/v1",
+        "api_key": OPENROUTER_KEY
+    },
+    # --- new ---
+    {
+        "real_name": "qwen/qwen-2.5-coder-32b-instruct",
+        "clean_name": "Qwen_2.5_32B_Instruct",
+        "base_url": "https://openrouter.ai/api/v1",
+        "api_key": OPENROUTER_KEY
+    },
 ]
 
 local_client = OpenAI(
@@ -164,6 +266,7 @@ def run_inference_pipeline(
                         {"role": "user", "content": user_prompt}
                     ],
                     response_format={"type": "json_object"},
+                    max_tokens=4000,
                     temperature=0.0
                 )
                 raw_output = response.choices[0].message.content.strip()
@@ -190,7 +293,7 @@ def run_inference_pipeline(
         # Save atomically
         with output_file.open("w", encoding="utf-8") as f:
             json.dump(evaluated_records, f, ensure_ascii=False, indent=2)
-        if "googleapis" in config["base_url"]:
+        if "googleapis" in config["base_url"] or "openrouter" in config["base_url"]:
             time.sleep(4.0)
 
     total_target = len(benchmark_data)
@@ -208,17 +311,8 @@ with BENCHMARK_PATH.open("r", encoding="utf-8") as f:
 
 summary_results = {}
 
-for config in MODELS_CONFIG:
-    try:
-        status = run_inference_pipeline(
-            config=config,
-            benchmark_data=benchmark_items,
-            results_dir=RESULTS_DIR
-        )
-        summary_results[config["clean_name"]] = status
-    except Exception as e:
-        print(f"Pipeline error for {config['clean_name']}: {e}")
-        summary_results[config["clean_name"]] = "CRASHED"
+# for config in MODELS_CONFIG:
+
 
 print("\n" + "="*45)
 print("INFERENCE PIPELINE STATUS")
@@ -301,6 +395,7 @@ def run_open_inference_pipeline(
                         {"role": "system", "content": OPEN_EVAL_SYSTEM_PROMPT},
                         {"role": "user", "content": user_prompt}
                     ],
+                    max_tokens=4000,
                 )
                 raw_output = response.choices[0].message.content.strip()
                 success = True
@@ -326,7 +421,7 @@ def run_open_inference_pipeline(
 
         with output_file.open("w", encoding="utf-8") as f:
             json.dump(evaluated_records, f, ensure_ascii=False, indent=2)
-        if "googleapis" in config["base_url"]:
+        if "googleapis" in config["base_url"] or "openrouter" in config["base_url"]:
             time.sleep(4.0)
 
     total_target = len(benchmark_data)
@@ -339,6 +434,17 @@ print("\nStarting Open-Ended (Free Response) Inference Phase...")
 open_summary = {}
 
 for config in MODELS_CONFIG:
+    try:
+        status = run_inference_pipeline(
+            config=config,
+            benchmark_data=benchmark_items,
+            results_dir=RESULTS_DIR
+        )
+        summary_results[config["clean_name"]] = status
+    except Exception as e:
+        print(f"Pipeline error for {config['clean_name']}: {e}")
+        summary_results[config["clean_name"]] = "CRASHED"
+
     try:
         status = run_open_inference_pipeline(
             config=config,
