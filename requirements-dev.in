@@ -1,6 +1,5 @@
 -c requirements.txt
 
+huggingface_hub
 jupyter
 pip-tools
-sentence-transformers
-huggingface_hub[cli]

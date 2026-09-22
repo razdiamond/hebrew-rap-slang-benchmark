@@ -2,9 +2,9 @@ ipython
 lyricsgenius
 matplotlib
 nltk
-pandas
+numpy
 openai
+pandas
 python-dotenv
-tqdm
 scikit-learn
-google-genai
+tqdm

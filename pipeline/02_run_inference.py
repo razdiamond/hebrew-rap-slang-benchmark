@@ -1,10 +1,11 @@
-import os
 import json
+import os
 import time
 from pathlib import Path
-from tqdm import tqdm
-from openai import OpenAI
+
 from dotenv import load_dotenv
+from openai import OpenAI
+from tqdm.auto import tqdm
 
 load_dotenv()
 GEMINI_KEY = os.environ.get("GEMINI_API_KEY")
