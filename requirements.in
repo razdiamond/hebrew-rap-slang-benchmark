@@ -1,3 +1,4 @@
+adjustText
 ipython
 lyricsgenius
 matplotlib
@@ -7,4 +8,5 @@ openai
 pandas
 python-dotenv
 scikit-learn
+tabulate
 tqdm
