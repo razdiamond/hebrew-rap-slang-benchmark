@@ -10,7 +10,7 @@ from tqdm.auto import tqdm
 from models_config import MODELS_CONFIG
 
 # --- Paths ---
-BENCHMARK_PATH = Path("../data/processed/gold_benchmark_150.json")
+BENCHMARK_PATH = Path("../data/processed/05_gold_benchmark.json")
 
 RESULTS_DIR = Path("../data/results/multichoice")
 RESULTS_DIR.mkdir(parents=True, exist_ok=True)
