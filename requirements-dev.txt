@@ -8,6 +8,7 @@ anyio==4.15.1
     # via
     #   -c requirements.txt
     #   httpx
+    #   httpx2
     #   jupyter-server
 argon2-cffi==25.1.0
     # via jupyter-server
@@ -74,7 +75,7 @@ executing==2.2.1
     #   stack-data
 fastjsonschema==2.22.2
     # via nbformat
-filelock==4.0.1
+filelock==4.0.3
     # via huggingface-hub
 fqdn==1.5.1
     # via jsonschema
@@ -84,21 +85,29 @@ h11==0.16.0
     # via
     #   -c requirements.txt
     #   httpcore
+    #   httpcore2
 hf-xet==1.6.0
     # via huggingface-hub
 httpcore==1.0.9
     # via httpx
-httpx==0.28.1
+httpcore2==2.13.1
     # via
+    #   -c requirements.txt
+    #   httpx2
+httpx==0.28.1
+    # via jupyterlab
+httpx2==2.13.1
+    # via
+    #   -c requirements.txt
     #   huggingface-hub
-    #   jupyterlab
-huggingface-hub==1.32.0
+huggingface-hub==2.0.0
     # via -r requirements-dev.in
 idna==3.20
     # via
     #   -c requirements.txt
     #   anyio
     #   httpx
+    #   httpx2
     #   jsonschema
     #   requests
 ipykernel==7.3.0
@@ -243,7 +252,7 @@ parso==0.8.7
     #   jedi
 pip-tools==7.6.1
     # via -r requirements-dev.in
-platformdirs==4.11.12
+platformdirs==4.11.13
     # via jupyter-core
 prometheus-client==0.26.0
     # via jupyter-server
@@ -326,7 +335,7 @@ six==1.17.0
     #   -c requirements.txt
     #   python-dateutil
     #   rfc3339-validator
-soupsieve==2.9.2
+soupsieve==2.10
     # via
     #   -c requirements.txt
     #   beautifulsoup4
@@ -369,6 +378,11 @@ traitlets==5.16.1
     #   nbclient
     #   nbconvert
     #   nbformat
+truststore==0.10.4
+    # via
+    #   -c requirements.txt
+    #   httpcore2
+    #   httpx2
 typing-extensions==4.16.0
     # via
     #   -c requirements.txt
